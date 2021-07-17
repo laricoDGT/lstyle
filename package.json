@@ -1,0 +1,31 @@
+{
+  "name": "lstyle",
+  "version": "0.0.2",
+  "description": "lStyle CSS Framework",
+  "main": "dist/lstyle.css",
+  "style": "dist/lstyle.css",
+  "sass": "scss/lstyle.scss",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/laricoDGT/lstyle.git"
+  },
+  "keywords": [
+      "css",
+      "scss",
+      "lstyle",
+      "larico.style",
+      "front-end",
+      "framework",
+      "web",
+      "responsive"
+  ],
+  "author": "Larico",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/laricoDGT/lstyle/issues"
+  },
+  "homepage": "https://www.larico.net/lstyle"
+}
