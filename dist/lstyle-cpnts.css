@@ -13,3 +13,7 @@ ol.reset li ul,
 ul.reset li ul {
   padding-left: 0;
 }
+
+.test2 {
+  display: none;
+}
