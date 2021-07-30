@@ -1604,7 +1604,7 @@ img {
   .sm\:di {
     display: inherit;
   }
-  .sm\:.df {
+  .sm\:df {
     display: flex;
   }
   .sm\:dif {
@@ -2258,7 +2258,7 @@ img {
   .md\:di {
     display: inherit;
   }
-  .md\:.df {
+  .md\:df {
     display: flex;
   }
   .md\:dif {
@@ -2912,7 +2912,7 @@ img {
   .lg\:di {
     display: inherit;
   }
-  .lg\:.df {
+  .lg\:df {
     display: flex;
   }
   .lg\:dif {
@@ -3566,7 +3566,7 @@ img {
   .xl\:di {
     display: inherit;
   }
-  .xl\:.df {
+  .xl\:df {
     display: flex;
   }
   .xl\:dif {
@@ -4220,7 +4220,7 @@ img {
   .xxl\:di {
     display: inherit;
   }
-  .xxl\:.df {
+  .xxl\:df {
     display: flex;
   }
   .xxl\:dif {
