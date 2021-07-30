@@ -1,3 +1,3 @@
 # lStyle CSS Framework
 
-[Full documentation](https://www.larico.net/lstyle)
+[Full documentation](https://lstyle.larico.net/)

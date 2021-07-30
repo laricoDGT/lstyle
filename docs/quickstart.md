@@ -15,8 +15,8 @@ npm i lstyle
 Use CDN
 
 ```bash
-https://lstyle.larico.net/dist/lstyle.min.css
+https://gitcdn.xyz/repo/laricoDGT/lstyle/main/dist/lstyle.min.css
 
 ```
 
-See [options](configuration.md).
+See [options](config.md).
