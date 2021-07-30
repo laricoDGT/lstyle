@@ -1,4 +1,4 @@
-/*! lStyle | MIT License | (https://www.larico.net/lstyle) */
+/*! lStyle | MIT License | (https://lstyle.larico.net/) */
 /* purgecss start ignore */
 *,
 :after,
@@ -168,16 +168,48 @@ img {
   font-variant: small-caps;
 }
 
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fw800 {
+  font-weight: 800;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
 .fwnormal {
   font-weight: normal;
 }
 
 .fwbold {
   font-weight: bold;
-}
-
-.fw900 {
-  font-weight: 900;
 }
 
 @media (min-width: 640px) {
@@ -277,14 +309,38 @@ img {
   .sm\:fvsmall-caps {
     font-variant: small-caps;
   }
+  .sm\:fw100 {
+    font-weight: 100;
+  }
+  .sm\:fw200 {
+    font-weight: 200;
+  }
+  .sm\:fw300 {
+    font-weight: 300;
+  }
+  .sm\:fw400 {
+    font-weight: 400;
+  }
+  .sm\:fw500 {
+    font-weight: 500;
+  }
+  .sm\:fw600 {
+    font-weight: 600;
+  }
+  .sm\:fw700 {
+    font-weight: 700;
+  }
+  .sm\:fw800 {
+    font-weight: 800;
+  }
+  .sm\:fw900 {
+    font-weight: 900;
+  }
   .sm\:fwnormal {
     font-weight: normal;
   }
   .sm\:fwbold {
     font-weight: bold;
-  }
-  .sm\:fw900 {
-    font-weight: 900;
   }
 }
 
@@ -385,14 +441,38 @@ img {
   .md\:fvsmall-caps {
     font-variant: small-caps;
   }
+  .md\:fw100 {
+    font-weight: 100;
+  }
+  .md\:fw200 {
+    font-weight: 200;
+  }
+  .md\:fw300 {
+    font-weight: 300;
+  }
+  .md\:fw400 {
+    font-weight: 400;
+  }
+  .md\:fw500 {
+    font-weight: 500;
+  }
+  .md\:fw600 {
+    font-weight: 600;
+  }
+  .md\:fw700 {
+    font-weight: 700;
+  }
+  .md\:fw800 {
+    font-weight: 800;
+  }
+  .md\:fw900 {
+    font-weight: 900;
+  }
   .md\:fwnormal {
     font-weight: normal;
   }
   .md\:fwbold {
     font-weight: bold;
-  }
-  .md\:fw900 {
-    font-weight: 900;
   }
 }
 
@@ -493,14 +573,38 @@ img {
   .lg\:fvsmall-caps {
     font-variant: small-caps;
   }
+  .lg\:fw100 {
+    font-weight: 100;
+  }
+  .lg\:fw200 {
+    font-weight: 200;
+  }
+  .lg\:fw300 {
+    font-weight: 300;
+  }
+  .lg\:fw400 {
+    font-weight: 400;
+  }
+  .lg\:fw500 {
+    font-weight: 500;
+  }
+  .lg\:fw600 {
+    font-weight: 600;
+  }
+  .lg\:fw700 {
+    font-weight: 700;
+  }
+  .lg\:fw800 {
+    font-weight: 800;
+  }
+  .lg\:fw900 {
+    font-weight: 900;
+  }
   .lg\:fwnormal {
     font-weight: normal;
   }
   .lg\:fwbold {
     font-weight: bold;
-  }
-  .lg\:fw900 {
-    font-weight: 900;
   }
 }
 
@@ -601,14 +705,38 @@ img {
   .xl\:fvsmall-caps {
     font-variant: small-caps;
   }
+  .xl\:fw100 {
+    font-weight: 100;
+  }
+  .xl\:fw200 {
+    font-weight: 200;
+  }
+  .xl\:fw300 {
+    font-weight: 300;
+  }
+  .xl\:fw400 {
+    font-weight: 400;
+  }
+  .xl\:fw500 {
+    font-weight: 500;
+  }
+  .xl\:fw600 {
+    font-weight: 600;
+  }
+  .xl\:fw700 {
+    font-weight: 700;
+  }
+  .xl\:fw800 {
+    font-weight: 800;
+  }
+  .xl\:fw900 {
+    font-weight: 900;
+  }
   .xl\:fwnormal {
     font-weight: normal;
   }
   .xl\:fwbold {
     font-weight: bold;
-  }
-  .xl\:fw900 {
-    font-weight: 900;
   }
 }
 
@@ -709,14 +837,38 @@ img {
   .xxl\:fvsmall-caps {
     font-variant: small-caps;
   }
+  .xxl\:fw100 {
+    font-weight: 100;
+  }
+  .xxl\:fw200 {
+    font-weight: 200;
+  }
+  .xxl\:fw300 {
+    font-weight: 300;
+  }
+  .xxl\:fw400 {
+    font-weight: 400;
+  }
+  .xxl\:fw500 {
+    font-weight: 500;
+  }
+  .xxl\:fw600 {
+    font-weight: 600;
+  }
+  .xxl\:fw700 {
+    font-weight: 700;
+  }
+  .xxl\:fw800 {
+    font-weight: 800;
+  }
+  .xxl\:fw900 {
+    font-weight: 900;
+  }
   .xxl\:fwnormal {
     font-weight: normal;
   }
   .xxl\:fwbold {
     font-weight: bold;
-  }
-  .xxl\:fw900 {
-    font-weight: 900;
   }
 }
 
