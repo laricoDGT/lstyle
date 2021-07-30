@@ -6,6 +6,6 @@
 
 - Customization
 
-  - [Configuration and options](configuration.md)
+  - [Configuration and options](config.md)
 
 - [Font variants](font.md)
