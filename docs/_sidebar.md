@@ -9,3 +9,5 @@
   - [Configuration and options](config.md)
 
 - [Font variants](font.md)
+- [Margin](margin.md)
+- [Padding](padding.md)

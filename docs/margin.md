@@ -2,8 +2,6 @@
 
 The margin CSS property sets the margin area on all four sides of an element.
 
-The padding CSS shorthand property sets the padding area on all four sides of an element at once.
-
 **Values** → 0, 8, 16, 24, 32, 40, 48, 56, 64
 
 _Values converted "px" to → "rem"_
