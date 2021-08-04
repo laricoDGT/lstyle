@@ -28,15 +28,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | .p56       | padding: 3.5rem; | <div class="p56">56px</div> |
 | .p64       | padding: 4rem;   | <div class="p64">64px</div> |
 
-## padding -
-
-| Class Name | Properties        | Preview                       |
-| ---------- | ----------------- | ----------------------------- |
-| .p-4       | padding: -0.5rem; | <div class="p-8">-8px</div>   |
-| ...        | ...               | ...                           |
-| .p-64      | padding: -4rem;   | <div class="p-64">-64px</div> |
-
-## padding top and bottom +
+## padding top and bottom
 
 | Class Name | Properties                                   | Preview                      |
 | ---------- | -------------------------------------------- | ---------------------------- |
@@ -44,15 +36,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | ...        | ...                                          | ...                          |
 | .py64      | padding-top: 4rem; padding-bottom: 64rem;    | <div class="py64">64px</div> |
 
-## padding top and bottom -
-
-| Class Name | Properties                                     | Preview                        |
-| ---------- | ---------------------------------------------- | ------------------------------ |
-| .py-8      | padding-top: -0.5rem; padding-bottom: -0.5rem; | <div class="py-8">-8px</div>   |
-| ...        | ...                                            | ...                            |
-| .py-64     | padding-top: -4rem; padding-bottom: -4rem;     | <div class="py-64">-64px</div> |
-
-## padding left and right +
+## padding left and right
 
 | Class Name | Properties                                   | Preview                      |
 | ---------- | -------------------------------------------- | ---------------------------- |
@@ -60,15 +44,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | ...        | ...                                          | ...                          |
 | .px64      | padding-left: 4rem; padding-right: 4rem;     | <div class="px64">64px</div> |
 
-## padding left and right -
-
-| Class Name | Properties                                   | Preview                        |
-| ---------- | -------------------------------------------- | ------------------------------ |
-| .px-8      | padding-left: 0.5rem; padding-right: 0.5rem; | <div class="px-8">-8px</div>   |
-| ...        | ...                                          | ...                            |
-| .px-64     | padding-left: 4rem; padding-right: 4rem;     | <div class="px-64">-64px</div> |
-
-## padding top +
+## padding top
 
 | Class Name | Properties           | Preview                      |
 | ---------- | -------------------- | ---------------------------- |
@@ -76,15 +52,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | ...        | ...                  | ...                          |
 | .pt64      | padding-top: 4rem;   | <div class="pt64">64px</div> |
 
-## padding top -
-
-| Class Name | Properties            | Preview                        |
-| ---------- | --------------------- | ------------------------------ |
-| .pt-8      | padding-top: -0.5rem; | <div class="pt-8">-8px</div>   |
-| ...        | ...                   | ...                            |
-| .pt-64     | padding-top: -4rem;   | <div class="pt-64">-64px</div> |
-
-## padding right +
+## padding right
 
 | Class Name | Properties             | Preview                      |
 | ---------- | ---------------------- | ---------------------------- |
@@ -92,29 +60,13 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | ...        | ...                    | ...                          |
 | .pr64      | padding-right: 4rem;   | <div class="pr64">64px</div> |
 
-## padding right -
-
-| Class Name | Properties              | Preview                        |
-| ---------- | ----------------------- | ------------------------------ |
-| .pr-8      | padding-right: -0.5rem; | <div class="pr-8">-8px</div>   |
-| ...        | ...                     | ...                            |
-| .pr-64     | padding-right: -4rem;   | <div class="pr-64">-64px</div> |
-
-## padding bottom +
+## padding bottom
 
 | Class Name | Properties              | Preview                      |
 | ---------- | ----------------------- | ---------------------------- |
 | .pb8       | padding-bottom: 0.5rem; | <div class="pb8">8px</div>   |
 | ...        | ...                     | ...                          |
 | .pb64      | padding-bottom: 4rem;   | <div class="pb64">64px</div> |
-
-## padding bottom -
-
-| Class Name | Properties               | Preview                        |
-| ---------- | ------------------------ | ------------------------------ |
-| .pb-8      | padding-bottom: -0.5rem; | <div class="pb-8">-8px</div>   |
-| ...        | ...                      | ...                            |
-| .pb-64     | padding-bottom: -4rem;   | <div class="pb-64">-64px</div> |
 
 ## padding left +
 
@@ -123,14 +75,6 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | .pl8       | padding-left: 0.5rem; | <div class="pl8">8px</div>   |
 | ...        | ...                   | ...                          |
 | .pl64      | padding-left: 4rem;   | <div class="pl64">64px</div> |
-
-## padding left -
-
-| Class Name | Properties             | Preview                        |
-| ---------- | ---------------------- | ------------------------------ |
-| .pl-8      | padding-left: -0.5rem; | <div class="pl-8">-8px</div>   |
-| ...        | ...                    | ...                            |
-| .pl-64     | padding-left: -4rem;   | <div class="pl-64">-64px</div> |
 
 ## padding auto
 

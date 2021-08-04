@@ -46,11 +46,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin top and bottom -
 
-| Class Name | Properties                                   | Preview                        |
-| ---------- | -------------------------------------------- | ------------------------------ |
-| .my-8      | margin-top: -0.5rem; margin-bottom: -0.5rem; | <div class="my-8">-8px</div>   |
-| ...        | ...                                          | ...                            |
-| .my-64     | margin-top: -4rem; margin-bottom: -4rem;     | <div class="my-64">-64px</div> |
+| Class Name | Properties                                   | Preview                                                    |
+| ---------- | -------------------------------------------- | ---------------------------------------------------------- |
+| .my-8      | margin-top: -0.5rem; margin-bottom: -0.5rem; | <div class="my-8">-8px</div>                               |
+| ...        | ...                                          | ...                                                        |
+| .my-64     | margin-top: -4rem; margin-bottom: -4rem;     | <div class="p64 mt64"><div class="my-64">-64px</div></div> |
 
 ## margin left and right +
 
@@ -62,11 +62,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin left and right -
 
-| Class Name | Properties                                 | Preview                        |
-| ---------- | ------------------------------------------ | ------------------------------ |
-| .mx-8      | margin-left: 0.5rem; margin-right: 0.5rem; | <div class="mx-8">-8px</div>   |
-| ...        | ...                                        | ...                            |
-| .mx-64     | margin-left: 4rem; margin-right: 4rem;     | <div class="mx-64">-64px</div> |
+| Class Name | Properties                                 | Preview                                                    |
+| ---------- | ------------------------------------------ | ---------------------------------------------------------- |
+| .mx-8      | margin-left: 0.5rem; margin-right: 0.5rem; | <div class="mx-8">-8px</div>                               |
+| ...        | ...                                        | ...                                                        |
+| .mx-64     | margin-left: 4rem; margin-right: 4rem;     | <div class="p64 mt64"><div class="mx-64">-64px</div></div> |
 
 ## margin top +
 
@@ -78,11 +78,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin top -
 
-| Class Name | Properties           | Preview                        |
-| ---------- | -------------------- | ------------------------------ |
-| .mt-8      | margin-top: -0.5rem; | <div class="mt-8">-8px</div>   |
-| ...        | ...                  | ...                            |
-| .mt-64     | margin-top: -4rem;   | <div class="mt-64">-64px</div> |
+| Class Name | Properties           | Preview                                                    |
+| ---------- | -------------------- | ---------------------------------------------------------- |
+| .mt-8      | margin-top: -0.5rem; | <div class="mt-8">-8px</div>                               |
+| ...        | ...                  | ...                                                        |
+| .mt-64     | margin-top: -4rem;   | <div class="p64 mt64"><div class="mt-64">-64px</div></div> |
 
 ## margin right +
 
@@ -94,11 +94,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin right -
 
-| Class Name | Properties             | Preview                        |
-| ---------- | ---------------------- | ------------------------------ |
-| .mr-8      | margin-right: -0.5rem; | <div class="mr-8">-8px</div>   |
-| ...        | ...                    | ...                            |
-| .mr-64     | margin-right: -4rem;   | <div class="mr-64">-64px</div> |
+| Class Name | Properties             | Preview                                                    |
+| ---------- | ---------------------- | ---------------------------------------------------------- |
+| .mr-8      | margin-right: -0.5rem; | <div class="mr-8">-8px</div>                               |
+| ...        | ...                    | ...                                                        |
+| .mr-64     | margin-right: -4rem;   | <div class="p64 mt64"><div class="mr-64">-64px</div></div> |
 
 ## margin bottom +
 
@@ -110,11 +110,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin bottom -
 
-| Class Name | Properties              | Preview                        |
-| ---------- | ----------------------- | ------------------------------ |
-| .mb-8      | margin-bottom: -0.5rem; | <div class="mb-8">-8px</div>   |
-| ...        | ...                     | ...                            |
-| .mb-64     | margin-bottom: -4rem;   | <div class="mb-64">-64px</div> |
+| Class Name | Properties              | Preview                                                    |
+| ---------- | ----------------------- | ---------------------------------------------------------- |
+| .mb-8      | margin-bottom: -0.5rem; | <div class="mb-8">-8px</div>                               |
+| ...        | ...                     | ...                                                        |
+| .mb-64     | margin-bottom: -4rem;   | <div class="p64 mt64"><div class="mb-64">-64px</div></div> |
 
 ## margin left +
 
@@ -126,11 +126,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## margin left -
 
-| Class Name | Properties            | Preview                        |
-| ---------- | --------------------- | ------------------------------ |
-| .ml-8      | margin-left: -0.5rem; | <div class="ml-8">-8px</div>   |
-| ...        | ...                   | ...                            |
-| .ml-64     | margin-left: -4rem;   | <div class="ml-64">-64px</div> |
+| Class Name | Properties            | Preview                                                    |
+| ---------- | --------------------- | ---------------------------------------------------------- |
+| .ml-8      | margin-left: -0.5rem; | <div class="ml-8">-8px</div>                               |
+| ...        | ...                   | ...                                                        |
+| .ml-64     | margin-left: -4rem;   | <div class="p64 mt64"><div class="ml-64">-64px</div></div> |
 
 ## margin auto
 
