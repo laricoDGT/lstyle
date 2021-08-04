@@ -8,7 +8,7 @@ sections:
   path: ''
   label: posts
   create: all
-  match: "**/docs*"
+  match: "**/docs/*"
 - type: directory
   path: ''
   label: root
