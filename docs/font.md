@@ -49,24 +49,24 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## font-family
 
-| Class Name | Properties            | Preview                        |
-| ---------- | --------------------- | ------------------------------ |
-| .ffi       | font-family: inherit; | <div class="ffi"> Sample </div |
+| Class Name | Properties            | Preview                         |
+| ---------- | --------------------- | ------------------------------- |
+| .ffi       | font-family: inherit; | <div class="ffi"> Sample </div> |
 
 ## font-style
 
-| Class Name | Properties           | Preview                              |
-| ---------- | -------------------- | ------------------------------------ |
-| .fsnormal  | font-style: normal;  | <div class="fsnormal"> Sample </div  |
-| .fsitalic  | font-style: italic;  | <div class="fsitalic"> Sample </div  |
-| .fsoblique | font-style: oblique; | <div class="fsoblique"> Sample </div |
+| Class Name | Properties           | Preview                               |
+| ---------- | -------------------- | ------------------------------------- |
+| .fsnormal  | font-style: normal;  | <div class="fsnormal"> Sample </div>  |
+| .fsitalic  | font-style: italic;  | <div class="fsitalic"> Sample </div>  |
+| .fsoblique | font-style: oblique; | <div class="fsoblique"> Sample </div> |
 
 ## font-variant
 
-| Class Name    | Properties                | Preview                                 |
-| ------------- | ------------------------- | --------------------------------------- |
-| .fvnormal     | font-variant: normal;     | <div class="fvnormal"> Sample </div     |
-| .fvsmall-caps | font-variant: small-caps; | <div class="fvsmall-caps"> Sample </div |
+| Class Name    | Properties                | Preview                                  |
+| ------------- | ------------------------- | ---------------------------------------- |
+| .fvnormal     | font-variant: normal;     | <div class="fvnormal"> Sample </div>     |
+| .fvsmall-caps | font-variant: small-caps; | <div class="fvsmall-caps"> Sample </div> |
 
 ## font-weight
 
