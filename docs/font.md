@@ -14,21 +14,21 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## font-size pixeles (px)
 
-| Class Name | Properties           | Preview |
-| ---------- | -------------------- | ------- |
-| .fs12      | font-size: 0.75rem;  |         |
-| .fs14      | font-size: 0.875rem; |         |
-| .fs16      | font-size: 1rem;     |         |
-| .fs18      | font-size: 1.125rem; |         |
-| .fs20      | font-size: 1.25rem;  |         |
-| .fs24      | font-size: 1.5rem;   |         |
-| .fs30      | font-size: 1.875rem; |         |
-| .fs36      | font-size: 2.25rem;  |         |
-| .fs48      | font-size: 3rem;     |         |
-| .fs60      | font-size: 3.75rem;  |         |
-| .fs72      | font-size: 4.5rem;   |         |
-| .fs96      | font-size: 6rem;     |         |
-| .fs128     | font-size: 8rem;     |         |
+| Class Name | Properties           | Preview                      |
+| ---------- | -------------------- | ---------------------------- |
+| .fs12      | font-size: 0.75rem;  | <div class="fs12">12px</div> |
+| .fs14      | font-size: 0.875rem; | <div class="fs14">14px</div> |
+| .fs16      | font-size: 1rem;     | <div class="fs16">16px</div> |
+| .fs18      | font-size: 1.125rem; |                              |
+| .fs20      | font-size: 1.25rem;  |                              |
+| .fs24      | font-size: 1.5rem;   |                              |
+| .fs30      | font-size: 1.875rem; |                              |
+| .fs36      | font-size: 2.25rem;  |                              |
+| .fs48      | font-size: 3rem;     |                              |
+| .fs60      | font-size: 3.75rem;  |                              |
+| .fs72      | font-size: 4.5rem;   |                              |
+| .fs96      | font-size: 6rem;     |                              |
+| .fs128     | font-size: 8rem;     |                              |
 
 ## font-size viewport width (vw)
 
