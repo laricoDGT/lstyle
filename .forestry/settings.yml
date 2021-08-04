@@ -6,9 +6,9 @@ webhook_url:
 sections:
 - type: directory
   path: ''
-  label: docs
+  label: posts
   create: all
-  match: "**/*"
+  match: "**/docs*"
 - type: directory
   path: ''
   label: root
