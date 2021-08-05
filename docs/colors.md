@@ -1,4 +1,4 @@
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle  dg sm:gtc2 g16 fs14">
 
   <table class="wfull tlf ">
       <thead>
@@ -66,7 +66,7 @@
 
 ## Hover / Border and placeholder colors
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
 
   <table class="wfull tlf">
     <thead>
@@ -114,7 +114,7 @@
 
 ## Primary Colors
 
-  <div class="dg sm:gtc2 g16 fs14"> 
+  <div class="lstyle dg sm:gtc2 g16 fs14"> 
   <table class="wfull tlf">
     <thead>
       <tr>
@@ -168,8 +168,10 @@
   <hr />
 
   <br />
-  ## Default Colores
-  <div class="dg sm:gtc2 g16 fs14">
+
+## Default Colors
+
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -289,7 +291,7 @@
 
   <br />
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -409,7 +411,7 @@
 
   <br />
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -529,7 +531,7 @@
 
   <br />
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -649,7 +651,7 @@
 
   <br>
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -769,7 +771,7 @@
 
   <br>
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
     <table class="wfull tlf">
       <thead>
         <tr>
@@ -887,7 +889,7 @@
   <hr />
   <br>
 
-  <div class="dg sm:gtc2 g16 fs14">
+  <div class="lstyle dg sm:gtc2 g16 fs14">
 
   <table class="wfull tlf ">
       <thead>
