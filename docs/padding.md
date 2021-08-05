@@ -14,7 +14,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 <div class="pr8 md:pr-24 xl:pr64"></div>
 ```
 
-## padding +
+## padding
 
 | Class Name | Properties       | Preview                     |
 | ---------- | ---------------- | --------------------------- |
@@ -68,7 +68,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | ...        | ...                     | ...                          |
 | .pb64      | padding-bottom: 4rem;   | <div class="pb64">64px</div> |
 
-## padding left +
+## padding left
 
 | Class Name | Properties            | Preview                      |
 | ---------- | --------------------- | ---------------------------- |
