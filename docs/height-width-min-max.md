@@ -34,8 +34,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 | Class Name | Properties     | Preview                                  |
 | ---------- | -------------- | ---------------------------------------- |
 | .hfull     | height: 100%;  | <div class="w64 bg-blue-3 hfull"></div>  |
-| .h8        | height: 8px;   | <div class="w64 bg-blue-3 h8"></div>     |
-| .ha        | height: auto;  | <div class="w64 bg-blue-3 h8"></div>     |
+| .ha        | height: auto;  | <div class="w64 bg-blue-3 ha"></div>     |
 | .h100vh    | height: 100vh; | <div class="w64 bg-blue-3 h100vh"></div> |
 
 ## min-height

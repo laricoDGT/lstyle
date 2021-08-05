@@ -1016,15 +1016,15 @@ img {
   align-items: stretch;
 }
 
-.fi {
+.f01a {
   flex: 0 1 auto;
 }
 
-.f1 {
+.f110 {
   flex: 1 1 0%;
 }
 
-.fa {
+.f11a {
   flex: 1 1 auto;
 }
 
@@ -1849,13 +1849,13 @@ img {
   .sm\:ais {
     align-items: stretch;
   }
-  .sm\:fi {
+  .sm\:f01a {
     flex: 0 1 auto;
   }
-  .sm\:f1 {
+  .sm\:f110 {
     flex: 1 1 0%;
   }
-  .sm\:fa {
+  .sm\:f11a {
     flex: 1 1 auto;
   }
   .sm\:fn {
@@ -2503,13 +2503,13 @@ img {
   .md\:ais {
     align-items: stretch;
   }
-  .md\:fi {
+  .md\:f01a {
     flex: 0 1 auto;
   }
-  .md\:f1 {
+  .md\:f110 {
     flex: 1 1 0%;
   }
-  .md\:fa {
+  .md\:f11a {
     flex: 1 1 auto;
   }
   .md\:fn {
@@ -3157,13 +3157,13 @@ img {
   .lg\:ais {
     align-items: stretch;
   }
-  .lg\:fi {
+  .lg\:f01a {
     flex: 0 1 auto;
   }
-  .lg\:f1 {
+  .lg\:f110 {
     flex: 1 1 0%;
   }
-  .lg\:fa {
+  .lg\:f11a {
     flex: 1 1 auto;
   }
   .lg\:fn {
@@ -3811,13 +3811,13 @@ img {
   .xl\:ais {
     align-items: stretch;
   }
-  .xl\:fi {
+  .xl\:f01a {
     flex: 0 1 auto;
   }
-  .xl\:f1 {
+  .xl\:f110 {
     flex: 1 1 0%;
   }
-  .xl\:fa {
+  .xl\:f11a {
     flex: 1 1 auto;
   }
   .xl\:fn {
@@ -4465,13 +4465,13 @@ img {
   .xxl\:ais {
     align-items: stretch;
   }
-  .xxl\:fi {
+  .xxl\:f01a {
     flex: 0 1 auto;
   }
-  .xxl\:f1 {
+  .xxl\:f110 {
     flex: 1 1 0%;
   }
-  .xxl\:fa {
+  .xxl\:f11a {
     flex: 1 1 auto;
   }
   .xxl\:fn {
