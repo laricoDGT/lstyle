@@ -100,6 +100,14 @@ img {
   font-family: inherit;
 }
 
+.secondary-font {
+  font-family: var(--secondary-font);
+}
+
+.tertiary-font {
+  font-family: var(--tertiary-font);
+}
+
 .fs1vw {
   font-size: 1vw;
 }
@@ -294,6 +302,12 @@ img {
   .sm\:ffi {
     font-family: inherit;
   }
+  .sm\:secondary-font {
+    font-family: var(--secondary-font);
+  }
+  .sm\:tertiary-font {
+    font-family: var(--tertiary-font);
+  }
   .sm\:fsnormal {
     font-style: normal;
   }
@@ -425,6 +439,12 @@ img {
   }
   .md\:ffi {
     font-family: inherit;
+  }
+  .md\:secondary-font {
+    font-family: var(--secondary-font);
+  }
+  .md\:tertiary-font {
+    font-family: var(--tertiary-font);
   }
   .md\:fsnormal {
     font-style: normal;
@@ -558,6 +578,12 @@ img {
   .lg\:ffi {
     font-family: inherit;
   }
+  .lg\:secondary-font {
+    font-family: var(--secondary-font);
+  }
+  .lg\:tertiary-font {
+    font-family: var(--tertiary-font);
+  }
   .lg\:fsnormal {
     font-style: normal;
   }
@@ -690,6 +716,12 @@ img {
   .xl\:ffi {
     font-family: inherit;
   }
+  .xl\:secondary-font {
+    font-family: var(--secondary-font);
+  }
+  .xl\:tertiary-font {
+    font-family: var(--tertiary-font);
+  }
   .xl\:fsnormal {
     font-style: normal;
   }
@@ -821,6 +853,12 @@ img {
   }
   .xxl\:ffi {
     font-family: inherit;
+  }
+  .xxl\:secondary-font {
+    font-family: var(--secondary-font);
+  }
+  .xxl\:tertiary-font {
+    font-family: var(--tertiary-font);
   }
   .xxl\:fsnormal {
     font-style: normal;
@@ -5416,7 +5454,7 @@ img {
   word-break: break-all;
 }
 
-.truncate {
+.ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

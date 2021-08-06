@@ -1,0 +1,91 @@
+## background-attachment
+
+```css
+.bgaf {
+  background-attachment: fixed;
+}
+
+.bgal {
+  background-attachment: local;
+}
+
+.bgas {
+  background-attachment: scroll;
+}
+```
+
+## background-position
+
+```css
+.bgpt {
+  background-position: top;
+}
+
+.bgpb {
+  background-position: bottom;
+}
+
+.bgpc {
+  background-position: center;
+}
+
+.bgpl {
+  background-position: left;
+}
+
+.bgpr {
+  background-position: right;
+}
+
+.bgplb {
+  background-position: left bottom;
+}
+
+.bgplt {
+  background-position: left top;
+}
+
+.bgprt {
+  background-position: right top;
+}
+
+.bgprb {
+  background-position: right bottom;
+}
+```
+
+## background-repeat
+
+```css
+.bgrr {
+  background-repeat: repeat;
+}
+
+.bgrnr {
+  background-repeat: no-repeat;
+}
+
+.bgrrx {
+  background-repeat: repeat-x;
+}
+
+.bgrry {
+  background-repeat: repeat-y;
+}
+```
+
+## background-size
+
+```css
+.bgs-cover {
+  background-size: cover;
+}
+
+.bgs-contain {
+  background-size: contain;
+}
+
+.bgs-auto {
+  background-size: auto;
+}
+```

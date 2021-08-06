@@ -14,5 +14,9 @@
 - [Colors](colors.md)
 - [Width, Height, & Min / Max](height-width-min-max.md)
 - [Display variants](display.md)
+- [Backgrounds](background.md)
+- [Transform](transform.md)
 
 - [Misc](misc.md)
+
+- [Formats](formats.md)

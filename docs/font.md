@@ -49,9 +49,11 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 
 ## font-family
 
-| Class Name | Properties            | Preview                         |
-| ---------- | --------------------- | ------------------------------- |
-| .ffi       | font-family: inherit; | <div class="ffi"> Sample </div> |
+| Class Name      | Properties                          | Preview                         |
+| --------------- | ----------------------------------- | ------------------------------- |
+| .ffi            | font-family: inherit;               | <div class="ffi"> Sample </div> |
+| .secondary-font | font-family: var(--secondary-font); |                                 |
+| .tertiary-font  | font-family: var(--tertiary-font);  |                                 |
 
 ## font-style
 
