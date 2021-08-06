@@ -1,4 +1,4 @@
-# Display
+# Display Variants
 
 ### For responsive
 
@@ -8,7 +8,7 @@ add `sm, md, lg, xl or xxl` with colon `:` before to class name for example:
 <div class="dn md:db xl:df"></div>
 ```
 
-## font-size pixeles (px)
+## display
 
 | Class Name | Properties             |
 | ---------- | ---------------------- |
