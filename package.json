@@ -1,6 +1,6 @@
 {
   "name": "lstyle",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "lStyle CSS Framework",
   "main": "dist/lstyle.css",
   "style": "dist/lstyle.css",
