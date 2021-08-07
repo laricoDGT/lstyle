@@ -6114,6 +6114,10 @@ img {
   cursor: move;
 }
 
+.wmtbrl {
+  writing-mode: tb-rl;
+}
+
 @media (min-width: 640px) {
   .sm\:relative {
     position: relative;
@@ -6886,6 +6890,9 @@ img {
   }
   .sm\:cm {
     cursor: move;
+  }
+  .sm\:.wmtbrl {
+    writing-mode: tb-rl;
   }
 }
 
@@ -7662,6 +7669,9 @@ img {
   .md\:cm {
     cursor: move;
   }
+  .md\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -8436,6 +8446,9 @@ img {
   }
   .lg\:cm {
     cursor: move;
+  }
+  .lg\:.wmtbrl {
+    writing-mode: tb-rl;
   }
 }
 
@@ -9212,6 +9225,9 @@ img {
   .xl\:cm {
     cursor: move;
   }
+  .xl\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -9986,6 +10002,9 @@ img {
   }
   .xxl\:cm {
     cursor: move;
+  }
+  .xxl\:.wmtbrl {
+    writing-mode: tb-rl;
   }
 }
 
@@ -11131,6 +11150,10 @@ img {
   }
 }
 
+.m0 {
+  margin: 0;
+}
+
 .m8 {
   margin: 0.5rem;
 }
@@ -11150,8 +11173,8 @@ img {
 }
 
 .mx8 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mx-8 {
@@ -11210,8 +11233,8 @@ img {
 }
 
 .mx16 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mx-16 {
@@ -11270,8 +11293,8 @@ img {
 }
 
 .mx24 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .mx-24 {
@@ -11330,8 +11353,8 @@ img {
 }
 
 .mx32 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mx-32 {
@@ -11390,8 +11413,8 @@ img {
 }
 
 .mx40 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mx-40 {
@@ -11450,8 +11473,8 @@ img {
 }
 
 .mx48 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .mx-48 {
@@ -11510,8 +11533,8 @@ img {
 }
 
 .mx56 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
 }
 
 .mx-56 {
@@ -11570,8 +11593,8 @@ img {
 }
 
 .mx64 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .mx-64 {
@@ -11633,8 +11656,8 @@ img {
   margin: auto;
 }
 
-.m0 {
-  margin: 0;
+.p0 {
+  padding: 0;
 }
 
 .p8 {
@@ -11647,8 +11670,8 @@ img {
 }
 
 .px8 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pt8 {
@@ -11677,8 +11700,8 @@ img {
 }
 
 .px16 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pt16 {
@@ -11707,8 +11730,8 @@ img {
 }
 
 .px24 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pt24 {
@@ -11737,8 +11760,8 @@ img {
 }
 
 .px32 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pt32 {
@@ -11767,8 +11790,8 @@ img {
 }
 
 .px40 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt40 {
@@ -11797,8 +11820,8 @@ img {
 }
 
 .px48 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .pt48 {
@@ -11827,8 +11850,8 @@ img {
 }
 
 .px56 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .pt56 {
@@ -11857,8 +11880,8 @@ img {
 }
 
 .px64 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pt64 {
@@ -11899,11 +11922,10 @@ img {
   padding: auto;
 }
 
-.p0 {
-  padding: 0;
-}
-
 @media (min-width: 640px) {
+  .sm\:m0 {
+    margin: 0;
+  }
   .sm\:m8 {
     margin: 0.5rem;
   }
@@ -11919,8 +11941,8 @@ img {
     margin-bottom: -0.5rem;
   }
   .sm\:mx8 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .sm\:mx-8 {
     margin-left: -0.5rem;
@@ -11965,8 +11987,8 @@ img {
     margin-bottom: -1rem;
   }
   .sm\:mx16 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .sm\:mx-16 {
     margin-left: -1rem;
@@ -12011,8 +12033,8 @@ img {
     margin-bottom: -1.5rem;
   }
   .sm\:mx24 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .sm\:mx-24 {
     margin-left: -1.5rem;
@@ -12057,8 +12079,8 @@ img {
     margin-bottom: -2rem;
   }
   .sm\:mx32 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .sm\:mx-32 {
     margin-left: -2rem;
@@ -12103,8 +12125,8 @@ img {
     margin-bottom: -2.5rem;
   }
   .sm\:mx40 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .sm\:mx-40 {
     margin-left: -2.5rem;
@@ -12149,8 +12171,8 @@ img {
     margin-bottom: -3rem;
   }
   .sm\:mx48 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .sm\:mx-48 {
     margin-left: -3rem;
@@ -12195,8 +12217,8 @@ img {
     margin-bottom: -3.5rem;
   }
   .sm\:mx56 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .sm\:mx-56 {
     margin-left: -3.5rem;
@@ -12241,8 +12263,8 @@ img {
     margin-bottom: -4rem;
   }
   .sm\:mx64 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .sm\:mx-64 {
     margin-left: -4rem;
@@ -12289,8 +12311,8 @@ img {
   .sm\:ma {
     margin: auto;
   }
-  .sm\:m0 {
-    margin: 0;
+  .sm\:p0 {
+    padding: 0;
   }
   .sm\:p8 {
     padding: 0.5rem;
@@ -12307,8 +12329,8 @@ img {
     padding-bottom: -0.5rem;
   }
   .sm\:px8 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .sm\:px-8 {
     padding-left: -0.5rem;
@@ -12353,8 +12375,8 @@ img {
     padding-bottom: -1rem;
   }
   .sm\:px16 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .sm\:px-16 {
     padding-left: -1rem;
@@ -12399,8 +12421,8 @@ img {
     padding-bottom: -1.5rem;
   }
   .sm\:px24 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .sm\:px-24 {
     padding-left: -1.5rem;
@@ -12445,8 +12467,8 @@ img {
     padding-bottom: -2rem;
   }
   .sm\:px32 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .sm\:px-32 {
     padding-left: -2rem;
@@ -12491,8 +12513,8 @@ img {
     padding-bottom: -2.5rem;
   }
   .sm\:px40 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .sm\:px-40 {
     padding-left: -2.5rem;
@@ -12537,8 +12559,8 @@ img {
     padding-bottom: -3rem;
   }
   .sm\:px48 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .sm\:px-48 {
     padding-left: -3rem;
@@ -12583,8 +12605,8 @@ img {
     padding-bottom: -3.5rem;
   }
   .sm\:px56 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
   .sm\:px-56 {
     padding-left: -3.5rem;
@@ -12629,8 +12651,8 @@ img {
     padding-bottom: -4rem;
   }
   .sm\:px64 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .sm\:px-64 {
     padding-left: -4rem;
@@ -12677,12 +12699,12 @@ img {
   .sm\:pa {
     padding: auto;
   }
-  .sm\:p0 {
-    padding: 0;
-  }
 }
 
 @media (min-width: 768px) {
+  .md\:m0 {
+    margin: 0;
+  }
   .md\:m8 {
     margin: 0.5rem;
   }
@@ -12698,8 +12720,8 @@ img {
     margin-bottom: -0.5rem;
   }
   .md\:mx8 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .md\:mx-8 {
     margin-left: -0.5rem;
@@ -12744,8 +12766,8 @@ img {
     margin-bottom: -1rem;
   }
   .md\:mx16 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .md\:mx-16 {
     margin-left: -1rem;
@@ -12790,8 +12812,8 @@ img {
     margin-bottom: -1.5rem;
   }
   .md\:mx24 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .md\:mx-24 {
     margin-left: -1.5rem;
@@ -12836,8 +12858,8 @@ img {
     margin-bottom: -2rem;
   }
   .md\:mx32 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .md\:mx-32 {
     margin-left: -2rem;
@@ -12882,8 +12904,8 @@ img {
     margin-bottom: -2.5rem;
   }
   .md\:mx40 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .md\:mx-40 {
     margin-left: -2.5rem;
@@ -12928,8 +12950,8 @@ img {
     margin-bottom: -3rem;
   }
   .md\:mx48 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .md\:mx-48 {
     margin-left: -3rem;
@@ -12974,8 +12996,8 @@ img {
     margin-bottom: -3.5rem;
   }
   .md\:mx56 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .md\:mx-56 {
     margin-left: -3.5rem;
@@ -13020,8 +13042,8 @@ img {
     margin-bottom: -4rem;
   }
   .md\:mx64 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .md\:mx-64 {
     margin-left: -4rem;
@@ -13068,8 +13090,8 @@ img {
   .md\:ma {
     margin: auto;
   }
-  .md\:m0 {
-    margin: 0;
+  .md\:p0 {
+    padding: 0;
   }
   .md\:p8 {
     padding: 0.5rem;
@@ -13086,8 +13108,8 @@ img {
     padding-bottom: -0.5rem;
   }
   .md\:px8 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .md\:px-8 {
     padding-left: -0.5rem;
@@ -13132,8 +13154,8 @@ img {
     padding-bottom: -1rem;
   }
   .md\:px16 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .md\:px-16 {
     padding-left: -1rem;
@@ -13178,8 +13200,8 @@ img {
     padding-bottom: -1.5rem;
   }
   .md\:px24 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .md\:px-24 {
     padding-left: -1.5rem;
@@ -13224,8 +13246,8 @@ img {
     padding-bottom: -2rem;
   }
   .md\:px32 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .md\:px-32 {
     padding-left: -2rem;
@@ -13270,8 +13292,8 @@ img {
     padding-bottom: -2.5rem;
   }
   .md\:px40 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .md\:px-40 {
     padding-left: -2.5rem;
@@ -13316,8 +13338,8 @@ img {
     padding-bottom: -3rem;
   }
   .md\:px48 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .md\:px-48 {
     padding-left: -3rem;
@@ -13362,8 +13384,8 @@ img {
     padding-bottom: -3.5rem;
   }
   .md\:px56 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
   .md\:px-56 {
     padding-left: -3.5rem;
@@ -13408,8 +13430,8 @@ img {
     padding-bottom: -4rem;
   }
   .md\:px64 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .md\:px-64 {
     padding-left: -4rem;
@@ -13456,12 +13478,12 @@ img {
   .md\:pa {
     padding: auto;
   }
-  .md\:p0 {
-    padding: 0;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:m0 {
+    margin: 0;
+  }
   .lg\:m8 {
     margin: 0.5rem;
   }
@@ -13477,8 +13499,8 @@ img {
     margin-bottom: -0.5rem;
   }
   .lg\:mx8 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .lg\:mx-8 {
     margin-left: -0.5rem;
@@ -13523,8 +13545,8 @@ img {
     margin-bottom: -1rem;
   }
   .lg\:mx16 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .lg\:mx-16 {
     margin-left: -1rem;
@@ -13569,8 +13591,8 @@ img {
     margin-bottom: -1.5rem;
   }
   .lg\:mx24 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .lg\:mx-24 {
     margin-left: -1.5rem;
@@ -13615,8 +13637,8 @@ img {
     margin-bottom: -2rem;
   }
   .lg\:mx32 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .lg\:mx-32 {
     margin-left: -2rem;
@@ -13661,8 +13683,8 @@ img {
     margin-bottom: -2.5rem;
   }
   .lg\:mx40 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .lg\:mx-40 {
     margin-left: -2.5rem;
@@ -13707,8 +13729,8 @@ img {
     margin-bottom: -3rem;
   }
   .lg\:mx48 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .lg\:mx-48 {
     margin-left: -3rem;
@@ -13753,8 +13775,8 @@ img {
     margin-bottom: -3.5rem;
   }
   .lg\:mx56 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .lg\:mx-56 {
     margin-left: -3.5rem;
@@ -13799,8 +13821,8 @@ img {
     margin-bottom: -4rem;
   }
   .lg\:mx64 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .lg\:mx-64 {
     margin-left: -4rem;
@@ -13847,8 +13869,8 @@ img {
   .lg\:ma {
     margin: auto;
   }
-  .lg\:m0 {
-    margin: 0;
+  .lg\:p0 {
+    padding: 0;
   }
   .lg\:p8 {
     padding: 0.5rem;
@@ -13865,8 +13887,8 @@ img {
     padding-bottom: -0.5rem;
   }
   .lg\:px8 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .lg\:px-8 {
     padding-left: -0.5rem;
@@ -13911,8 +13933,8 @@ img {
     padding-bottom: -1rem;
   }
   .lg\:px16 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .lg\:px-16 {
     padding-left: -1rem;
@@ -13957,8 +13979,8 @@ img {
     padding-bottom: -1.5rem;
   }
   .lg\:px24 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .lg\:px-24 {
     padding-left: -1.5rem;
@@ -14003,8 +14025,8 @@ img {
     padding-bottom: -2rem;
   }
   .lg\:px32 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .lg\:px-32 {
     padding-left: -2rem;
@@ -14049,8 +14071,8 @@ img {
     padding-bottom: -2.5rem;
   }
   .lg\:px40 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .lg\:px-40 {
     padding-left: -2.5rem;
@@ -14095,8 +14117,8 @@ img {
     padding-bottom: -3rem;
   }
   .lg\:px48 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .lg\:px-48 {
     padding-left: -3rem;
@@ -14141,8 +14163,8 @@ img {
     padding-bottom: -3.5rem;
   }
   .lg\:px56 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
   .lg\:px-56 {
     padding-left: -3.5rem;
@@ -14187,8 +14209,8 @@ img {
     padding-bottom: -4rem;
   }
   .lg\:px64 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .lg\:px-64 {
     padding-left: -4rem;
@@ -14235,12 +14257,12 @@ img {
   .lg\:pa {
     padding: auto;
   }
-  .lg\:p0 {
-    padding: 0;
-  }
 }
 
 @media (min-width: 1280px) {
+  .xl\:m0 {
+    margin: 0;
+  }
   .xl\:m8 {
     margin: 0.5rem;
   }
@@ -14256,8 +14278,8 @@ img {
     margin-bottom: -0.5rem;
   }
   .xl\:mx8 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .xl\:mx-8 {
     margin-left: -0.5rem;
@@ -14302,8 +14324,8 @@ img {
     margin-bottom: -1rem;
   }
   .xl\:mx16 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .xl\:mx-16 {
     margin-left: -1rem;
@@ -14348,8 +14370,8 @@ img {
     margin-bottom: -1.5rem;
   }
   .xl\:mx24 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .xl\:mx-24 {
     margin-left: -1.5rem;
@@ -14394,8 +14416,8 @@ img {
     margin-bottom: -2rem;
   }
   .xl\:mx32 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .xl\:mx-32 {
     margin-left: -2rem;
@@ -14440,8 +14462,8 @@ img {
     margin-bottom: -2.5rem;
   }
   .xl\:mx40 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .xl\:mx-40 {
     margin-left: -2.5rem;
@@ -14486,8 +14508,8 @@ img {
     margin-bottom: -3rem;
   }
   .xl\:mx48 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .xl\:mx-48 {
     margin-left: -3rem;
@@ -14532,8 +14554,8 @@ img {
     margin-bottom: -3.5rem;
   }
   .xl\:mx56 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .xl\:mx-56 {
     margin-left: -3.5rem;
@@ -14578,8 +14600,8 @@ img {
     margin-bottom: -4rem;
   }
   .xl\:mx64 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .xl\:mx-64 {
     margin-left: -4rem;
@@ -14626,8 +14648,8 @@ img {
   .xl\:ma {
     margin: auto;
   }
-  .xl\:m0 {
-    margin: 0;
+  .xl\:p0 {
+    padding: 0;
   }
   .xl\:p8 {
     padding: 0.5rem;
@@ -14644,8 +14666,8 @@ img {
     padding-bottom: -0.5rem;
   }
   .xl\:px8 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .xl\:px-8 {
     padding-left: -0.5rem;
@@ -14690,8 +14712,8 @@ img {
     padding-bottom: -1rem;
   }
   .xl\:px16 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .xl\:px-16 {
     padding-left: -1rem;
@@ -14736,8 +14758,8 @@ img {
     padding-bottom: -1.5rem;
   }
   .xl\:px24 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .xl\:px-24 {
     padding-left: -1.5rem;
@@ -14782,8 +14804,8 @@ img {
     padding-bottom: -2rem;
   }
   .xl\:px32 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .xl\:px-32 {
     padding-left: -2rem;
@@ -14828,8 +14850,8 @@ img {
     padding-bottom: -2.5rem;
   }
   .xl\:px40 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .xl\:px-40 {
     padding-left: -2.5rem;
@@ -14874,8 +14896,8 @@ img {
     padding-bottom: -3rem;
   }
   .xl\:px48 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .xl\:px-48 {
     padding-left: -3rem;
@@ -14920,8 +14942,8 @@ img {
     padding-bottom: -3.5rem;
   }
   .xl\:px56 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
   .xl\:px-56 {
     padding-left: -3.5rem;
@@ -14966,8 +14988,8 @@ img {
     padding-bottom: -4rem;
   }
   .xl\:px64 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .xl\:px-64 {
     padding-left: -4rem;
@@ -15014,12 +15036,12 @@ img {
   .xl\:pa {
     padding: auto;
   }
-  .xl\:p0 {
-    padding: 0;
-  }
 }
 
 @media (min-width: 1536px) {
+  .xxl\:m0 {
+    margin: 0;
+  }
   .xxl\:m8 {
     margin: 0.5rem;
   }
@@ -15035,8 +15057,8 @@ img {
     margin-bottom: -0.5rem;
   }
   .xxl\:mx8 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   .xxl\:mx-8 {
     margin-left: -0.5rem;
@@ -15081,8 +15103,8 @@ img {
     margin-bottom: -1rem;
   }
   .xxl\:mx16 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .xxl\:mx-16 {
     margin-left: -1rem;
@@ -15127,8 +15149,8 @@ img {
     margin-bottom: -1.5rem;
   }
   .xxl\:mx24 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .xxl\:mx-24 {
     margin-left: -1.5rem;
@@ -15173,8 +15195,8 @@ img {
     margin-bottom: -2rem;
   }
   .xxl\:mx32 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .xxl\:mx-32 {
     margin-left: -2rem;
@@ -15219,8 +15241,8 @@ img {
     margin-bottom: -2.5rem;
   }
   .xxl\:mx40 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
   .xxl\:mx-40 {
     margin-left: -2.5rem;
@@ -15265,8 +15287,8 @@ img {
     margin-bottom: -3rem;
   }
   .xxl\:mx48 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .xxl\:mx-48 {
     margin-left: -3rem;
@@ -15311,8 +15333,8 @@ img {
     margin-bottom: -3.5rem;
   }
   .xxl\:mx56 {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
   .xxl\:mx-56 {
     margin-left: -3.5rem;
@@ -15357,8 +15379,8 @@ img {
     margin-bottom: -4rem;
   }
   .xxl\:mx64 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .xxl\:mx-64 {
     margin-left: -4rem;
@@ -15405,8 +15427,8 @@ img {
   .xxl\:ma {
     margin: auto;
   }
-  .xxl\:m0 {
-    margin: 0;
+  .xxl\:p0 {
+    padding: 0;
   }
   .xxl\:p8 {
     padding: 0.5rem;
@@ -15423,8 +15445,8 @@ img {
     padding-bottom: -0.5rem;
   }
   .xxl\:px8 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .xxl\:px-8 {
     padding-left: -0.5rem;
@@ -15469,8 +15491,8 @@ img {
     padding-bottom: -1rem;
   }
   .xxl\:px16 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .xxl\:px-16 {
     padding-left: -1rem;
@@ -15515,8 +15537,8 @@ img {
     padding-bottom: -1.5rem;
   }
   .xxl\:px24 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .xxl\:px-24 {
     padding-left: -1.5rem;
@@ -15561,8 +15583,8 @@ img {
     padding-bottom: -2rem;
   }
   .xxl\:px32 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .xxl\:px-32 {
     padding-left: -2rem;
@@ -15607,8 +15629,8 @@ img {
     padding-bottom: -2.5rem;
   }
   .xxl\:px40 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .xxl\:px-40 {
     padding-left: -2.5rem;
@@ -15653,8 +15675,8 @@ img {
     padding-bottom: -3rem;
   }
   .xxl\:px48 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .xxl\:px-48 {
     padding-left: -3rem;
@@ -15699,8 +15721,8 @@ img {
     padding-bottom: -3.5rem;
   }
   .xxl\:px56 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
   .xxl\:px-56 {
     padding-left: -3.5rem;
@@ -15745,8 +15767,8 @@ img {
     padding-bottom: -4rem;
   }
   .xxl\:px64 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .xxl\:px-64 {
     padding-left: -4rem;
@@ -15792,9 +15814,6 @@ img {
   }
   .xxl\:pa {
     padding: auto;
-  }
-  .xxl\:p0 {
-    padding: 0;
   }
 }
 

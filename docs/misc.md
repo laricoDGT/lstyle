@@ -985,6 +985,14 @@ _converted "px" to → "rem"_
 }
 ```
 
+## writing-mode
+
+```css
+.wmtbrl {
+  writing-mode: tb-rl;
+}
+```
+
 ## container width
 
 ```css
