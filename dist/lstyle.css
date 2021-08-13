@@ -5166,6 +5166,7 @@ img {
 }
 
 .fi1 {
+  -webkit-filter: invert(1);
   filter: invert(1);
 }
 
@@ -6208,6 +6209,7 @@ img {
     line-height: normal;
   }
   .sm\:fi1 {
+    -webkit-filter: invert(1);
     filter: invert(1);
   }
   .sm\:bw0 {
@@ -6986,6 +6988,7 @@ img {
     line-height: normal;
   }
   .md\:fi1 {
+    -webkit-filter: invert(1);
     filter: invert(1);
   }
   .md\:bw0 {
@@ -7764,6 +7767,7 @@ img {
     line-height: normal;
   }
   .lg\:fi1 {
+    -webkit-filter: invert(1);
     filter: invert(1);
   }
   .lg\:bw0 {
@@ -8542,6 +8546,7 @@ img {
     line-height: normal;
   }
   .xl\:fi1 {
+    -webkit-filter: invert(1);
     filter: invert(1);
   }
   .xl\:bw0 {
@@ -9320,6 +9325,7 @@ img {
     line-height: normal;
   }
   .xxl\:fi1 {
+    -webkit-filter: invert(1);
     filter: invert(1);
   }
   .xxl\:bw0 {
