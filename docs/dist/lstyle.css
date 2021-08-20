@@ -10,6 +10,10 @@
   --primary-font: "";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: var(--primary-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu;
@@ -11190,6 +11194,22 @@ img {
   margin: 0;
 }
 
+.mt0 {
+  margin-top: 0;
+}
+
+.mr0 {
+  margin-right: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
 .m8 {
   margin: 0.5rem;
 }
@@ -11696,6 +11716,22 @@ img {
   padding: 0;
 }
 
+.pt0 {
+  padding-top: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
 .p8 {
   padding: 0.5rem;
 }
@@ -11961,6 +11997,18 @@ img {
 @media (min-width: 640px) {
   .sm\:m0 {
     margin: 0;
+  }
+  .sm\:mt0 {
+    margin-top: 0;
+  }
+  .sm\:mr0 {
+    margin-right: 0;
+  }
+  .sm\:mb0 {
+    margin-bottom: 0;
+  }
+  .sm\:ml0 {
+    margin-left: 0;
   }
   .sm\:m8 {
     margin: 0.5rem;
@@ -12349,6 +12397,18 @@ img {
   }
   .sm\:p0 {
     padding: 0;
+  }
+  .sm\:pt0 {
+    padding-top: 0;
+  }
+  .sm\:pr0 {
+    padding-right: 0;
+  }
+  .sm\:pb0 {
+    padding-bottom: 0;
+  }
+  .sm\:pl0 {
+    padding-left: 0;
   }
   .sm\:p8 {
     padding: 0.5rem;
@@ -12741,6 +12801,18 @@ img {
   .md\:m0 {
     margin: 0;
   }
+  .md\:mt0 {
+    margin-top: 0;
+  }
+  .md\:mr0 {
+    margin-right: 0;
+  }
+  .md\:mb0 {
+    margin-bottom: 0;
+  }
+  .md\:ml0 {
+    margin-left: 0;
+  }
   .md\:m8 {
     margin: 0.5rem;
   }
@@ -13128,6 +13200,18 @@ img {
   }
   .md\:p0 {
     padding: 0;
+  }
+  .md\:pt0 {
+    padding-top: 0;
+  }
+  .md\:pr0 {
+    padding-right: 0;
+  }
+  .md\:pb0 {
+    padding-bottom: 0;
+  }
+  .md\:pl0 {
+    padding-left: 0;
   }
   .md\:p8 {
     padding: 0.5rem;
@@ -13520,6 +13604,18 @@ img {
   .lg\:m0 {
     margin: 0;
   }
+  .lg\:mt0 {
+    margin-top: 0;
+  }
+  .lg\:mr0 {
+    margin-right: 0;
+  }
+  .lg\:mb0 {
+    margin-bottom: 0;
+  }
+  .lg\:ml0 {
+    margin-left: 0;
+  }
   .lg\:m8 {
     margin: 0.5rem;
   }
@@ -13907,6 +14003,18 @@ img {
   }
   .lg\:p0 {
     padding: 0;
+  }
+  .lg\:pt0 {
+    padding-top: 0;
+  }
+  .lg\:pr0 {
+    padding-right: 0;
+  }
+  .lg\:pb0 {
+    padding-bottom: 0;
+  }
+  .lg\:pl0 {
+    padding-left: 0;
   }
   .lg\:p8 {
     padding: 0.5rem;
@@ -14299,6 +14407,18 @@ img {
   .xl\:m0 {
     margin: 0;
   }
+  .xl\:mt0 {
+    margin-top: 0;
+  }
+  .xl\:mr0 {
+    margin-right: 0;
+  }
+  .xl\:mb0 {
+    margin-bottom: 0;
+  }
+  .xl\:ml0 {
+    margin-left: 0;
+  }
   .xl\:m8 {
     margin: 0.5rem;
   }
@@ -14686,6 +14806,18 @@ img {
   }
   .xl\:p0 {
     padding: 0;
+  }
+  .xl\:pt0 {
+    padding-top: 0;
+  }
+  .xl\:pr0 {
+    padding-right: 0;
+  }
+  .xl\:pb0 {
+    padding-bottom: 0;
+  }
+  .xl\:pl0 {
+    padding-left: 0;
   }
   .xl\:p8 {
     padding: 0.5rem;
@@ -15078,6 +15210,18 @@ img {
   .xxl\:m0 {
     margin: 0;
   }
+  .xxl\:mt0 {
+    margin-top: 0;
+  }
+  .xxl\:mr0 {
+    margin-right: 0;
+  }
+  .xxl\:mb0 {
+    margin-bottom: 0;
+  }
+  .xxl\:ml0 {
+    margin-left: 0;
+  }
   .xxl\:m8 {
     margin: 0.5rem;
   }
@@ -15465,6 +15609,18 @@ img {
   }
   .xxl\:p0 {
     padding: 0;
+  }
+  .xxl\:pt0 {
+    padding-top: 0;
+  }
+  .xxl\:pr0 {
+    padding-right: 0;
+  }
+  .xxl\:pb0 {
+    padding-bottom: 0;
+  }
+  .xxl\:pl0 {
+    padding-left: 0;
   }
   .xxl\:p8 {
     padding: 0.5rem;
