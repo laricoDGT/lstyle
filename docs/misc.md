@@ -398,6 +398,10 @@ _converted "px" to → "rem"_
 }
 ```
 
+## paragraph text-align justify
+
+for align all paragraphs to justify use `.taj-p` class name.
+
 ## text-align-last
 
 ```css
@@ -990,6 +994,20 @@ _converted "px" to → "rem"_
 ```css
 .wmtbrl {
   writing-mode: tb-rl;
+}
+```
+
+## container width
+
+```css
+.container:not(-full) {
+  width: 90%;
+  max-width: var(--container-max-width, 1800px);
+  margin: auto;
+}
+
+.container-full {
+  width: 100%;
 }
 ```
 
