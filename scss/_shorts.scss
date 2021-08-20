@@ -1,0 +1,1419 @@
+// position
+$position: relative, absolute, fixed, static;
+@each $n in $position {
+  .#{$n} {
+    position: $n;
+  }
+}
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+// letter-spacing
+// PX to REM
+$base-size: 16;
+$fsrem: 1, 2, 3, 4, 5, 6;
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $fsrem {
+  .ls#{$n} {
+    letter-spacing: size($n);
+  }
+}
+
+// Text Transform
+.ttu {
+  text-transform: uppercase;
+}
+.ttl {
+  text-transform: lowercase;
+}
+.ttc {
+  text-transform: capitalize;
+}
+
+// text-decoration
+
+.tdu {
+  text-decoration: underline;
+}
+.tdlt {
+  text-decoration: line-through;
+}
+.tdn {
+  text-decoration: none;
+}
+
+// top-right-bottom-left
+.t0 {
+  top: 0;
+}
+.r0 {
+  right: 0;
+}
+.b0 {
+  bottom: 0;
+}
+.l0 {
+  left: 0;
+}
+.t50pct {
+  top: 50%;
+}
+.l50pct {
+  left: 50%;
+}
+
+// line-height
+.lh0 {
+  line-height: 0;
+}
+.lh1 {
+  line-height: 1;
+}
+.lh2 {
+  line-height: 1.5;
+}
+.lh3 {
+  line-height: 1.8;
+}
+.lh4 {
+  line-height: 2;
+}
+.lhn {
+  line-height: normal;
+}
+
+// Filters
+
+.fi1 {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+// BORDERS
+
+$borderw: 0, 1, 2, 3, 4, 5, 6, 7, 8;
+@each $n in $borderw {
+  .bw#{$n} {
+    border-width: $n + px;
+  }
+}
+
+.bt0 {
+  border-top: 0;
+}
+.br0 {
+  border-right: 0;
+}
+.bb0 {
+  border-bottom: 0;
+}
+.bl0 {
+  border-left: 0;
+}
+
+.btw1 {
+  border-top-width: 1px;
+}
+.brw1 {
+  border-right-width: 1px;
+}
+.bbw1 {
+  border-bottom-width: 1px;
+}
+.blw1 {
+  border-left-width: 1px;
+}
+
+// border-style
+.bsn {
+  border-style: none;
+}
+.bss {
+  border-style: solid;
+}
+.bsdotted {
+  border-style: dotted;
+}
+.bsdashed {
+  border-style: dashed;
+}
+.bsdouble {
+  border-style: double;
+}
+
+.bcc {
+  border-collapse: collapse;
+}
+.bcs {
+  border-collapse: separate;
+}
+
+.rounded0 {
+  border-radius: 0;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.roundedt {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.roundedr {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.roundedb {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.roundedl {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+$rounded: 8, 10, 12;
+@each $n in $rounded {
+  .rounded#{$n} {
+    border-radius: size($n);
+  }
+
+  .roundedt#{$n} {
+    border-top-left-radius: size($n);
+    border-top-right-radius: size($n);
+  }
+
+  .roundedr#{$n} {
+    border-top-right-radius: size($n);
+    border-bottom-right-radius: size($n);
+  }
+
+  .roundedb#{$n} {
+    border-bottom-right-radius: size($n);
+    border-bottom-left-radius: size($n);
+  }
+
+  .roundedl#{$n} {
+    border-top-left-radius: size($n);
+    border-bottom-left-radius: size($n);
+  }
+}
+
+.roundedfull {
+  border-radius: 9999px;
+}
+.circle {
+  border-radius: 100%;
+}
+
+// text-align
+
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+.taj {
+  text-align: justify;
+}
+.talc {
+  text-align-last: center;
+}
+.talr {
+  text-align-last: right;
+}
+
+// vertical-align
+
+.vabl {
+  vertical-align: baseline;
+}
+.vat {
+  vertical-align: top;
+}
+.vam {
+  vertical-align: middle;
+}
+.vab {
+  vertical-align: bottom;
+}
+.vatt {
+  vertical-align: text-top;
+}
+.vatb {
+  vertical-align: text-bottom;
+}
+
+// white-space
+
+.wsn {
+  white-space: normal;
+}
+.wsnw {
+  white-space: nowrap;
+}
+.wsp {
+  white-space: pre;
+}
+.wspl {
+  white-space: pre-line;
+}
+.wspw {
+  white-space: pre-wrap;
+}
+
+// Word Break
+.wbn {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.owbw {
+  overflow-wrap: break-word;
+}
+.wbba {
+  word-break: break-all;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// OPACITY
+
+$opa: 0;
+@while $opa <= 1 {
+  .opacity#{round($opa*100)} {
+    opacity: $opa;
+  }
+  $opa: $opa + 0.1;
+}
+
+.hover\:opacity1 {
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// FOCUS
+
+:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 2px var(--primary-color);
+}
+.focus\:none {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+// FLOAT
+
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.fn {
+  float: none;
+}
+.clr {
+  &:after {
+    content: "";
+    width: 100%;
+    clear: both;
+  }
+}
+
+// visibility
+
+.vv {
+  visibility: visible;
+}
+.vh {
+  visibility: hidden;
+}
+
+// LIST STYLE
+.lsn {
+  list-style: none;
+}
+.lsd {
+  list-style: disc;
+}
+.lstd {
+  list-style-type: decimal;
+}
+
+// FOR SVG
+
+.fc {
+  fill: currentColor;
+}
+.sc {
+  stroke: currentColor;
+}
+
+// object-fit
+
+$object: contain, cover, fill, none;
+@each $n in $object {
+  .of#{$n} {
+    object-fit: $n;
+  }
+}
+
+// transform translate
+
+$transform: 0, 50, 100;
+@each $n in $transform {
+  .ttx#{$n} {
+    transform: translateX(#{$n + "%"});
+  }
+  .ttx-#{$n} {
+    transform: translateX(-#{$n + "%"});
+  }
+  .tty#{$n} {
+    transform: translateY(#{$n + "%"});
+  }
+  .tty-#{$n} {
+    transform: translateY(-#{$n + "%"});
+  }
+}
+
+// transform rotate
+
+$rotate: 45, 90, 180;
+@each $n in $rotate {
+  .tr#{$n} {
+    transform: rotate(#{$n + "deg"});
+  }
+  .tr-#{$n} {
+    transform: rotate(-#{$n + "deg"});
+  }
+}
+
+// transform scale
+
+.tsn {
+  transform: scale(1);
+}
+$scale: 1, 2, 3, 4, 5;
+@each $n in $scale {
+  .tr#{$n} {
+    transform: scale(#{"1."}#{$n});
+  }
+}
+
+$scale0: 9, 8, 7, 6, 5;
+@each $n in $scale0 {
+  .tr0#{$n} {
+    transform: scale(#{"0."}#{$n});
+  }
+}
+
+// transform-origin
+
+.toc {
+  transform-origin: center;
+}
+.tot {
+  transform-origin: top;
+}
+.totr {
+  transform-origin: top right;
+}
+.tor {
+  transform-origin: right;
+}
+.tobr {
+  transform-origin: bottom right;
+}
+.tob {
+  transform-origin: bottom;
+}
+.tobl {
+  transform-origin: bottom left;
+}
+.tol {
+  transform-origin: left;
+}
+.totl {
+  transform-origin: top left;
+}
+
+// background
+
+.bgaf {
+  background-attachment: fixed;
+}
+.bgal {
+  background-attachment: local;
+}
+.bgas {
+  background-attachment: scroll;
+}
+
+.bgpt {
+  background-position: top;
+}
+.bgpb {
+  background-position: bottom;
+}
+.bgpc {
+  background-position: center;
+}
+.bgpl {
+  background-position: left;
+}
+.bgpr {
+  background-position: right;
+}
+.bgplb {
+  background-position: left bottom;
+}
+.bgplt {
+  background-position: left top;
+}
+.bgprt {
+  background-position: right top;
+}
+.bgprb {
+  background-position: right bottom;
+}
+.bgrr {
+  background-repeat: repeat;
+}
+.bgrnr {
+  background-repeat: no-repeat;
+}
+.bgrrx {
+  background-repeat: repeat-x;
+}
+.bgrry {
+  background-repeat: repeat-y;
+}
+.bgs-cover {
+  background-size: cover;
+}
+.bgs-contain {
+  background-size: contain;
+}
+.bgs-auto {
+  background-size: auto;
+}
+
+// overflow
+
+.oa {
+  overflow: auto;
+}
+.oh {
+  overflow: hidden;
+}
+.ov {
+  overflow: visible;
+}
+.os {
+  overflow: scroll;
+}
+.oxa {
+  overflow-x: auto;
+}
+.oya {
+  overflow-y: auto;
+}
+.oxh {
+  overflow-x: hidden;
+}
+.oyh {
+  overflow-y: hidden;
+}
+.oxv {
+  overflow-x: visible;
+}
+.oyv {
+  overflow-y: visible;
+}
+.oxs {
+  overflow-x: scroll;
+}
+.oys {
+  overflow-y: scroll;
+}
+
+// z-index
+
+.zi-1 {
+  z-index: -1;
+}
+.zia {
+  z-index: auto;
+}
+.ziover {
+  z-index: 9999;
+}
+
+$index: -1, 0, 10, 20, 30, 40, 50;
+
+@each $n in $index {
+  .zi#{$n} {
+    z-index: $n;
+  }
+}
+
+// object-position
+
+.opt {
+  object-position: top;
+}
+.opb {
+  object-position: bottom;
+}
+.opl {
+  object-position: left;
+}
+.opr {
+  object-position: right;
+}
+.opc {
+  object-position: center;
+}
+.oplb {
+  object-position: left bottom;
+}
+.oplt {
+  object-position: left top;
+}
+.oprb {
+  object-position: right bottom;
+}
+.oprt {
+  object-position: right top;
+}
+
+// box-shadow
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.shadow1 {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.shadow2 {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.shadow3 {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.shadow4 {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.shadow5 {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.shadow-none {
+  box-shadow: none;
+}
+
+// overscroll-behavior
+
+.oba {
+  overscroll-behavior: auto;
+}
+.obc {
+  overscroll-behavior: contain;
+}
+.obn {
+  overscroll-behavior: none;
+}
+.obya {
+  overscroll-behavior-y: auto;
+}
+.obyc {
+  overscroll-behavior-y: contain;
+}
+.obyn {
+  overscroll-behavior-y: none;
+}
+.obxa {
+  overscroll-behavior-x: auto;
+}
+.obxc {
+  overscroll-behavior-x: contain;
+}
+.obxn {
+  overscroll-behavior-x: none;
+}
+
+// transition
+
+.tpa {
+  transition-property: all;
+}
+$tdd: 100, 200, 300, 500, 600, 700;
+
+@each $n in $tdd {
+  .duration#{$n} {
+    transition-duration: $n + ms;
+  }
+  .detay#{$n} {
+    transition-delay: $n + ms;
+  }
+}
+
+// overlay
+
+$oopa: 2, 4, 6, 8;
+@each $n in $oopa {
+  .overlayopacity#{$n} {
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      opacity: #{"0."}#{$n};
+    }
+  }
+}
+
+// MISC
+
+.tla {
+  table-layout: auto;
+}
+.tlf {
+  table-layout: fixed;
+}
+.an {
+  appearance: none;
+}
+.outline0 {
+  outline: 0;
+}
+
+.cp {
+  cursor: pointer;
+}
+.cm {
+  cursor: move;
+}
+
+.wmtbrl {
+  writing-mode: tb-rl;
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // position
+    @each $n in $position {
+      .#{$size}\:#{$n} {
+        position: $n;
+      }
+    }
+
+    .#{$size}\:sticky {
+      position: sticky;
+      position: -webkit-sticky;
+    }
+
+    // letter-spacing
+
+    @each $n in $fsrem {
+      .#{$size}\:ls#{$n} {
+        letter-spacing: size($n);
+      }
+    }
+
+    // Text Transform
+    .#{$size}\:ttu {
+      text-transform: uppercase;
+    }
+    .#{$size}\:ttl {
+      text-transform: lowercase;
+    }
+    .#{$size}\:ttc {
+      text-transform: capitalize;
+    }
+
+    // text-decoration
+    .#{$size}\:tdu {
+      text-decoration: underline;
+    }
+    .#{$size}\:tdlt {
+      text-decoration: line-through;
+    }
+    .#{$size}\:tdn {
+      text-decoration: none;
+    }
+
+    // top-right-bottom-left
+
+    .#{$size}\:t0 {
+      top: 0;
+    }
+    .#{$size}\:r0 {
+      right: 0;
+    }
+    .#{$size}\:b0 {
+      bottom: 0;
+    }
+    .#{$size}\:l0 {
+      left: 0;
+    }
+    .#{$size}\:t50pct {
+      top: 50%;
+    }
+    .#{$size}\:l50pct {
+      left: 50%;
+    }
+
+    // line-height
+    .#{$size}\:lh0 {
+      line-height: 0;
+    }
+    .#{$size}\:lh1 {
+      line-height: 1;
+    }
+    .#{$size}\:lh2 {
+      line-height: 1.5;
+    }
+    .#{$size}\:lh3 {
+      line-height: 1.8;
+    }
+    .#{$size}\:lh4 {
+      line-height: 2;
+    }
+    .#{$size}\:lhn {
+      line-height: normal;
+    }
+
+    // Filters
+
+    .#{$size}\:fi1 {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+    }
+
+    // BORDERS
+
+    @each $n in $borderw {
+      .#{$size}\:bw#{$n} {
+        border-width: $n + px;
+      }
+    }
+
+    .#{$size}\:bt0 {
+      border-top: 0;
+    }
+    .#{$size}\:br0 {
+      border-right: 0;
+    }
+    .#{$size}\:bb0 {
+      border-bottom: 0;
+    }
+    .#{$size}\:bl0 {
+      border-left: 0;
+    }
+
+    .#{$size}\:btw1 {
+      border-top-width: 1px;
+    }
+    .#{$size}\:brw1 {
+      border-right-width: 1px;
+    }
+    .#{$size}\:bbw1 {
+      border-bottom-width: 1px;
+    }
+    .#{$size}\:blw1 {
+      border-left-width: 1px;
+    }
+
+    // border-style
+    .#{$size}\:bsn {
+      border-style: none;
+    }
+    .#{$size}\:bss {
+      border-style: solid;
+    }
+    .#{$size}\:bsdotted {
+      border-style: dotted;
+    }
+    .#{$size}\:bsdashed {
+      border-style: dashed;
+    }
+    .#{$size}\:bsdouble {
+      border-style: double;
+    }
+
+    .#{$size}\:bcc {
+      border-collapse: collapse;
+    }
+    .#{$size}\:bcs {
+      border-collapse: separate;
+    }
+
+    .#{$size}\:rounded0 {
+      border-radius: 0;
+    }
+    .#{$size}\:rounded {
+      border-radius: 0.25rem;
+    }
+
+    .#{$size}\:roundedt {
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+    .#{$size}\:roundedr {
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+    }
+
+    .#{$size}\:roundedb {
+      border-bottom-right-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+    .#{$size}\:roundedl {
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+
+    @each $n in $rounded {
+      .#{$size}\:rounded#{$n} {
+        border-radius: size($n);
+      }
+      .#{$size}\:roundedt#{$n} {
+        border-top-left-radius: size($n);
+        border-top-right-radius: size($n);
+      }
+      .#{$size}\:roundedr#{$n} {
+        border-top-right-radius: size($n);
+        border-bottom-right-radius: size($n);
+      }
+      .#{$size}\:roundedb#{$n} {
+        border-bottom-right-radius: size($n);
+        border-bottom-left-radius: size($n);
+      }
+      .#{$size}\:roundedl#{$n} {
+        border-top-left-radius: size($n);
+        border-bottom-left-radius: size($n);
+      }
+    }
+
+    .#{$size}\:roundedfull {
+      border-radius: 9999px;
+    }
+    .#{$size}\:circle {
+      border-radius: 100%;
+    }
+
+    // text-align
+
+    .#{$size}\:tal {
+      text-align: left;
+    }
+    .#{$size}\:tac {
+      text-align: center;
+    }
+    .#{$size}\:tar {
+      text-align: right;
+    }
+    .#{$size}\:taj {
+      text-align: justify;
+    }
+    .#{$size}\:talc {
+      text-align-last: center;
+    }
+    .#{$size}\:talr {
+      text-align-last: right;
+    }
+
+    // vertical-align
+
+    .#{$size}\:vabl {
+      vertical-align: baseline;
+    }
+    .#{$size}\:vat {
+      vertical-align: top;
+    }
+    .#{$size}\:vam {
+      vertical-align: middle;
+    }
+    .#{$size}\:vab {
+      vertical-align: bottom;
+    }
+    .#{$size}\:vatt {
+      vertical-align: text-top;
+    }
+    .#{$size}\:vatb {
+      vertical-align: text-bottom;
+    }
+
+    // white-space
+
+    .#{$size}\:wsn {
+      white-space: normal;
+    }
+    .#{$size}\:wsnw {
+      white-space: nowrap;
+    }
+    .#{$size}\:wsp {
+      white-space: pre;
+    }
+    .#{$size}\:wspl {
+      white-space: pre-line;
+    }
+    .#{$size}\:wspw {
+      white-space: pre-wrap;
+    }
+
+    // Word Break
+    .#{$size}\:wbn {
+      word-break: normal;
+      overflow-wrap: normal;
+    }
+    .#{$size}\:owbw {
+      overflow-wrap: break-word;
+    }
+    .#{$size}\:wbba {
+      word-break: break-all;
+    }
+    .#{$size}\:truncate {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    // OPACITY
+    $opa: 0;
+    @while $opa <= 1 {
+      .#{$size}\:opacity#{round($opa*100)} {
+        opacity: $opa;
+      }
+      $opa: $opa + 0.1;
+    }
+
+    .#{$size}\:hover\:opacity1 {
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    // FOCUS
+
+    .#{$size}\:focus\:none {
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    // FLOAT
+
+    .#{$size}\:fr {
+      float: right;
+    }
+    .#{$size}\:fl {
+      float: left;
+    }
+    .#{$size}\:fn {
+      float: none;
+    }
+    .#{$size}\:clr {
+      &:after {
+        content: "";
+        width: 100%;
+        clear: both;
+      }
+    }
+
+    // visibility
+
+    .#{$size}\:vv {
+      visibility: visible;
+    }
+    .#{$size}\:vh {
+      visibility: hidden;
+    }
+
+    // LIST STYLE
+    .#{$size}\:lsn {
+      list-style: none;
+    }
+    .#{$size}\:lsd {
+      list-style: disc;
+    }
+    .#{$size}\:lstd {
+      list-style-type: decimal;
+    }
+
+    // FOR SVG
+
+    .#{$size}\:fc {
+      fill: currentColor;
+    }
+    .#{$size}\:sc {
+      stroke: currentColor;
+    }
+
+    // object-fit
+
+    @each $n in $object {
+      .#{$size}\:of#{$n} {
+        object-fit: $n;
+      }
+    }
+
+    // transform translate
+
+    @each $n in $transform {
+      .#{$size}\:ttx#{$n} {
+        transform: translateX(#{$n + "%"});
+      }
+      .#{$size}\:ttx-#{$n} {
+        transform: translateX(-#{$n + "%"});
+      }
+      .#{$size}\:tty#{$n} {
+        transform: translateY(#{$n + "%"});
+      }
+      .#{$size}\:tty-#{$n} {
+        transform: translateY(-#{$n + "%"});
+      }
+    }
+
+    // transform rotate
+
+    @each $n in $rotate {
+      .#{$size}\:tr#{$n} {
+        transform: rotate(#{$n + "deg"});
+      }
+      .#{$size}\:tr-#{$n} {
+        transform: rotate(-#{$n + "deg"});
+      }
+    }
+
+    // transform scale
+
+    .#{$size}\:tsn {
+      transform: scale(1);
+    }
+
+    @each $n in $scale {
+      .#{$size}\:tr#{$n} {
+        transform: scale(#{"1."}#{$n});
+      }
+    }
+
+    @each $n in $scale0 {
+      .#{$size}\:tr0#{$n} {
+        transform: scale(#{"0."}#{$n});
+      }
+    }
+
+    // transform-origin
+
+    .#{$size}\:toc {
+      transform-origin: center;
+    }
+    .#{$size}\:tot {
+      transform-origin: top;
+    }
+    .#{$size}\:totr {
+      transform-origin: top right;
+    }
+    .#{$size}\:tor {
+      transform-origin: right;
+    }
+    .#{$size}\:tobr {
+      transform-origin: bottom right;
+    }
+    .#{$size}\:tob {
+      transform-origin: bottom;
+    }
+    .#{$size}\:tobl {
+      transform-origin: bottom left;
+    }
+    .#{$size}\:tol {
+      transform-origin: left;
+    }
+    .#{$size}\:totl {
+      transform-origin: top left;
+    }
+
+    // background
+
+    .#{$size}\:bgn {
+      background: none;
+    }
+    .#{$size}\:bgct {
+      background-color: transparent;
+    }
+    .#{$size}\:bgaf {
+      background-attachment: fixed;
+    }
+    .#{$size}\:bgal {
+      background-attachment: local;
+    }
+    .#{$size}\:bgas {
+      background-attachment: scroll;
+    }
+
+    .#{$size}\:bgpt {
+      background-position: top;
+    }
+    .#{$size}\:bgpb {
+      background-position: bottom;
+    }
+    .#{$size}\:bgpc {
+      background-position: center;
+    }
+    .#{$size}\:bgpl {
+      background-position: left;
+    }
+    .#{$size}\:bgpr {
+      background-position: right;
+    }
+    .#{$size}\:bgplb {
+      background-position: left bottom;
+    }
+    .#{$size}\:bgplt {
+      background-position: left top;
+    }
+    .#{$size}\:bgprt {
+      background-position: right top;
+    }
+    .#{$size}\:bgprb {
+      background-position: right bottom;
+    }
+    .#{$size}\:bgrr {
+      background-repeat: repeat;
+    }
+    .#{$size}\:bgrnr {
+      background-repeat: no-repeat;
+    }
+    .#{$size}\:bgrrx {
+      background-repeat: repeat-x;
+    }
+    .#{$size}\:bgrry {
+      background-repeat: repeat-y;
+    }
+    .#{$size}\:bgs-cover {
+      background-size: cover;
+    }
+    .#{$size}\:bgs-contain {
+      background-size: contain;
+    }
+    .#{$size}\:bgs-auto {
+      background-size: auto;
+    }
+
+    // overflow
+
+    .#{$size}\:oa {
+      overflow: auto;
+    }
+    .#{$size}\:oh {
+      overflow: hidden;
+    }
+    .#{$size}\:ov {
+      overflow: visible;
+    }
+    .#{$size}\:os {
+      overflow: scroll;
+    }
+    .#{$size}\:oxa {
+      overflow-x: auto;
+    }
+    .#{$size}\:oya {
+      overflow-y: auto;
+    }
+    .#{$size}\:oxh {
+      overflow-x: hidden;
+    }
+    .#{$size}\:oyh {
+      overflow-y: hidden;
+    }
+    .#{$size}\:oxv {
+      overflow-x: visible;
+    }
+    .#{$size}\:oyv {
+      overflow-y: visible;
+    }
+    .#{$size}\:oxs {
+      overflow-x: scroll;
+    }
+    .#{$size}\:oys {
+      overflow-y: scroll;
+    }
+
+    // z-index
+
+    .#{$size}\:zi-1 {
+      z-index: -1;
+    }
+    .#{$size}\:zia {
+      z-index: auto;
+    }
+    .#{$size}\:ziover {
+      z-index: 9999;
+    }
+
+    @each $n in $index {
+      .#{$size}\:zi#{$n} {
+        z-index: $n;
+      }
+    }
+
+    // object-position
+
+    .#{$size}\:opt {
+      object-position: top;
+    }
+    .#{$size}\:opb {
+      object-position: bottom;
+    }
+    .#{$size}\:opl {
+      object-position: left;
+    }
+    .#{$size}\:opr {
+      object-position: right;
+    }
+    .#{$size}\:opc {
+      object-position: center;
+    }
+    .#{$size}\:oplb {
+      object-position: left bottom;
+    }
+    .#{$size}\:oplt {
+      object-position: left top;
+    }
+    .#{$size}\:oprb {
+      object-position: right bottom;
+    }
+    .#{$size}\:oprt {
+      object-position: right top;
+    }
+
+    // box-shadow
+
+    .#{$size}\:shadow {
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+    .#{$size}\:shadow1 {
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    }
+    .#{$size}\:shadow2 {
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    .#{$size}\:shadow3 {
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .#{$size}\:shadow4 {
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .#{$size}\:shadow5 {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .#{$size}\:shadow-none {
+      box-shadow: none;
+    }
+
+    // overscroll-behavior
+
+    .#{$size}\:oba {
+      overscroll-behavior: auto;
+    }
+    .#{$size}\:obc {
+      overscroll-behavior: contain;
+    }
+    .#{$size}\:obn {
+      overscroll-behavior: none;
+    }
+    .#{$size}\:obya {
+      overscroll-behavior-y: auto;
+    }
+    .#{$size}\:obyc {
+      overscroll-behavior-y: contain;
+    }
+    .#{$size}\:obyn {
+      overscroll-behavior-y: none;
+    }
+    .#{$size}\:obxa {
+      overscroll-behavior-x: auto;
+    }
+    .#{$size}\:obxc {
+      overscroll-behavior-x: contain;
+    }
+    .#{$size}\:obxn {
+      overscroll-behavior-x: none;
+    }
+
+    // transition
+
+    .#{$size}\:tpa {
+      transition-property: all;
+    }
+
+    @each $n in $tdd {
+      .#{$size}\:duration#{$n} {
+        transition-duration: $n + ms;
+      }
+      .#{$size}\:detay#{$n} {
+        transition-delay: $n + ms;
+      }
+    }
+
+    // MISC
+
+    .#{$size}\:tla {
+      table-layout: auto;
+    }
+    .#{$size}\:tlf {
+      table-layout: fixed;
+    }
+    .#{$size}\:an {
+      appearance: none;
+    }
+    .#{$size}\:outline0 {
+      outline: 0;
+    }
+
+    .#{$size}\:cp {
+      cursor: pointer;
+    }
+    .#{$size}\:cm {
+      cursor: move;
+    }
+    .#{$size}\:.wmtbrl {
+      writing-mode: tb-rl;
+    }
+
+    //
+  }
+}
+
+@import "_breakpoint";

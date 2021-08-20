@@ -1,0 +1,57 @@
+.lstyle {
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    td,
+    th {
+      padding: 6px 13px;
+      border: 1px solid #dfe2e5;
+    }
+    th {
+      text-align: left;
+    }
+    tr {
+      &:nth-child(even) {
+        background-color: #f6f8fa;
+      }
+    }
+  }
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+.marquee {
+  animation: marquee 50s linear infinite;
+  display: inline-block;
+}
+
+.hover\:apsp {
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.taj-p {
+  p {
+    text-align: justify;
+  }
+}
+
+ol,
+ul {
+  &.reset {
+    padding-left: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+}

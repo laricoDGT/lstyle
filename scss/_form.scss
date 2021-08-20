@@ -1,0 +1,55 @@
+form {
+  &.lstyle {
+    input:not([type="checkbox"]):not([type="color"]):not([type="radio"]):not([type="submit"]):not([type="reset"]),
+    select,
+    textarea {
+      width: 100%;
+      border: solid 1px #d7d7d7;
+      padding: 12px;
+    }
+
+    input,
+    select,
+    button,
+    textarea {
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      transform: scale(1.5);
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    input[type="text"],
+    input[type="button"],
+    input[type="submit"],
+    button,
+    textarea {
+      appearance: none;
+      border-radius: 0;
+    }
+
+    textarea {
+      max-height: 150px;
+    }
+
+    input[type="button"],
+    input[type="submit"],
+    button {
+      background-color: var(--primary-color, $primary-color);
+      color: #fff;
+      padding: 12px 50px;
+      border: 0;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: var(--secondary-color, $secondary-color);
+      }
+    }
+  }
+}

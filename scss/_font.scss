@@ -1,0 +1,145 @@
+// FONT SIZE
+
+// PX to REM
+$base-size: 16;
+$fsrem: 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72, 96, 128;
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $fsrem {
+  .fs#{$n} {
+    font-size: size($n);
+  }
+}
+.fsi {
+  font-size: inherit;
+}
+
+// Font Family
+.ffi {
+  font-family: inherit;
+}
+
+.secondary-font {
+  font-family: var(--secondary-font);
+}
+.tertiary-font {
+  font-family: var(--tertiary-font);
+}
+
+// - VW
+$fsvw: 1vw, 2vw, 3vw, 4vw, 5vw, 6vw, 7vw, 8vw, 9vw, 10vw, 11vw, 12vw;
+@each $n in $fsvw {
+  .fs#{$n} {
+    font-size: $n;
+  }
+}
+
+// ================================================ //
+// font-style
+// ================================================ //
+
+$fstyle: normal, italic, oblique;
+@each $n in $fstyle {
+  .fs#{$n} {
+    font-style: $n;
+  }
+}
+
+// ================================================ //
+// font-variant
+// ================================================ //
+
+$fvariant: normal, small-caps;
+@each $n in $fvariant {
+  .fv#{$n} {
+    font-variant: $n;
+  }
+}
+
+// ================================================ //
+// font-weight
+// ================================================ //
+
+$fweight: 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold;
+@each $n in $fweight {
+  .fw#{$n} {
+    font-weight: $n;
+  }
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // #{$size}, #{$i},  #{$breakpoint-columns}
+
+    // FONT SIZE
+
+    @each $n in $fsrem {
+      .#{$size}\:fs#{$n} {
+        font-size: size($n);
+      }
+    }
+
+    @each $n in $fsvw {
+      .#{$size}\:fs#{$n} {
+        font-size: $n;
+      }
+    }
+
+    .#{$size}\:fsi {
+      font-size: inherit;
+    }
+
+    // Font Family
+    .#{$size}\:ffi {
+      font-family: inherit;
+    }
+
+    .#{$size}\:secondary-font {
+      font-family: var(--secondary-font);
+    }
+    .#{$size}\:tertiary-font {
+      font-family: var(--tertiary-font);
+    }
+
+    // ================================================ //
+    // font-style
+    // ================================================ //
+
+    @each $n in $fstyle {
+      .#{$size}\:fs#{$n} {
+        font-style: $n;
+      }
+    }
+
+    // ================================================ //
+    // font-variant
+    // ================================================ //
+
+    @each $n in $fvariant {
+      .#{$size}\:fv#{$n} {
+        font-variant: $n;
+      }
+    }
+
+    // ================================================ //
+    // font-weight
+    // ================================================ //
+
+    @each $n in $fweight {
+      .#{$size}\:fw#{$n} {
+        font-weight: $n;
+      }
+    }
+
+    // OTHER
+  }
+}
+
+@import "_breakpoint";

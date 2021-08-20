@@ -1,0 +1,329 @@
+// MARGIN
+// PX to REM
+$base-size: 16;
+$fsrem: 8, 16, 24, 32, 40, 48, 56, 64;
+
+.m0 {
+  margin: 0;
+}
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $fsrem {
+  .m#{$n} {
+    margin: size($n);
+  }
+
+  .m-#{$n} {
+    margin: size(-$n);
+  }
+
+  .my#{$n} {
+    margin-top: size($n);
+    margin-bottom: size($n);
+  }
+
+  .my-#{$n} {
+    margin-top: size(-$n);
+    margin-bottom: size(-$n);
+  }
+
+  .mx#{$n} {
+    margin-left: size($n);
+    margin-right: size($n);
+  }
+
+  .mx-#{$n} {
+    margin-left: size(-$n);
+    margin-right: size(-$n);
+  }
+
+  .mt#{$n} {
+    margin-top: size($n);
+  }
+
+  .mt-#{$n} {
+    margin-top: size(-$n);
+  }
+
+  .mr#{$n} {
+    margin-right: size($n);
+  }
+
+  .mr-#{$n} {
+    margin-right: size(-$n);
+  }
+
+  .mb#{$n} {
+    margin-bottom: size($n);
+  }
+
+  .mb-#{$n} {
+    margin-bottom: size(-$n);
+  }
+
+  .ml#{$n} {
+    margin-left: size($n);
+  }
+
+  .ml-#{$n} {
+    margin-left: size(-$n);
+  }
+}
+.mxa {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mya {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mla {
+  margin-left: auto;
+}
+.mra {
+  margin-right: auto;
+}
+.ma {
+  margin: auto;
+}
+
+// PADDING
+
+.p0 {
+  padding: 0;
+}
+
+@each $n in $fsrem {
+  .p#{$n} {
+    padding: size($n);
+  }
+
+  .py#{$n} {
+    padding-top: size($n);
+    padding-bottom: size($n);
+  }
+
+  .px#{$n} {
+    padding-left: size($n);
+    padding-right: size($n);
+  }
+
+  .pt#{$n} {
+    padding-top: size($n);
+  }
+
+  .pr#{$n} {
+    padding-right: size($n);
+  }
+
+  .pb#{$n} {
+    padding-bottom: size($n);
+  }
+
+  .pl#{$n} {
+    padding-left: size($n);
+  }
+}
+
+.pxa {
+  padding-left: auto;
+  padding-right: auto;
+}
+.pya {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.pla {
+  padding-left: auto;
+}
+.pra {
+  padding-right: auto;
+}
+.pa {
+  padding: auto;
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MARGIN
+    .#{$size}\:m0 {
+      margin: 0;
+    }
+    @each $n in $fsrem {
+      .#{$size}\:m#{$n} {
+        margin: size($n);
+      }
+
+      .#{$size}\:m-#{$n} {
+        margin: size(-$n);
+      }
+
+      .#{$size}\:my#{$n} {
+        margin-top: size($n);
+        margin-bottom: size($n);
+      }
+
+      .#{$size}\:my-#{$n} {
+        margin-top: size(-$n);
+        margin-bottom: size(-$n);
+      }
+
+      .#{$size}\:mx#{$n} {
+        margin-left: size($n);
+        margin-right: size($n);
+      }
+
+      .#{$size}\:mx-#{$n} {
+        margin-left: size(-$n);
+        margin-right: size(-$n);
+      }
+
+      .#{$size}\:mt#{$n} {
+        margin-top: size($n);
+      }
+
+      .#{$size}\:mt-#{$n} {
+        margin-top: size(-$n);
+      }
+
+      .#{$size}\:mr#{$n} {
+        margin-right: size($n);
+      }
+
+      .#{$size}\:mr-#{$n} {
+        margin-right: size(-$n);
+      }
+
+      .#{$size}\:mb#{$n} {
+        margin-bottom: size($n);
+      }
+
+      .#{$size}\:mb-#{$n} {
+        margin-bottom: size(-$n);
+      }
+
+      .#{$size}\:ml#{$n} {
+        margin-left: size($n);
+      }
+
+      .#{$size}\:ml-#{$n} {
+        margin-left: size(-$n);
+      }
+    }
+
+    .#{$size}\:mxa {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .#{$size}\:mya {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .#{$size}\:mla {
+      margin-left: auto;
+    }
+    .#{$size}\:mra {
+      margin-right: auto;
+    }
+    .#{$size}\:ma {
+      margin: auto;
+    }
+
+    // PADDING
+
+    .#{$size}\:p0 {
+      padding: 0;
+    }
+
+    @each $n in $fsrem {
+      .#{$size}\:p#{$n} {
+        padding: size($n);
+      }
+
+      .#{$size}\:p-#{$n} {
+        padding: size(-$n);
+      }
+
+      .#{$size}\:py#{$n} {
+        padding-top: size($n);
+        padding-bottom: size($n);
+      }
+
+      .#{$size}\:py-#{$n} {
+        padding-top: size(-$n);
+        padding-bottom: size(-$n);
+      }
+
+      .#{$size}\:px#{$n} {
+        padding-left: size($n);
+        padding-right: size($n);
+      }
+
+      .#{$size}\:px-#{$n} {
+        padding-left: size(-$n);
+        padding-right: size(-$n);
+      }
+
+      .#{$size}\:pt#{$n} {
+        padding-top: size($n);
+      }
+
+      .#{$size}\:pt-#{$n} {
+        padding-top: size(-$n);
+      }
+
+      .#{$size}\:pr#{$n} {
+        padding-right: size($n);
+      }
+
+      .#{$size}\:pr-#{$n} {
+        padding-right: size(-$n);
+      }
+
+      .#{$size}\:pb#{$n} {
+        padding-bottom: size($n);
+      }
+
+      .#{$size}\:pb-#{$n} {
+        padding-bottom: size(-$n);
+      }
+
+      .#{$size}\:pl#{$n} {
+        padding-left: size($n);
+      }
+
+      .#{$size}\:pl-#{$n} {
+        padding-left: size(-$n);
+      }
+    }
+
+    .#{$size}\:pxa {
+      padding-left: auto;
+      padding-right: auto;
+    }
+    .#{$size}\:pya {
+      padding-top: auto;
+      padding-bottom: auto;
+    }
+    .#{$size}\:pla {
+      padding-left: auto;
+    }
+    .#{$size}\:pra {
+      padding-right: auto;
+    }
+    .#{$size}\:pa {
+      padding: auto;
+    }
+
+    // OTHER
+  }
+}
+
+@import "_breakpoint";
