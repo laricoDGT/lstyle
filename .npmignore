@@ -20,6 +20,8 @@
 *.pem
 .vscode
 .eslintrc
+logo.png
+logo.psd
 
 # debug
 npm-debug.log*
