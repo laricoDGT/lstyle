@@ -1,20 +1,47 @@
 /* purgecss start ignore */
-*,
-:after,
-:before {
-  box-sizing: border-box;
-}
-:root {
-  --primary-font: "";
-}
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-font: '';
+}
+
 body {
   margin: 0;
-  font-family: var(--primary-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu;
+  font-family: var(--primary-font), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Ubuntu;
 
   line-height: var(--line-height, 1.5);
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
 }
 
 h1,
@@ -27,6 +54,17 @@ h6 {
 }
 img {
   max-width: 100%;
+}
+
+[tabindex='-1'] {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+noscript {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* purgecss end ignore */
