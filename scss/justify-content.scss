@@ -1,0 +1,45 @@
+// Justify Content
+.jcfs {
+  justify-content: flex-start;
+}
+.jcc {
+  justify-content: center;
+}
+.jcfe {
+  justify-content: flex-end;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.jcse {
+  justify-content: space-evenly;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Justify Content
+    .#{$size}\:jcfs {
+      justify-content: flex-start;
+    }
+    .#{$size}\:jcc {
+      justify-content: center;
+    }
+    .#{$size}\:jcfe {
+      justify-content: flex-end;
+    }
+    .#{$size}\:jcsb {
+      justify-content: space-between;
+    }
+    .#{$size}\:jcsa {
+      justify-content: space-around;
+    }
+    .#{$size}\:jcse {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@import 'breakpoint';

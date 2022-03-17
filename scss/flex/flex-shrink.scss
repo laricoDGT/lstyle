@@ -1,0 +1,21 @@
+// Flex Shrink
+.fs1 {
+  flex-shrink: 1;
+}
+.fs0 {
+  flex-shrink: 0;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Flex Shrink
+    .#{$size}\:fs1 {
+      flex-shrink: 1;
+    }
+    .#{$size}\:fs0 {
+      flex-shrink: 0;
+    }
+  }
+}
+
+@import '../breakpoint';

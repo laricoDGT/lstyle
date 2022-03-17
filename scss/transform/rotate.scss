@@ -1,0 +1,10 @@
+@import '../config';
+
+@each $n in $rotate {
+  .tr#{$n} {
+    transform: rotate(#{$n + 'deg'});
+  }
+  .tr-#{$n} {
+    transform: rotate(-#{$n + 'deg'});
+  }
+}

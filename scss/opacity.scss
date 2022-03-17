@@ -1,0 +1,16 @@
+// OPACITY
+
+$opa: 0;
+@while $opa <= 1 {
+  $opa: $opa + 0.1;
+
+  .opacity#{round($opa*100)} {
+    opacity: $opa;
+  }
+
+  .hover\:opacity1 {
+    &:hover {
+      opacity: $opa;
+    }
+  }
+}

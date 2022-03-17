@@ -1,0 +1,49 @@
+// PX to REM
+$base-size: 16;
+$grem: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48;
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $grem {
+  .g#{$n} {
+    gap: size($n);
+  }
+}
+
+@each $n in $grem {
+  .rg#{$n} {
+    row-gap: size($n);
+  }
+}
+
+@each $n in $grem {
+  .cg#{$n} {
+    column-gap: size($n);
+  }
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $grem {
+      .#{$size}\:g#{$n} {
+        gap: size($n);
+      }
+    }
+
+    @each $n in $grem {
+      .#{$size}\:rg#{$n} {
+        row-gap: size($n);
+      }
+    }
+
+    @each $n in $grem {
+      .#{$size}\:cg#{$n} {
+        column-gap: size($n);
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

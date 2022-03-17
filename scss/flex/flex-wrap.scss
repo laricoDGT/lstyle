@@ -1,0 +1,27 @@
+// Flex Wrap
+.fww {
+  flex-wrap: wrap;
+}
+.fwn {
+  flex-wrap: nowrap;
+}
+.fwwr {
+  flex-wrap: wrap-reverse;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Flex Wrap
+    .#{$size}\:fww {
+      flex-wrap: wrap;
+    }
+    .#{$size}\:fwn {
+      flex-wrap: nowrap;
+    }
+    .#{$size}\:fwwr {
+      flex-wrap: wrap-reverse;
+    }
+  }
+}
+
+@import '../breakpoint';

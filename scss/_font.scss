@@ -1,4 +1,6 @@
-// FONT SIZE
+/***************/
+/* font size */
+/***************/
 
 // PX to REM
 $base-size: 16;
@@ -17,7 +19,17 @@ $fsrem: 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72, 96, 128;
   font-size: inherit;
 }
 
-// Font Family
+// - VW
+$fsvw: 1vw, 2vw, 3vw, 4vw, 5vw, 6vw, 7vw, 8vw, 9vw, 10vw, 11vw, 12vw;
+@each $n in $fsvw {
+  .fs#{$n} {
+    font-size: $n;
+  }
+}
+
+/***************/
+/* font family */
+/***************/
 .ffi {
   font-family: inherit;
 }
@@ -29,17 +41,9 @@ $fsrem: 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72, 96, 128;
   font-family: var(--tertiary-font);
 }
 
-// - VW
-$fsvw: 1vw, 2vw, 3vw, 4vw, 5vw, 6vw, 7vw, 8vw, 9vw, 10vw, 11vw, 12vw;
-@each $n in $fsvw {
-  .fs#{$n} {
-    font-size: $n;
-  }
-}
-
-// ================================================ //
-// font-style
-// ================================================ //
+/***************/
+/* font style */
+/***************/
 
 $fstyle: normal, italic, oblique;
 @each $n in $fstyle {
@@ -48,9 +52,9 @@ $fstyle: normal, italic, oblique;
   }
 }
 
-// ================================================ //
-// font-variant
-// ================================================ //
+/****************/
+/* font variant */
+/****************/
 
 $fvariant: normal, small-caps;
 @each $n in $fvariant {
@@ -59,9 +63,9 @@ $fvariant: normal, small-caps;
   }
 }
 
-// ================================================ //
-// font-weight
-// ================================================ //
+/***************/
+/* font weight */
+/***************/
 
 $fweight: 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold;
 @each $n in $fweight {

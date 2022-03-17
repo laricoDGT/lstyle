@@ -1,0 +1,207 @@
+// MARGIN
+// PX to REM
+$base-size: 16;
+$fsrem: 8, 16, 24, 32, 40, 48, 56, 64;
+
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+.mr0 {
+  margin-right: 0;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.ml0 {
+  margin-left: 0;
+}
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $fsrem {
+  .m#{$n} {
+    margin: size($n);
+  }
+
+  .m-#{$n} {
+    margin: size(-$n);
+  }
+
+  .my#{$n} {
+    margin-top: size($n);
+    margin-bottom: size($n);
+  }
+
+  .my-#{$n} {
+    margin-top: size(-$n);
+    margin-bottom: size(-$n);
+  }
+
+  .mx#{$n} {
+    margin-left: size($n);
+    margin-right: size($n);
+  }
+
+  .mx-#{$n} {
+    margin-left: size(-$n);
+    margin-right: size(-$n);
+  }
+
+  .mt#{$n} {
+    margin-top: size($n);
+  }
+
+  .mt-#{$n} {
+    margin-top: size(-$n);
+  }
+
+  .mr#{$n} {
+    margin-right: size($n);
+  }
+
+  .mr-#{$n} {
+    margin-right: size(-$n);
+  }
+
+  .mb#{$n} {
+    margin-bottom: size($n);
+  }
+
+  .mb-#{$n} {
+    margin-bottom: size(-$n);
+  }
+
+  .ml#{$n} {
+    margin-left: size($n);
+  }
+
+  .ml-#{$n} {
+    margin-left: size(-$n);
+  }
+}
+.mxa {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mya {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mla {
+  margin-left: auto;
+}
+.mra {
+  margin-right: auto;
+}
+.ma {
+  margin: auto;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MARGIN
+    .#{$size}\:m0 {
+      margin: 0;
+    }
+    .#{$size}\:mt0 {
+      margin-top: 0;
+    }
+    .#{$size}\:mr0 {
+      margin-right: 0;
+    }
+    .#{$size}\:mb0 {
+      margin-bottom: 0;
+    }
+    .#{$size}\:ml0 {
+      margin-left: 0;
+    }
+
+    @each $n in $fsrem {
+      .#{$size}\:m#{$n} {
+        margin: size($n);
+      }
+
+      .#{$size}\:m-#{$n} {
+        margin: size(-$n);
+      }
+
+      .#{$size}\:my#{$n} {
+        margin-top: size($n);
+        margin-bottom: size($n);
+      }
+
+      .#{$size}\:my-#{$n} {
+        margin-top: size(-$n);
+        margin-bottom: size(-$n);
+      }
+
+      .#{$size}\:mx#{$n} {
+        margin-left: size($n);
+        margin-right: size($n);
+      }
+
+      .#{$size}\:mx-#{$n} {
+        margin-left: size(-$n);
+        margin-right: size(-$n);
+      }
+
+      .#{$size}\:mt#{$n} {
+        margin-top: size($n);
+      }
+
+      .#{$size}\:mt-#{$n} {
+        margin-top: size(-$n);
+      }
+
+      .#{$size}\:mr#{$n} {
+        margin-right: size($n);
+      }
+
+      .#{$size}\:mr-#{$n} {
+        margin-right: size(-$n);
+      }
+
+      .#{$size}\:mb#{$n} {
+        margin-bottom: size($n);
+      }
+
+      .#{$size}\:mb-#{$n} {
+        margin-bottom: size(-$n);
+      }
+
+      .#{$size}\:ml#{$n} {
+        margin-left: size($n);
+      }
+
+      .#{$size}\:ml-#{$n} {
+        margin-left: size(-$n);
+      }
+    }
+
+    .#{$size}\:mxa {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .#{$size}\:mya {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .#{$size}\:mla {
+      margin-left: auto;
+    }
+    .#{$size}\:mra {
+      margin-right: auto;
+    }
+    .#{$size}\:ma {
+      margin: auto;
+    }
+  }
+}
+
+@import '../breakpoint';

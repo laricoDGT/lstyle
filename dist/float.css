@@ -1,0 +1,17 @@
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.fn {
+  float: none;
+}
+
+.clr:after {
+  content: '';
+  width: 100%;
+  clear: both;
+}

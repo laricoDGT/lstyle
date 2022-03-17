@@ -1,0 +1,30 @@
+/***************/
+/* font weight */
+/***************/
+
+$fweight: 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold;
+@each $n in $fweight {
+  .fw#{$n} {
+    font-weight: $n;
+  }
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // ================================================ //
+    // font-weight
+    // ================================================ //
+
+    @each $n in $fweight {
+      .#{$size}\:fw#{$n} {
+        font-weight: $n;
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

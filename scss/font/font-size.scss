@@ -1,0 +1,58 @@
+/***************/
+/* font size */
+/***************/
+
+// PX to REM
+$base-size: 16;
+$fsrem: 12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72, 96, 128;
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $fsrem {
+  .fs#{$n} {
+    font-size: size($n);
+  }
+}
+.fsi {
+  font-size: inherit;
+}
+
+// - VW
+$fsvw: 1vw, 2vw, 3vw, 4vw, 5vw, 6vw, 7vw, 8vw, 9vw, 10vw, 11vw, 12vw;
+@each $n in $fsvw {
+  .fs#{$n} {
+    font-size: $n;
+  }
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // #{$size}, #{$i},  #{$breakpoint-columns}
+
+    // FONT SIZE
+
+    @each $n in $fsrem {
+      .#{$size}\:fs#{$n} {
+        font-size: size($n);
+      }
+    }
+
+    @each $n in $fsvw {
+      .#{$size}\:fs#{$n} {
+        font-size: $n;
+      }
+    }
+
+    .#{$size}\:fsi {
+      font-size: inherit;
+    }
+  }
+}
+
+@import '../breakpoint';

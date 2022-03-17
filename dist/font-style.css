@@ -1,0 +1,74 @@
+/***************/
+/* font style */
+/***************/
+.fsnormal {
+  font-style: normal;
+}
+
+.fsitalic {
+  font-style: italic;
+}
+
+.fsoblique {
+  font-style: oblique;
+}
+
+@media (min-width: 640px) {
+  .sm\:fsnormal {
+    font-style: normal;
+  }
+  .sm\:fsitalic {
+    font-style: italic;
+  }
+  .sm\:fsoblique {
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:fsnormal {
+    font-style: normal;
+  }
+  .md\:fsitalic {
+    font-style: italic;
+  }
+  .md\:fsoblique {
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:fsnormal {
+    font-style: normal;
+  }
+  .lg\:fsitalic {
+    font-style: italic;
+  }
+  .lg\:fsoblique {
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:fsnormal {
+    font-style: normal;
+  }
+  .xl\:fsitalic {
+    font-style: italic;
+  }
+  .xl\:fsoblique {
+    font-style: oblique;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:fsnormal {
+    font-style: normal;
+  }
+  .xxl\:fsitalic {
+    font-style: italic;
+  }
+  .xxl\:fsoblique {
+    font-style: oblique;
+  }
+}

@@ -1,0 +1,35 @@
+// Flex
+
+.f01a {
+  flex: 0 1 auto;
+}
+.f110 {
+  flex: 1 1 0%;
+}
+.f11a {
+  flex: 1 1 auto;
+}
+.fn {
+  flex: none;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Flex
+
+    .#{$size}\:f01a {
+      flex: 0 1 auto;
+    }
+    .#{$size}\:f110 {
+      flex: 1 1 0%;
+    }
+    .#{$size}\:f11a {
+      flex: 1 1 auto;
+    }
+    .#{$size}\:fn {
+      flex: none;
+    }
+  }
+}
+
+@import '../breakpoint';

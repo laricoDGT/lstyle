@@ -1,0 +1,33 @@
+// FLEX DIRECTION
+.fdr {
+  flex-direction: row;
+}
+.fdrr {
+  flex-direction: row-reverse;
+}
+.fdc {
+  flex-direction: column;
+}
+.fdcr {
+  flex-direction: column-reverse;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // FLEX DIRECTION
+    .#{$size}\:fdr {
+      flex-direction: row;
+    }
+    .#{$size}\:fdrr {
+      flex-direction: row-reverse;
+    }
+    .#{$size}\:fdc {
+      flex-direction: column;
+    }
+    .#{$size}\:fdcr {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@import '../breakpoint';

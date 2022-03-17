@@ -1,0 +1,27 @@
+// MAX HEIGHT
+.maxh0 {
+  max-height: 0px;
+}
+.maxhfull {
+  max-height: 100%;
+}
+.maxhfullvh {
+  max-height: 100vh;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MAX HEIGHT
+    .#{$size}\:maxh0 {
+      max-height: 0px;
+    }
+    .#{$size}\:maxhfull {
+      max-height: 100%;
+    }
+    .#{$size}\:maxhfullvh {
+      max-height: 100vh;
+    }
+  }
+}
+
+@import '../breakpoint';

@@ -1,0 +1,11 @@
+// position
+$position: relative, absolute, fixed, static;
+@each $n in $position {
+  .#{$n} {
+    position: $n;
+  }
+}
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+}

@@ -1,0 +1,38 @@
+@import '../config';
+
+.bt0 {
+  border-top: 0;
+}
+.br0 {
+  border-right: 0;
+}
+.bb0 {
+  border-bottom: 0;
+}
+.bl0 {
+  border-left: 0;
+}
+
+@each $n in $border-width {
+  .btw#{$n} {
+    border-top-width: $n + px;
+  }
+}
+
+@each $n in $border-width {
+  .brw#{$n} {
+    border-right-width: $n + px;
+  }
+}
+
+@each $n in $border-width {
+  .bbw#{$n} {
+    border-bottom-width: $n + px;
+  }
+}
+
+@each $n in $border-width {
+  .blw#{$n} {
+    border-left-width: $n + px;
+  }
+}

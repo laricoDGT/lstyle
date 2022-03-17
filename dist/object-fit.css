@@ -1,0 +1,15 @@
+.ofcontain {
+  object-fit: contain;
+}
+
+.ofcover {
+  object-fit: cover;
+}
+
+.offill {
+  object-fit: fill;
+}
+
+.ofnone {
+  object-fit: none;
+}

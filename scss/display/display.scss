@@ -1,0 +1,59 @@
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.dib {
+  display: inline-block;
+}
+.dt {
+  display: table;
+}
+.di {
+  display: inherit;
+}
+.df {
+  display: flex;
+}
+.dif {
+  display: inline-flex;
+}
+.dg {
+  display: grid;
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:dn {
+      display: none;
+    }
+    .#{$size}\:db {
+      display: block;
+    }
+    .#{$size}\:dib {
+      display: inline-block;
+    }
+    .#{$size}\:dt {
+      display: table;
+    }
+    .#{$size}\:di {
+      display: inherit;
+    }
+    .#{$size}\:df {
+      display: flex;
+    }
+    .#{$size}\:dif {
+      display: inline-flex;
+    }
+    .#{$size}\:dg {
+      display: grid;
+    }
+  }
+}
+
+@import '../breakpoint';

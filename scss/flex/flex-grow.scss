@@ -1,0 +1,23 @@
+// Flex Grow
+
+.fg1 {
+  flex-grow: 1;
+}
+.fg0 {
+  flex-grow: 0;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Flex Grow
+
+    .#{$size}\:fg1 {
+      flex-grow: 1;
+    }
+    .#{$size}\:fg0 {
+      flex-grow: 0;
+    }
+  }
+}
+
+@import '../breakpoint';

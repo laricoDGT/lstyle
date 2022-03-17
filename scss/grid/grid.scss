@@ -1,0 +1,229 @@
+//  FOR GRID
+
+$gtc: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+$grem: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48;
+
+.bia {
+  break-inside: avoid-column;
+}
+.caa {
+  column-span: all;
+}
+
+@each $n in $gtc {
+  .cc#{$n} {
+    column-count: $n;
+  }
+}
+
+@each $n in $gtc {
+  .gtc#{$n} {
+    grid-template-columns: repeat($n, minmax(0, 1fr));
+  }
+}
+
+.gtcn {
+  grid-template-columns: none;
+}
+
+@each $n in $gtc {
+  .gtr#{$n} {
+    grid-template-rows: repeat($n, minmax(0, 1fr));
+  }
+}
+
+.gtrn {
+  grid-template-rows: none;
+}
+
+// grid columns
+.gca {
+  grid-column: auto;
+}
+
+@each $n in $gtc {
+  .gc#{$n} {
+    grid-column: span $n / span $n;
+  }
+}
+
+@each $n in $gtc {
+  .gcs#{$n} {
+    grid-column-start: $n;
+  }
+}
+
+.gcsa {
+  grid-column-start: auto;
+}
+
+@each $n in $gtc {
+  .gce#{$n} {
+    grid-column-end: $n;
+  }
+}
+
+.gcea {
+  grid-column-end: auto;
+}
+
+.gra {
+  grid-row: auto;
+}
+
+@each $n in $gtc {
+  .gr#{$n} {
+    grid-row: span $n / span $n;
+  }
+}
+
+@each $n in $gtc {
+  .grs#{$n} {
+    grid-row-start: $n;
+  }
+}
+
+.grsa {
+  grid-row-start: auto;
+}
+
+@each $n in $gtc {
+  .gre#{$n} {
+    grid-row-end: $n;
+  }
+}
+
+.grea {
+  grid-row-end: auto;
+}
+.gafr {
+  grid-auto-flow: row;
+}
+.gafc {
+  grid-auto-flow: column;
+}
+.gafrd {
+  grid-auto-flow: row dense;
+}
+.gafcd {
+  grid-auto-flow: column dense;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:bia {
+      break-inside: avoid-column;
+    }
+    .#{$size}\:caa {
+      column-span: all;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:cc#{$n} {
+        column-count: $n;
+      }
+    }
+
+    @each $n in $grem {
+      .#{$size}\:cg#{$n} {
+        column-gap: size($n);
+      }
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gtc#{$n} {
+        grid-template-columns: repeat($n, minmax(0, 1fr));
+      }
+    }
+
+    .#{$size}\:gtcn {
+      grid-template-columns: none;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gtr#{$n} {
+        grid-template-rows: repeat($n, minmax(0, 1fr));
+      }
+    }
+
+    .#{$size}\:gtrn {
+      grid-template-rows: none;
+    }
+
+    // grid columns
+    .#{$size}\:gca {
+      grid-column: auto;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gc#{$n} {
+        grid-column: span $n / span $n;
+      }
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gcs#{$n} {
+        grid-column-start: $n;
+      }
+    }
+
+    .#{$size}\:gcsa {
+      grid-column-start: auto;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gce#{$n} {
+        grid-column-end: $n;
+      }
+    }
+
+    .#{$size}\:gcea {
+      grid-column-end: auto;
+    }
+
+    .#{$size}\:gra {
+      grid-row: auto;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gr#{$n} {
+        grid-row: span $n / span $n;
+      }
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:grs#{$n} {
+        grid-row-start: $n;
+      }
+    }
+
+    .#{$size}\:grsa {
+      grid-row-start: auto;
+    }
+
+    @each $n in $gtc {
+      .#{$size}\:gre#{$n} {
+        grid-row-end: $n;
+      }
+    }
+
+    .#{$size}\:grea {
+      grid-row-end: auto;
+    }
+    .#{$size}\:gafr {
+      grid-auto-flow: row;
+    }
+    .#{$size}\:gafc {
+      grid-auto-flow: column;
+    }
+    .#{$size}\:gafrd {
+      grid-auto-flow: row dense;
+    }
+    .#{$size}\:gafcd {
+      grid-auto-flow: column dense;
+    }
+  }
+}
+
+@import '../breakpoint';

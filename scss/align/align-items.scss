@@ -1,0 +1,41 @@
+// Align Items
+
+.aic {
+  align-items: center;
+}
+.ais {
+  align-items: flex-start;
+}
+.aie {
+  align-items: flex-end;
+}
+.aib {
+  align-items: baseline;
+}
+.ais {
+  align-items: stretch;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Align Items
+
+    .#{$size}\:aic {
+      align-items: center;
+    }
+    .#{$size}\:ais {
+      align-items: flex-start;
+    }
+    .#{$size}\:aie {
+      align-items: flex-end;
+    }
+    .#{$size}\:aib {
+      align-items: baseline;
+    }
+    .#{$size}\:ais {
+      align-items: stretch;
+    }
+  }
+}
+
+@import '../breakpoint';

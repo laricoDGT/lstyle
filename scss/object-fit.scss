@@ -1,0 +1,8 @@
+// object-fit
+
+$object: contain, cover, fill, none;
+@each $n in $object {
+  .of#{$n} {
+    object-fit: $n;
+  }
+}

@@ -1,0 +1,11 @@
+@import 'config';
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $letter-spacing {
+  .ls#{$n} {
+    letter-spacing: size($n);
+  }
+}

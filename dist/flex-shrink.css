@@ -1,0 +1,52 @@
+.fs1 {
+  flex-shrink: 1;
+}
+
+.fs0 {
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .sm\:fs1 {
+    flex-shrink: 1;
+  }
+  .sm\:fs0 {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:fs1 {
+    flex-shrink: 1;
+  }
+  .md\:fs0 {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:fs1 {
+    flex-shrink: 1;
+  }
+  .lg\:fs0 {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:fs1 {
+    flex-shrink: 1;
+  }
+  .xl\:fs0 {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:fs1 {
+    flex-shrink: 1;
+  }
+  .xxl\:fs0 {
+    flex-shrink: 0;
+  }
+}

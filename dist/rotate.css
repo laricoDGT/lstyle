@@ -1,0 +1,23 @@
+.tr45 {
+  transform: rotate(45deg);
+}
+
+.tr-45 {
+  transform: rotate(-45deg);
+}
+
+.tr90 {
+  transform: rotate(90deg);
+}
+
+.tr-90 {
+  transform: rotate(-90deg);
+}
+
+.tr180 {
+  transform: rotate(180deg);
+}
+
+.tr-180 {
+  transform: rotate(-180deg);
+}

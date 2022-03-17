@@ -1,0 +1,35 @@
+// MIN WIDTH
+
+.minw0 {
+  min-width: 0px;
+}
+.minwfull {
+  min-width: 100%;
+}
+.minwmin {
+  min-width: min-content;
+}
+.minwmax {
+  min-width: max-content;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MIN WIDTH
+
+    .#{$size}\:minw0 {
+      min-width: 0px;
+    }
+    .#{$size}\:minwfull {
+      min-width: 100%;
+    }
+    .#{$size}\:minwmin {
+      min-width: min-content;
+    }
+    .#{$size}\:minwmax {
+      min-width: max-content;
+    }
+  }
+}
+
+@import '../breakpoint';

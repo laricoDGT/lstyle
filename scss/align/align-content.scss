@@ -1,0 +1,41 @@
+// Align Content
+
+.acfs {
+  align-content: flex-start;
+}
+.acc {
+  align-content: center;
+}
+.acfe {
+  align-content: flex-end;
+}
+.acsb {
+  align-content: space-between;
+}
+.acsa {
+  align-content: space-around;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Align Content
+
+    .#{$size}\:acfs {
+      align-content: flex-start;
+    }
+    .#{$size}\:acc {
+      align-content: center;
+    }
+    .#{$size}\:acfe {
+      align-content: flex-end;
+    }
+    .#{$size}\:acsb {
+      align-content: space-between;
+    }
+    .#{$size}\:acsa {
+      align-content: space-around;
+    }
+  }
+}
+
+@import '../breakpoint';

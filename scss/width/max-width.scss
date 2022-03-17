@@ -1,0 +1,41 @@
+// MAX WIDTH
+
+.maxw0 {
+  max-width: 0;
+}
+.maxwnone {
+  max-width: none;
+}
+.maxwfull {
+  max-width: 100%;
+}
+.maxwmin {
+  max-width: min-content;
+}
+.maxwmax {
+  max-width: max-content;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MAX WIDTH
+
+    .#{$size}\:maxw0 {
+      max-width: 0;
+    }
+    .#{$size}\:maxwnone {
+      max-width: none;
+    }
+    .#{$size}\:maxwfull {
+      min-width: 100%;
+    }
+    .#{$size}\:maxwmin {
+      max-width: min-content;
+    }
+    .#{$size}\:maxwmax {
+      max-width: max-content;
+    }
+  }
+}
+
+@import '../breakpoint';

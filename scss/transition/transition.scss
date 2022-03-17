@@ -1,0 +1,16 @@
+@import '../config';
+
+// transition
+
+.tpa {
+  transition-property: all;
+}
+
+@each $n in $tdd {
+  .duration#{$n} {
+    transition-duration: $n + ms;
+  }
+  .detay#{$n} {
+    transition-delay: $n + ms;
+  }
+}

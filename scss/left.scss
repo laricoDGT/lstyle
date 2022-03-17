@@ -1,0 +1,15 @@
+// Right
+$trbl: 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 100;
+
+@each $n in $trbl {
+  .l#{$n} {
+    left: $n + px;
+  }
+}
+
+@for $wpect from 12 through 1 {
+  $smlr: percentage($wpect/12);
+  .l\/#{$wpect} {
+    left: $smlr;
+  }
+}

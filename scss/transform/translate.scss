@@ -1,0 +1,16 @@
+@import '../config';
+
+@each $n in $translate {
+  .ttx#{$n} {
+    transform: translateX(#{$n + '%'});
+  }
+  .ttx-#{$n} {
+    transform: translateX(-#{$n + '%'});
+  }
+  .tty#{$n} {
+    transform: translateY(#{$n + '%'});
+  }
+  .tty-#{$n} {
+    transform: translateY(-#{$n + '%'});
+  }
+}

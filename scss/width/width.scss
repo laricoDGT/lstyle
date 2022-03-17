@@ -1,0 +1,69 @@
+// WIDTH
+$hwpx: 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 100;
+
+@each $n in $hwpx {
+  .w#{$n} {
+    width: $n + px;
+  }
+}
+
+@for $wpect from 12 through 1 {
+  $width: percentage($wpect/12);
+  .w1\/#{$wpect} {
+    width: $width;
+  }
+}
+
+.wfull {
+  width: 100%;
+}
+.wa {
+  width: auto;
+}
+.wfc {
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.wminc {
+  width: min-content;
+}
+.wmaxc {
+  width: max-content;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // WIDTH
+    @each $n in $hwpx {
+      .#{$size}\:w#{$n} {
+        width: $n + px;
+      }
+    }
+
+    @for $wpect from 12 through 1 {
+      $width: percentage($wpect/12);
+      .#{$size}\:w1\/#{$wpect} {
+        width: $width;
+      }
+    }
+
+    .#{$size}\:wfull {
+      width: 100%;
+    }
+    .#{$size}\:wa {
+      width: auto;
+    }
+    .#{$size}\:wfc {
+      width: fit-content;
+      width: -moz-fit-content;
+    }
+    .#{$size}\:wminc {
+      width: min-content;
+    }
+    .#{$size}\:wmaxc {
+      width: max-content;
+    }
+  }
+}
+
+@import '../breakpoint';

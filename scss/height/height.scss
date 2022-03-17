@@ -1,0 +1,44 @@
+// HEIGHT
+$hwpx: 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 100;
+
+@each $n in $hwpx {
+  .h#{$n} {
+    height: $n + px;
+  }
+}
+
+.hfull {
+  height: 100%;
+}
+.ha {
+  height: auto;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // HEIGHT
+
+    @each $n in $hwpx {
+      .#{$size}\:h#{$n} {
+        height: $n + px;
+      }
+    }
+
+    .#{$size}\:hfull {
+      height: 100%;
+    }
+    .#{$size}\:ha {
+      height: auto;
+    }
+
+    .#{$size}\:h100vh {
+      height: 100vh;
+    }
+  }
+}
+
+@import '../breakpoint';

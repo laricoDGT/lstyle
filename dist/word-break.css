@@ -1,0 +1,49 @@
+.wbn {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.owbw {
+  overflow-wrap: break-word;
+}
+
+.wbba {
+  word-break: break-all;
+}
+
+.ellipsis {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis2,
+.ellipsis3,
+.ellipsis4,
+.ellipsis5,
+.ellipsis6 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ellipsis2 {
+  -webkit-line-clamp: 2;
+}
+
+.ellipsis3 {
+  -webkit-line-clamp: 3;
+}
+
+.ellipsis4 {
+  -webkit-line-clamp: 4;
+}
+
+.ellipsis5 {
+  -webkit-line-clamp: 5;
+}
+
+.ellipsis6 {
+  -webkit-line-clamp: 6;
+}

@@ -1,0 +1,32 @@
+/***************/
+/* font style */
+/***************/
+
+$fstyle: normal, italic, oblique;
+@each $n in $fstyle {
+  .fs#{$n} {
+    font-style: $n;
+  }
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // #{$size}, #{$i},  #{$breakpoint-columns}
+
+    // ================================================ //
+    // font-style
+    // ================================================ //
+
+    @each $n in $fstyle {
+      .#{$size}\:fs#{$n} {
+        font-style: $n;
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

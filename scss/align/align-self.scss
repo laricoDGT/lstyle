@@ -1,0 +1,39 @@
+// Align Self
+.asa {
+  align-self: auto;
+}
+.asfs {
+  align-self: flex-start;
+}
+.asc {
+  align-self: center;
+}
+.asfe {
+  align-self: flex-end;
+}
+.ass {
+  align-self: stretch;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Align Self
+    .#{$size}\:asa {
+      align-self: auto;
+    }
+    .#{$size}\:asfs {
+      align-self: flex-start;
+    }
+    .#{$size}\:asc {
+      align-self: center;
+    }
+    .#{$size}\:asfe {
+      align-self: flex-end;
+    }
+    .#{$size}\:ass {
+      align-self: stretch;
+    }
+  }
+}
+
+@import '../breakpoint';

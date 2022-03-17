@@ -1,0 +1,385 @@
+$primary-color: #3153d8;
+$secondary-color: #2271b1;
+$tertiary-color: #72aee6;
+
+// Colors
+
+$colors: (
+  white: #fff,
+  black: #000,
+  gray: #808080,
+  gray-0: #f6f7f7,
+  gray-1: #f3f4f6,
+  gray-2: #e5e7eb,
+  gray-3: #d1d5db,
+  gray-4: #9ca3af,
+  gray-5: #6b7280,
+  gray-6: #4b5563,
+  gray-7: #374151,
+  gray-8: #1f2937,
+  gray-9: #111827,
+  blue: #0000ff,
+  blue-0: #eff6ff,
+  blue-1: #dbeafe,
+  blue-2: #bfdbfe,
+  blue-3: #93c5fd,
+  blue-4: #60a5fa,
+  blue-5: #3b82f6,
+  blue-6: #2563eb,
+  blue-7: #1d4ed8,
+  blue-8: #2549bf,
+  blue-9: #1e40af,
+  red: #ff0000,
+  red-0: #fef2f2,
+  red-1: #fee2e2,
+  red-2: #fecaca,
+  red-3: #fca5a5,
+  red-4: #f87171,
+  red-5: #ef4444,
+  red-6: #dc2626,
+  red-7: #b91c1c,
+  red-8: #991b1b,
+  red-9: #7f1d1d,
+  yellow: #ffff00,
+  yellow-0: #fffbeb,
+  yellow-1: #fef3c7,
+  yellow-2: #fde68a,
+  yellow-3: #fcd34d,
+  yellow-4: #fbbf24,
+  yellow-5: #f59e0b,
+  yellow-6: #d97706,
+  yellow-7: #b45309,
+  yellow-8: #92400e,
+  yellow-9: #78350f,
+  green: #008000,
+  green-0: #edfaef,
+  green-1: #d1fae5,
+  green-2: #a7f3d0,
+  green-3: #6ee7b7,
+  green-4: #34d399,
+  green-5: #10b981,
+  green-6: #059669,
+  green-7: #047857,
+  green-8: #065f46,
+  green-9: #064e3b,
+  purple: #800080,
+  purple-0: #f5f3ff,
+  purple-1: #ede9fe,
+  purple-2: #ddd6fe,
+  purple-3: #c4b5fd,
+  purple-4: #a78bfa,
+  purple-5: #8b5cf6,
+  purple-6: #7c3aed,
+  purple-7: #6d28d9,
+  purple-8: #5b21b6,
+  purple-9: #4c1d95,
+  pink: #ffc0cb,
+  pink-0: #fdf2f8,
+  pink-1: #fce7f3,
+  pink-2: #fbcfe8,
+  pink-3: #f9a8d4,
+  pink-4: #f472b6,
+  pink-5: #ec4899,
+  pink-6: #db2777,
+  pink-7: #be185d,
+  pink-8: #9d174d,
+  pink-9: #831843,
+);
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+@mixin color-utilities($property: 'color') {
+  @each $name, $hex in $colors {
+    &-#{$name} {
+      #{$property}: $hex;
+    }
+  }
+}
+
+@mixin placeholder($property: 'color') {
+  @each $name, $hex in $colors {
+    &-#{$name}::placeholder {
+      #{$property}: $hex;
+    }
+  }
+}
+
+@mixin hover($property: 'color') {
+  @each $name, $hex in $colors {
+    &\:color-#{$name}:hover {
+      #{$property}: $hex;
+    }
+  }
+}
+
+@mixin bghover($property: 'color') {
+  @each $name, $hex in $colors {
+    &\:bg-#{$name}:hover {
+      #{$property}: $hex;
+    }
+  }
+}
+
+.color {
+  @include color-utilities();
+}
+
+.bg {
+  @include color-utilities(background-color);
+}
+
+.hover {
+  @include hover(color);
+}
+
+.hover {
+  @include bghover(background-color);
+}
+
+.bc {
+  @include color-utilities(border-color);
+}
+
+.placeholder {
+  @include placeholder();
+}
+
+// END COLORS
+
+// FOR COLORS
+
+.primary {
+  color: var(--primary-color, $primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color, $secondary-color);
+}
+
+.tertiary {
+  color: var(--tertiary-color, $tertiary-color);
+}
+
+.transparent {
+  color: transparent;
+}
+.ci {
+  color: inherit;
+}
+
+// FOR BG
+
+.bgn {
+  background: none;
+}
+.bgct {
+  background-color: transparent;
+}
+
+.bg-primary {
+  background-color: var(--primary-color, $primary-color);
+}
+.bg-secondary {
+  background-color: var(--primary-color, $secondary-color);
+}
+.bg-tertiary {
+  background-color: var(--tertiary-color, $tertiary-color);
+}
+
+// for border color
+
+.bc-primary {
+  border-color: var(--primary-color, $primary-color);
+}
+.bc-secondary {
+  border-color: var(--primary-color, $secondary-color);
+}
+.bc-tertiary {
+  border-color: var(--tertiary-color, $tertiary-color);
+}
+
+// FOR HOVER COLOR
+
+.hover\:primary {
+  &:hover {
+    color: var(--primary-color, $primary-color);
+  }
+}
+.hover\:secondary {
+  &:hover {
+    color: var(--secondary-color, $secondary-color);
+  }
+}
+.hover\:tertiary {
+  &:hover {
+    color: var(--tertiary-color, $tertiary-color);
+  }
+}
+
+// FOR HOVER BG COLOR
+
+.hover\:bg-primary {
+  &:hover {
+    background-color: var(--primary-color, $primary-color);
+  }
+}
+.hover\:bg-secondary {
+  &:hover {
+    background-color: var(--primary-color, $secondary-color);
+  }
+}
+.hover\:bg-tertiary {
+  &:hover {
+    background-color: var(--tertiary-color, $tertiary-color);
+  }
+}
+
+// PLACEHOLDER COLOR
+
+.placeholder-primary::placeholder {
+  color: var(--primary-color, $primary-color);
+}
+.placeholder-secondary::placeholder {
+  color: var(--secondary-color, $secondary-color);
+}
+.placeholder-tertiary::placeholder {
+  color: var(--tertiary-color, $tertiary-color);
+}
+
+/* purgecss start ignore */
+
+::selection {
+  background: var(--primary-color, $primary-color);
+  color: #fff;
+}
+
+/* purgecss end ignore */
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    //
+
+    .#{$size}\:color {
+      @include color-utilities();
+    }
+
+    .#{$size}\:bg {
+      @include color-utilities(background-color);
+    }
+
+    .#{$size}\:hover {
+      @include hover(color);
+    }
+
+    .#{$size}\:hover {
+      @include bghover(background-color);
+    }
+
+    .#{$size}\:bc {
+      @include color-utilities(border-color);
+    }
+
+    // FOR COLORS
+
+    .#{$size}\:primary {
+      color: var(--primary-color, $primary-color);
+    }
+
+    .#{$size}\:secondary {
+      color: var(--secondary-color, $secondary-color);
+    }
+
+    .#{$size}\:tertiary {
+      color: var(--tertiary-color, $tertiary-color);
+    }
+
+    .#{$size}\:ransparent {
+      color: transparent;
+    }
+    .#{$size}\:ci {
+      color: inherit;
+    }
+
+    // FOR BG
+
+    .#{$size}\:bgn {
+      background: none;
+    }
+    .#{$size}\:bgct {
+      background-color: transparent;
+    }
+
+    .#{$size}\:bg-primary {
+      background-color: var(--primary-color, $primary-color);
+    }
+    .#{$size}\:bg-secondary {
+      background-color: var(--primary-color, $secondary-color);
+    }
+    .#{$size}\:bg-tertiary {
+      background-color: var(--tertiary-color, $tertiary-color);
+    }
+
+    // for border color
+
+    .#{$size}\:bc-primary {
+      border-color: var(--primary-color, $primary-color);
+    }
+    .#{$size}\:bc-secondary {
+      border-color: var(--primary-color, $secondary-color);
+    }
+    .#{$size}\:bc-tertiary {
+      border-color: var(--tertiary-color, $tertiary-color);
+    }
+
+    // FOR HOVER COLOR
+
+    .#{$size}\:hover\:primary {
+      &:hover {
+        color: var(--primary-color, $primary-color);
+      }
+    }
+    .#{$size}\:hover\:secondary {
+      &:hover {
+        color: var(--secondary-color, $secondary-color);
+      }
+    }
+    .#{$size}\:hover\:tertiary {
+      &:hover {
+        color: var(--tertiary-color, $tertiary-color);
+      }
+    }
+
+    // FOR HOVER BG COLOR
+
+    .#{$size}\:hover\:bg-primary {
+      &:hover {
+        background-color: var(--primary-color, $primary-color);
+      }
+    }
+    .#{$size}\:hover\:bg-secondary {
+      &:hover {
+        background-color: var(--primary-color, $secondary-color);
+      }
+    }
+    .#{$size}\:hover\:bg-tertiary {
+      &:hover {
+        background-color: var(--tertiary-color, $tertiary-color);
+      }
+    }
+
+    //
+  }
+}
+
+@import '_breakpoint';

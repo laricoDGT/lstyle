@@ -1,0 +1,51 @@
+.tpa {
+  transition-property: all;
+}
+
+.duration100 {
+  transition-duration: 100ms;
+}
+
+.detay100 {
+  transition-delay: 100ms;
+}
+
+.duration200 {
+  transition-duration: 200ms;
+}
+
+.detay200 {
+  transition-delay: 200ms;
+}
+
+.duration300 {
+  transition-duration: 300ms;
+}
+
+.detay300 {
+  transition-delay: 300ms;
+}
+
+.duration500 {
+  transition-duration: 500ms;
+}
+
+.detay500 {
+  transition-delay: 500ms;
+}
+
+.duration600 {
+  transition-duration: 600ms;
+}
+
+.detay600 {
+  transition-delay: 600ms;
+}
+
+.duration700 {
+  transition-duration: 700ms;
+}
+
+.detay700 {
+  transition-delay: 700ms;
+}

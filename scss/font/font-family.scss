@@ -1,0 +1,36 @@
+/***************/
+/* font family */
+/***************/
+.ffi {
+  font-family: inherit;
+}
+.secondary-font {
+  font-family: var(--secondary-font);
+}
+.tertiary-font {
+  font-family: var(--tertiary-font);
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // #{$size}, #{$i},  #{$breakpoint-columns}
+
+    // Font Family
+    .#{$size}\:ffi {
+      font-family: inherit;
+    }
+
+    .#{$size}\:secondary-font {
+      font-family: var(--secondary-font);
+    }
+    .#{$size}\:tertiary-font {
+      font-family: var(--tertiary-font);
+    }
+  }
+}
+
+@import '../breakpoint';

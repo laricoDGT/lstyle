@@ -1,0 +1,19 @@
+@import 'config';
+
+// z-index
+
+.zi-1 {
+  z-index: -1;
+}
+.zia {
+  z-index: auto;
+}
+.ziover {
+  z-index: 9999;
+}
+
+@each $n in $index {
+  .zi#{$n} {
+    z-index: $n;
+  }
+}

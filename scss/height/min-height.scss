@@ -1,0 +1,29 @@
+// MIN HEIGHT
+
+.minh0 {
+  min-height: 0px;
+}
+.minhfull {
+  min-height: 100%;
+}
+.minhfullvh {
+  min-height: 100vh;
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // MIN HEIGHT
+
+    .#{$size}\:minh0 {
+      min-height: 0px;
+    }
+    .#{$size}\:minhfull {
+      min-height: 100%;
+    }
+    .#{$size}\:minhfullvh {
+      min-height: 100vh;
+    }
+  }
+}
+
+@import '../breakpoint';

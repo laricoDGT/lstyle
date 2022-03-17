@@ -1,0 +1,32 @@
+/****************/
+/* font variant */
+/****************/
+
+$fvariant: normal, small-caps;
+@each $n in $fvariant {
+  .fv#{$n} {
+    font-variant: $n;
+  }
+}
+
+// ================================================ //
+// breakpoint
+// ================================================ //
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // #{$size}, #{$i},  #{$breakpoint-columns}
+
+    // ================================================ //
+    // font-variant
+    // ================================================ //
+
+    @each $n in $fvariant {
+      .#{$size}\:fv#{$n} {
+        font-variant: $n;
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

@@ -1,0 +1,38 @@
+@import '../config';
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@each $n in $border-radius {
+  .rounded#{$n} {
+    border-radius: size($n);
+  }
+
+  .roundedt#{$n} {
+    border-top-left-radius: size($n);
+    border-top-right-radius: size($n);
+  }
+
+  .roundedr#{$n} {
+    border-top-right-radius: size($n);
+    border-bottom-right-radius: size($n);
+  }
+
+  .roundedb#{$n} {
+    border-bottom-right-radius: size($n);
+    border-bottom-left-radius: size($n);
+  }
+
+  .roundedl#{$n} {
+    border-top-left-radius: size($n);
+    border-bottom-left-radius: size($n);
+  }
+}
+
+.roundedfull {
+  border-radius: 9999px;
+}
+.circle {
+  border-radius: 100%;
+}

@@ -1,0 +1,11 @@
+.bgaf {
+  background-attachment: fixed;
+}
+
+.bgal {
+  background-attachment: local;
+}
+
+.bgas {
+  background-attachment: scroll;
+}
