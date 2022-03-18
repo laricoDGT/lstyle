@@ -1,0 +1,109 @@
+.maxw0 {
+  max-width: 0;
+}
+
+.maxwnone {
+  max-width: none;
+}
+
+.maxwfull {
+  max-width: 100%;
+}
+
+.maxwmin {
+  max-width: min-content;
+}
+
+.maxwmax {
+  max-width: max-content;
+}
+
+@media (min-width: 640px) {
+  .sm\:maxw0 {
+    max-width: 0;
+  }
+  .sm\:maxwnone {
+    max-width: none;
+  }
+  .sm\:maxwfull {
+    min-width: 100%;
+  }
+  .sm\:maxwmin {
+    max-width: min-content;
+  }
+  .sm\:maxwmax {
+    max-width: max-content;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:maxw0 {
+    max-width: 0;
+  }
+  .md\:maxwnone {
+    max-width: none;
+  }
+  .md\:maxwfull {
+    min-width: 100%;
+  }
+  .md\:maxwmin {
+    max-width: min-content;
+  }
+  .md\:maxwmax {
+    max-width: max-content;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:maxw0 {
+    max-width: 0;
+  }
+  .lg\:maxwnone {
+    max-width: none;
+  }
+  .lg\:maxwfull {
+    min-width: 100%;
+  }
+  .lg\:maxwmin {
+    max-width: min-content;
+  }
+  .lg\:maxwmax {
+    max-width: max-content;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:maxw0 {
+    max-width: 0;
+  }
+  .xl\:maxwnone {
+    max-width: none;
+  }
+  .xl\:maxwfull {
+    min-width: 100%;
+  }
+  .xl\:maxwmin {
+    max-width: min-content;
+  }
+  .xl\:maxwmax {
+    max-width: max-content;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:maxw0 {
+    max-width: 0;
+  }
+  .xxl\:maxwnone {
+    max-width: none;
+  }
+  .xxl\:maxwfull {
+    min-width: 100%;
+  }
+  .xxl\:maxwmin {
+    max-width: min-content;
+  }
+  .xxl\:maxwmax {
+    max-width: max-content;
+  }
+}

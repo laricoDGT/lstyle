@@ -1,0 +1,166 @@
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.dt {
+  display: table;
+}
+
+.di {
+  display: inherit;
+}
+
+.df {
+  display: flex;
+}
+
+.dif {
+  display: inline-flex;
+}
+
+.dg {
+  display: grid;
+}
+
+@media (min-width: 640px) {
+  .sm\:dn {
+    display: none;
+  }
+  .sm\:db {
+    display: block;
+  }
+  .sm\:dib {
+    display: inline-block;
+  }
+  .sm\:dt {
+    display: table;
+  }
+  .sm\:di {
+    display: inherit;
+  }
+  .sm\:df {
+    display: flex;
+  }
+  .sm\:dif {
+    display: inline-flex;
+  }
+  .sm\:dg {
+    display: grid;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:dn {
+    display: none;
+  }
+  .md\:db {
+    display: block;
+  }
+  .md\:dib {
+    display: inline-block;
+  }
+  .md\:dt {
+    display: table;
+  }
+  .md\:di {
+    display: inherit;
+  }
+  .md\:df {
+    display: flex;
+  }
+  .md\:dif {
+    display: inline-flex;
+  }
+  .md\:dg {
+    display: grid;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:dn {
+    display: none;
+  }
+  .lg\:db {
+    display: block;
+  }
+  .lg\:dib {
+    display: inline-block;
+  }
+  .lg\:dt {
+    display: table;
+  }
+  .lg\:di {
+    display: inherit;
+  }
+  .lg\:df {
+    display: flex;
+  }
+  .lg\:dif {
+    display: inline-flex;
+  }
+  .lg\:dg {
+    display: grid;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:dn {
+    display: none;
+  }
+  .xl\:db {
+    display: block;
+  }
+  .xl\:dib {
+    display: inline-block;
+  }
+  .xl\:dt {
+    display: table;
+  }
+  .xl\:di {
+    display: inherit;
+  }
+  .xl\:df {
+    display: flex;
+  }
+  .xl\:dif {
+    display: inline-flex;
+  }
+  .xl\:dg {
+    display: grid;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:dn {
+    display: none;
+  }
+  .xxl\:db {
+    display: block;
+  }
+  .xxl\:dib {
+    display: inline-block;
+  }
+  .xxl\:dt {
+    display: table;
+  }
+  .xxl\:di {
+    display: inherit;
+  }
+  .xxl\:df {
+    display: flex;
+  }
+  .xxl\:dif {
+    display: inline-flex;
+  }
+  .xxl\:dg {
+    display: grid;
+  }
+}

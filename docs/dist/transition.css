@@ -1,0 +1,261 @@
+.tpa {
+  transition-property: all;
+}
+
+.duration100 {
+  transition-duration: 100ms;
+}
+
+.detay100 {
+  transition-delay: 100ms;
+}
+
+.duration200 {
+  transition-duration: 200ms;
+}
+
+.detay200 {
+  transition-delay: 200ms;
+}
+
+.duration300 {
+  transition-duration: 300ms;
+}
+
+.detay300 {
+  transition-delay: 300ms;
+}
+
+.duration500 {
+  transition-duration: 500ms;
+}
+
+.detay500 {
+  transition-delay: 500ms;
+}
+
+.duration600 {
+  transition-duration: 600ms;
+}
+
+.detay600 {
+  transition-delay: 600ms;
+}
+
+.duration700 {
+  transition-duration: 700ms;
+}
+
+.detay700 {
+  transition-delay: 700ms;
+}
+
+@media (min-width: 640px) {
+  .sm\:tpa {
+    transition-property: all;
+  }
+  .sm\:duration100 {
+    transition-duration: 100ms;
+  }
+  .sm\:detay100 {
+    transition-delay: 100ms;
+  }
+  .sm\:duration200 {
+    transition-duration: 200ms;
+  }
+  .sm\:detay200 {
+    transition-delay: 200ms;
+  }
+  .sm\:duration300 {
+    transition-duration: 300ms;
+  }
+  .sm\:detay300 {
+    transition-delay: 300ms;
+  }
+  .sm\:duration500 {
+    transition-duration: 500ms;
+  }
+  .sm\:detay500 {
+    transition-delay: 500ms;
+  }
+  .sm\:duration600 {
+    transition-duration: 600ms;
+  }
+  .sm\:detay600 {
+    transition-delay: 600ms;
+  }
+  .sm\:duration700 {
+    transition-duration: 700ms;
+  }
+  .sm\:detay700 {
+    transition-delay: 700ms;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:tpa {
+    transition-property: all;
+  }
+  .md\:duration100 {
+    transition-duration: 100ms;
+  }
+  .md\:detay100 {
+    transition-delay: 100ms;
+  }
+  .md\:duration200 {
+    transition-duration: 200ms;
+  }
+  .md\:detay200 {
+    transition-delay: 200ms;
+  }
+  .md\:duration300 {
+    transition-duration: 300ms;
+  }
+  .md\:detay300 {
+    transition-delay: 300ms;
+  }
+  .md\:duration500 {
+    transition-duration: 500ms;
+  }
+  .md\:detay500 {
+    transition-delay: 500ms;
+  }
+  .md\:duration600 {
+    transition-duration: 600ms;
+  }
+  .md\:detay600 {
+    transition-delay: 600ms;
+  }
+  .md\:duration700 {
+    transition-duration: 700ms;
+  }
+  .md\:detay700 {
+    transition-delay: 700ms;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:tpa {
+    transition-property: all;
+  }
+  .lg\:duration100 {
+    transition-duration: 100ms;
+  }
+  .lg\:detay100 {
+    transition-delay: 100ms;
+  }
+  .lg\:duration200 {
+    transition-duration: 200ms;
+  }
+  .lg\:detay200 {
+    transition-delay: 200ms;
+  }
+  .lg\:duration300 {
+    transition-duration: 300ms;
+  }
+  .lg\:detay300 {
+    transition-delay: 300ms;
+  }
+  .lg\:duration500 {
+    transition-duration: 500ms;
+  }
+  .lg\:detay500 {
+    transition-delay: 500ms;
+  }
+  .lg\:duration600 {
+    transition-duration: 600ms;
+  }
+  .lg\:detay600 {
+    transition-delay: 600ms;
+  }
+  .lg\:duration700 {
+    transition-duration: 700ms;
+  }
+  .lg\:detay700 {
+    transition-delay: 700ms;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:tpa {
+    transition-property: all;
+  }
+  .xl\:duration100 {
+    transition-duration: 100ms;
+  }
+  .xl\:detay100 {
+    transition-delay: 100ms;
+  }
+  .xl\:duration200 {
+    transition-duration: 200ms;
+  }
+  .xl\:detay200 {
+    transition-delay: 200ms;
+  }
+  .xl\:duration300 {
+    transition-duration: 300ms;
+  }
+  .xl\:detay300 {
+    transition-delay: 300ms;
+  }
+  .xl\:duration500 {
+    transition-duration: 500ms;
+  }
+  .xl\:detay500 {
+    transition-delay: 500ms;
+  }
+  .xl\:duration600 {
+    transition-duration: 600ms;
+  }
+  .xl\:detay600 {
+    transition-delay: 600ms;
+  }
+  .xl\:duration700 {
+    transition-duration: 700ms;
+  }
+  .xl\:detay700 {
+    transition-delay: 700ms;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:tpa {
+    transition-property: all;
+  }
+  .xxl\:duration100 {
+    transition-duration: 100ms;
+  }
+  .xxl\:detay100 {
+    transition-delay: 100ms;
+  }
+  .xxl\:duration200 {
+    transition-duration: 200ms;
+  }
+  .xxl\:detay200 {
+    transition-delay: 200ms;
+  }
+  .xxl\:duration300 {
+    transition-duration: 300ms;
+  }
+  .xxl\:detay300 {
+    transition-delay: 300ms;
+  }
+  .xxl\:duration500 {
+    transition-duration: 500ms;
+  }
+  .xxl\:detay500 {
+    transition-delay: 500ms;
+  }
+  .xxl\:duration600 {
+    transition-duration: 600ms;
+  }
+  .xxl\:detay600 {
+    transition-delay: 600ms;
+  }
+  .xxl\:duration700 {
+    transition-duration: 700ms;
+  }
+  .xxl\:detay700 {
+    transition-delay: 700ms;
+  }
+}

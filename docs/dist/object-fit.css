@@ -1,0 +1,90 @@
+.ofcontain {
+  object-fit: contain;
+}
+
+.ofcover {
+  object-fit: cover;
+}
+
+.offill {
+  object-fit: fill;
+}
+
+.ofnone {
+  object-fit: none;
+}
+
+@media (min-width: 640px) {
+  .sm\:ofcontain {
+    object-fit: contain;
+  }
+  .sm\:ofcover {
+    object-fit: cover;
+  }
+  .sm\:offill {
+    object-fit: fill;
+  }
+  .sm\:ofnone {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:ofcontain {
+    object-fit: contain;
+  }
+  .md\:ofcover {
+    object-fit: cover;
+  }
+  .md\:offill {
+    object-fit: fill;
+  }
+  .md\:ofnone {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:ofcontain {
+    object-fit: contain;
+  }
+  .lg\:ofcover {
+    object-fit: cover;
+  }
+  .lg\:offill {
+    object-fit: fill;
+  }
+  .lg\:ofnone {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:ofcontain {
+    object-fit: contain;
+  }
+  .xl\:ofcover {
+    object-fit: cover;
+  }
+  .xl\:offill {
+    object-fit: fill;
+  }
+  .xl\:ofnone {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:ofcontain {
+    object-fit: contain;
+  }
+  .xxl\:ofcover {
+    object-fit: cover;
+  }
+  .xxl\:offill {
+    object-fit: fill;
+  }
+  .xxl\:ofnone {
+    object-fit: none;
+  }
+}

@@ -1,0 +1,185 @@
+.opt {
+  object-position: top;
+}
+
+.opb {
+  object-position: bottom;
+}
+
+.opl {
+  object-position: left;
+}
+
+.opr {
+  object-position: right;
+}
+
+.opc {
+  object-position: center;
+}
+
+.oplb {
+  object-position: left bottom;
+}
+
+.oplt {
+  object-position: left top;
+}
+
+.oprb {
+  object-position: right bottom;
+}
+
+.oprt {
+  object-position: right top;
+}
+
+@media (min-width: 640px) {
+  .sm\:opt {
+    object-position: top;
+  }
+  .sm\:opb {
+    object-position: bottom;
+  }
+  .sm\:opl {
+    object-position: left;
+  }
+  .sm\:opr {
+    object-position: right;
+  }
+  .sm\:opc {
+    object-position: center;
+  }
+  .sm\:oplb {
+    object-position: left bottom;
+  }
+  .sm\:oplt {
+    object-position: left top;
+  }
+  .sm\:oprb {
+    object-position: right bottom;
+  }
+  .sm\:oprt {
+    object-position: right top;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:opt {
+    object-position: top;
+  }
+  .md\:opb {
+    object-position: bottom;
+  }
+  .md\:opl {
+    object-position: left;
+  }
+  .md\:opr {
+    object-position: right;
+  }
+  .md\:opc {
+    object-position: center;
+  }
+  .md\:oplb {
+    object-position: left bottom;
+  }
+  .md\:oplt {
+    object-position: left top;
+  }
+  .md\:oprb {
+    object-position: right bottom;
+  }
+  .md\:oprt {
+    object-position: right top;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:opt {
+    object-position: top;
+  }
+  .lg\:opb {
+    object-position: bottom;
+  }
+  .lg\:opl {
+    object-position: left;
+  }
+  .lg\:opr {
+    object-position: right;
+  }
+  .lg\:opc {
+    object-position: center;
+  }
+  .lg\:oplb {
+    object-position: left bottom;
+  }
+  .lg\:oplt {
+    object-position: left top;
+  }
+  .lg\:oprb {
+    object-position: right bottom;
+  }
+  .lg\:oprt {
+    object-position: right top;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:opt {
+    object-position: top;
+  }
+  .xl\:opb {
+    object-position: bottom;
+  }
+  .xl\:opl {
+    object-position: left;
+  }
+  .xl\:opr {
+    object-position: right;
+  }
+  .xl\:opc {
+    object-position: center;
+  }
+  .xl\:oplb {
+    object-position: left bottom;
+  }
+  .xl\:oplt {
+    object-position: left top;
+  }
+  .xl\:oprb {
+    object-position: right bottom;
+  }
+  .xl\:oprt {
+    object-position: right top;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:opt {
+    object-position: top;
+  }
+  .xxl\:opb {
+    object-position: bottom;
+  }
+  .xxl\:opl {
+    object-position: left;
+  }
+  .xxl\:opr {
+    object-position: right;
+  }
+  .xxl\:opc {
+    object-position: center;
+  }
+  .xxl\:oplb {
+    object-position: left bottom;
+  }
+  .xxl\:oplt {
+    object-position: left top;
+  }
+  .xxl\:oprb {
+    object-position: right bottom;
+  }
+  .xxl\:oprt {
+    object-position: right top;
+  }
+}

@@ -12,7 +12,17 @@
       "format": "compressed",
       "extensionName": ".min.css",
       "savePath": "/dist/"
-    }
+    },
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/docs/dist/"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/docs/dist/"
+    },
   ],
   "liveSassCompile.settings.generateMap": false,
 }

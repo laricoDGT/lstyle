@@ -1,0 +1,90 @@
+.fdr {
+  flex-direction: row;
+}
+
+.fdrr {
+  flex-direction: row-reverse;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fdcr {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 640px) {
+  .sm\:fdr {
+    flex-direction: row;
+  }
+  .sm\:fdrr {
+    flex-direction: row-reverse;
+  }
+  .sm\:fdc {
+    flex-direction: column;
+  }
+  .sm\:fdcr {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:fdr {
+    flex-direction: row;
+  }
+  .md\:fdrr {
+    flex-direction: row-reverse;
+  }
+  .md\:fdc {
+    flex-direction: column;
+  }
+  .md\:fdcr {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:fdr {
+    flex-direction: row;
+  }
+  .lg\:fdrr {
+    flex-direction: row-reverse;
+  }
+  .lg\:fdc {
+    flex-direction: column;
+  }
+  .lg\:fdcr {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:fdr {
+    flex-direction: row;
+  }
+  .xl\:fdrr {
+    flex-direction: row-reverse;
+  }
+  .xl\:fdc {
+    flex-direction: column;
+  }
+  .xl\:fdcr {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:fdr {
+    flex-direction: row;
+  }
+  .xxl\:fdrr {
+    flex-direction: row-reverse;
+  }
+  .xxl\:fdc {
+    flex-direction: column;
+  }
+  .xxl\:fdcr {
+    flex-direction: column-reverse;
+  }
+}

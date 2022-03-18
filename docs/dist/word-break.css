@@ -1,0 +1,264 @@
+.wbn {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.owbw {
+  overflow-wrap: break-word;
+}
+
+.wbba {
+  word-break: break-all;
+}
+
+.ellipsis {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis2,
+.ellipsis3,
+.ellipsis4,
+.ellipsis5,
+.ellipsis6 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ellipsis2 {
+  -webkit-line-clamp: 2;
+}
+
+.ellipsis3 {
+  -webkit-line-clamp: 3;
+}
+
+.ellipsis4 {
+  -webkit-line-clamp: 4;
+}
+
+.ellipsis5 {
+  -webkit-line-clamp: 5;
+}
+
+.ellipsis6 {
+  -webkit-line-clamp: 6;
+}
+
+@media (min-width: 640px) {
+  .sm\:wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+  .sm\:owbw {
+    overflow-wrap: break-word;
+  }
+  .sm\:wbba {
+    word-break: break-all;
+  }
+  .sm\:ellipsis {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .sm\:ellipsis2,
+  .sm\:ellipsis3,
+  .sm\:ellipsis4,
+  .sm\:ellipsis5,
+  .sm\:ellipsis6 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .sm\:ellipsis2 {
+    -webkit-line-clamp: 2;
+  }
+  .sm\:ellipsis3 {
+    -webkit-line-clamp: 3;
+  }
+  .sm\:ellipsis4 {
+    -webkit-line-clamp: 4;
+  }
+  .sm\:ellipsis5 {
+    -webkit-line-clamp: 5;
+  }
+  .sm\:ellipsis6 {
+    -webkit-line-clamp: 6;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+  .md\:owbw {
+    overflow-wrap: break-word;
+  }
+  .md\:wbba {
+    word-break: break-all;
+  }
+  .md\:ellipsis {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .md\:ellipsis2,
+  .md\:ellipsis3,
+  .md\:ellipsis4,
+  .md\:ellipsis5,
+  .md\:ellipsis6 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .md\:ellipsis2 {
+    -webkit-line-clamp: 2;
+  }
+  .md\:ellipsis3 {
+    -webkit-line-clamp: 3;
+  }
+  .md\:ellipsis4 {
+    -webkit-line-clamp: 4;
+  }
+  .md\:ellipsis5 {
+    -webkit-line-clamp: 5;
+  }
+  .md\:ellipsis6 {
+    -webkit-line-clamp: 6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+  .lg\:owbw {
+    overflow-wrap: break-word;
+  }
+  .lg\:wbba {
+    word-break: break-all;
+  }
+  .lg\:ellipsis {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .lg\:ellipsis2,
+  .lg\:ellipsis3,
+  .lg\:ellipsis4,
+  .lg\:ellipsis5,
+  .lg\:ellipsis6 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .lg\:ellipsis2 {
+    -webkit-line-clamp: 2;
+  }
+  .lg\:ellipsis3 {
+    -webkit-line-clamp: 3;
+  }
+  .lg\:ellipsis4 {
+    -webkit-line-clamp: 4;
+  }
+  .lg\:ellipsis5 {
+    -webkit-line-clamp: 5;
+  }
+  .lg\:ellipsis6 {
+    -webkit-line-clamp: 6;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+  .xl\:owbw {
+    overflow-wrap: break-word;
+  }
+  .xl\:wbba {
+    word-break: break-all;
+  }
+  .xl\:ellipsis {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .xl\:ellipsis2,
+  .xl\:ellipsis3,
+  .xl\:ellipsis4,
+  .xl\:ellipsis5,
+  .xl\:ellipsis6 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .xl\:ellipsis2 {
+    -webkit-line-clamp: 2;
+  }
+  .xl\:ellipsis3 {
+    -webkit-line-clamp: 3;
+  }
+  .xl\:ellipsis4 {
+    -webkit-line-clamp: 4;
+  }
+  .xl\:ellipsis5 {
+    -webkit-line-clamp: 5;
+  }
+  .xl\:ellipsis6 {
+    -webkit-line-clamp: 6;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+  .xxl\:owbw {
+    overflow-wrap: break-word;
+  }
+  .xxl\:wbba {
+    word-break: break-all;
+  }
+  .xxl\:ellipsis {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .xxl\:ellipsis2,
+  .xxl\:ellipsis3,
+  .xxl\:ellipsis4,
+  .xxl\:ellipsis5,
+  .xxl\:ellipsis6 {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+  .xxl\:ellipsis2 {
+    -webkit-line-clamp: 2;
+  }
+  .xxl\:ellipsis3 {
+    -webkit-line-clamp: 3;
+  }
+  .xxl\:ellipsis4 {
+    -webkit-line-clamp: 4;
+  }
+  .xxl\:ellipsis5 {
+    -webkit-line-clamp: 5;
+  }
+  .xxl\:ellipsis6 {
+    -webkit-line-clamp: 6;
+  }
+}
