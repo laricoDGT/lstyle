@@ -14,3 +14,24 @@ $opa: 0;
     }
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    $opa: 0;
+
+    @while $opa <= 1 {
+      .#{$size}\:opacity#{round($opa*100)} {
+        opacity: $opa;
+      }
+      $opa: $opa + 0.1;
+    }
+
+    .#{$size}\:hover\:opacity1 {
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

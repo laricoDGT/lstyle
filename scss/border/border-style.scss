@@ -14,3 +14,26 @@
 .bsdouble {
   border-style: double;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // border-style
+    .#{$size}\:bsn {
+      border-style: none;
+    }
+    .#{$size}\:bss {
+      border-style: solid;
+    }
+    .#{$size}\:bsdotted {
+      border-style: dotted;
+    }
+    .#{$size}\:bsdashed {
+      border-style: dashed;
+    }
+    .#{$size}\:bsdouble {
+      border-style: double;
+    }
+  }
+}
+
+@import '../breakpoint';

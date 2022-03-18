@@ -14,3 +14,22 @@
     transition-delay: $n + ms;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:tpa {
+      transition-property: all;
+    }
+
+    @each $n in $tdd {
+      .#{$size}\:duration#{$n} {
+        transition-duration: $n + ms;
+      }
+      .#{$size}\:detay#{$n} {
+        transition-delay: $n + ms;
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

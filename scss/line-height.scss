@@ -17,3 +17,29 @@
 .lhn {
   line-height: normal;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // line-height
+    .#{$size}\:lh0 {
+      line-height: 0;
+    }
+    .#{$size}\:lh1 {
+      line-height: 1;
+    }
+    .#{$size}\:lh2 {
+      line-height: 1.5;
+    }
+    .#{$size}\:lh3 {
+      line-height: 1.8;
+    }
+    .#{$size}\:lh4 {
+      line-height: 2;
+    }
+    .#{$size}\:lhn {
+      line-height: normal;
+    }
+  }
+}
+
+@import 'breakpoint';

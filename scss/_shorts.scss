@@ -332,7 +332,7 @@ $opa: 0;
 }
 .clr {
   &:after {
-    content: "";
+    content: '';
     width: 100%;
     clear: both;
   }
@@ -381,16 +381,16 @@ $object: contain, cover, fill, none;
 $transform: 0, 50, 100;
 @each $n in $transform {
   .ttx#{$n} {
-    transform: translateX(#{$n + "%"});
+    transform: translateX(#{$n + '%'});
   }
   .ttx-#{$n} {
-    transform: translateX(-#{$n + "%"});
+    transform: translateX(-#{$n + '%'});
   }
   .tty#{$n} {
-    transform: translateY(#{$n + "%"});
+    transform: translateY(#{$n + '%'});
   }
   .tty-#{$n} {
-    transform: translateY(-#{$n + "%"});
+    transform: translateY(-#{$n + '%'});
   }
 }
 
@@ -399,10 +399,10 @@ $transform: 0, 50, 100;
 $rotate: 45, 90, 180;
 @each $n in $rotate {
   .tr#{$n} {
-    transform: rotate(#{$n + "deg"});
+    transform: rotate(#{$n + 'deg'});
   }
   .tr-#{$n} {
-    transform: rotate(-#{$n + "deg"});
+    transform: rotate(-#{$n + 'deg'});
   }
 }
 
@@ -414,14 +414,14 @@ $rotate: 45, 90, 180;
 $scale: 1, 2, 3, 4, 5;
 @each $n in $scale {
   .tr#{$n} {
-    transform: scale(#{"1."}#{$n});
+    transform: scale(#{'1.'}#{$n});
   }
 }
 
 $scale0: 9, 8, 7, 6, 5;
 @each $n in $scale0 {
   .tr0#{$n} {
-    transform: scale(#{"0."}#{$n});
+    transform: scale(#{'0.'}#{$n});
   }
 }
 
@@ -682,7 +682,7 @@ $oopa: 2, 4, 6, 8;
 @each $n in $oopa {
   .overlayopacity#{$n} {
     &:after {
-      content: "";
+      content: '';
       display: block;
       width: 100%;
       height: 100%;
@@ -691,7 +691,7 @@ $oopa: 2, 4, 6, 8;
       position: absolute;
       left: 0;
       bottom: 0;
-      opacity: #{"0."}#{$n};
+      opacity: #{'0.'}#{$n};
     }
   }
 }
@@ -1044,7 +1044,7 @@ $oopa: 2, 4, 6, 8;
     }
     .#{$size}\:clr {
       &:after {
-        content: "";
+        content: '';
         width: 100%;
         clear: both;
       }
@@ -1091,16 +1091,16 @@ $oopa: 2, 4, 6, 8;
 
     @each $n in $transform {
       .#{$size}\:ttx#{$n} {
-        transform: translateX(#{$n + "%"});
+        transform: translateX(#{$n + '%'});
       }
       .#{$size}\:ttx-#{$n} {
-        transform: translateX(-#{$n + "%"});
+        transform: translateX(-#{$n + '%'});
       }
       .#{$size}\:tty#{$n} {
-        transform: translateY(#{$n + "%"});
+        transform: translateY(#{$n + '%'});
       }
       .#{$size}\:tty-#{$n} {
-        transform: translateY(-#{$n + "%"});
+        transform: translateY(-#{$n + '%'});
       }
     }
 
@@ -1108,10 +1108,10 @@ $oopa: 2, 4, 6, 8;
 
     @each $n in $rotate {
       .#{$size}\:tr#{$n} {
-        transform: rotate(#{$n + "deg"});
+        transform: rotate(#{$n + 'deg'});
       }
       .#{$size}\:tr-#{$n} {
-        transform: rotate(-#{$n + "deg"});
+        transform: rotate(-#{$n + 'deg'});
       }
     }
 
@@ -1123,13 +1123,13 @@ $oopa: 2, 4, 6, 8;
 
     @each $n in $scale {
       .#{$size}\:tr#{$n} {
-        transform: scale(#{"1."}#{$n});
+        transform: scale(#{'1.'}#{$n});
       }
     }
 
     @each $n in $scale0 {
       .#{$size}\:tr0#{$n} {
-        transform: scale(#{"0."}#{$n});
+        transform: scale(#{'0.'}#{$n});
       }
     }
 
@@ -1416,4 +1416,4 @@ $oopa: 2, 4, 6, 8;
   }
 }
 
-@import "_breakpoint";
+@import '_breakpoint';

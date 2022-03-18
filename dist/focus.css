@@ -7,3 +7,38 @@
   outline: none;
   box-shadow: none;
 }
+
+@media (min-width: 640px) {
+  .sm\:focus\:none:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:focus\:none:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:focus\:none:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:focus\:none:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:focus\:none:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

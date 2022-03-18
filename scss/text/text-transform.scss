@@ -8,3 +8,20 @@
 .ttc {
   text-transform: capitalize;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Text Transform
+    .#{$size}\:ttu {
+      text-transform: uppercase;
+    }
+    .#{$size}\:ttl {
+      text-transform: lowercase;
+    }
+    .#{$size}\:ttc {
+      text-transform: capitalize;
+    }
+  }
+}
+
+@import '../breakpoint';

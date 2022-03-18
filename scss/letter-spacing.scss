@@ -9,3 +9,17 @@
     letter-spacing: size($n);
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // letter-spacing
+
+    @each $n in $letter-spacing {
+      .#{$size}\:ls#{$n} {
+        letter-spacing: size($n);
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

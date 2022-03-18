@@ -1,0 +1,25 @@
+@import '../config';
+
+@each $n in $rotate {
+  .tr#{$n} {
+    transform: rotate(#{$n + 'deg'});
+  }
+  .tr-#{$n} {
+    transform: rotate(-#{$n + 'deg'});
+  }
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $rotate {
+      .#{$size}\:tr#{$n} {
+        transform: rotate(#{$n + 'deg'});
+      }
+      .#{$size}\:tr-#{$n} {
+        transform: rotate(-#{$n + 'deg'});
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

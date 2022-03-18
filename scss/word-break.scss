@@ -42,3 +42,54 @@
 .ellipsis6 {
   -webkit-line-clamp: 6;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // Word Break
+    .#{$size}\:wbn {
+      word-break: normal;
+      overflow-wrap: normal;
+    }
+    .#{$size}\:owbw {
+      overflow-wrap: break-word;
+    }
+    .#{$size}\:wbba {
+      word-break: break-all;
+    }
+
+    .#{$size}\:ellipsis {
+      overflow: hidden;
+      width: 100%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .#{$size}\:ellipsis2,
+    .#{$size}\:ellipsis3,
+    .#{$size}\:ellipsis4,
+    .#{$size}\:ellipsis5,
+    .#{$size}\:ellipsis6 {
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      overflow: hidden;
+    }
+
+    .#{$size}\:ellipsis2 {
+      -webkit-line-clamp: 2;
+    }
+    .#{$size}\:ellipsis3 {
+      -webkit-line-clamp: 3;
+    }
+    .#{$size}\:ellipsis4 {
+      -webkit-line-clamp: 4;
+    }
+    .#{$size}\:ellipsis5 {
+      -webkit-line-clamp: 5;
+    }
+    .#{$size}\:ellipsis6 {
+      -webkit-line-clamp: 6;
+    }
+  }
+}
+
+@import 'breakpoint';

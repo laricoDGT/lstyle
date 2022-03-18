@@ -6,3 +6,18 @@
 .vh {
   visibility: hidden;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // visibility
+
+    .#{$size}\:vv {
+      visibility: visible;
+    }
+    .#{$size}\:vh {
+      visibility: hidden;
+    }
+  }
+}
+
+@import 'breakpoint';

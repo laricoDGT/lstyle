@@ -1,11 +1,26 @@
 // position
-$position: relative, absolute, fixed, static;
+$position: sticky, relative, absolute, fixed, static;
 @each $n in $position {
   .#{$n} {
     position: $n;
   }
 }
 .sticky {
-  position: sticky;
   position: -webkit-sticky;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $position {
+      .#{$size}\:#{$n} {
+        position: $n;
+      }
+    }
+
+    .#{$size}\:sticky {
+      position: -webkit-sticky;
+    }
+  }
+}
+
+@import '_breakpoint';

@@ -36,3 +36,46 @@
     border-left-width: $n + px;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:bt0 {
+      border-top: 0;
+    }
+    .#{$size}\:br0 {
+      border-right: 0;
+    }
+    .#{$size}\:bb0 {
+      border-bottom: 0;
+    }
+    .#{$size}\:bl0 {
+      border-left: 0;
+    }
+
+    @each $n in $border-width {
+      .#{$size}\:btw#{$n} {
+        border-top-width: $n + px;
+      }
+    }
+
+    @each $n in $border-width {
+      .#{$size}\:brw#{$n} {
+        border-right-width: $n + px;
+      }
+    }
+
+    @each $n in $border-width {
+      .#{$size}\:bbw#{$n} {
+        border-bottom-width: $n + px;
+      }
+    }
+
+    @each $n in $border-width {
+      .#{$size}\:blw#{$n} {
+        border-left-width: $n + px;
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

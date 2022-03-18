@@ -8,3 +8,20 @@
 .lstd {
   list-style-type: decimal;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // LIST STYLE
+    .#{$size}\:lsn {
+      list-style: none;
+    }
+    .#{$size}\:lsd {
+      list-style: disc;
+    }
+    .#{$size}\:lstd {
+      list-style-type: decimal;
+    }
+  }
+}
+
+@import 'breakpoint';

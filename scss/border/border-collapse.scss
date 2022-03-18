@@ -4,3 +4,16 @@
 .bcs {
   border-collapse: separate;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:bcc {
+      border-collapse: collapse;
+    }
+    .#{$size}\:bcs {
+      border-collapse: separate;
+    }
+  }
+}
+
+@import '../breakpoint';

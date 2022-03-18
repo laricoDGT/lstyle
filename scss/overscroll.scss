@@ -27,3 +27,39 @@
 .obxn {
   overscroll-behavior-x: none;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // overscroll-behavior
+
+    .#{$size}\:oba {
+      overscroll-behavior: auto;
+    }
+    .#{$size}\:obc {
+      overscroll-behavior: contain;
+    }
+    .#{$size}\:obn {
+      overscroll-behavior: none;
+    }
+    .#{$size}\:obya {
+      overscroll-behavior-y: auto;
+    }
+    .#{$size}\:obyc {
+      overscroll-behavior-y: contain;
+    }
+    .#{$size}\:obyn {
+      overscroll-behavior-y: none;
+    }
+    .#{$size}\:obxa {
+      overscroll-behavior-x: auto;
+    }
+    .#{$size}\:obxc {
+      overscroll-behavior-x: contain;
+    }
+    .#{$size}\:obxn {
+      overscroll-behavior-x: none;
+    }
+  }
+}
+
+@import 'breakpoint';

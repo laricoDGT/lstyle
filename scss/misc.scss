@@ -52,3 +52,43 @@ $oopa: 2, 4, 6, 8;
 .wmtbrl {
   writing-mode: tb-rl;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // FOR SVG
+
+    .#{$size}\:fc {
+      fill: currentColor;
+    }
+    .#{$size}\:sc {
+      stroke: currentColor;
+    }
+
+    // MISC
+
+    .#{$size}\:tla {
+      table-layout: auto;
+    }
+    .#{$size}\:tlf {
+      table-layout: fixed;
+    }
+    .#{$size}\:an {
+      appearance: none;
+    }
+    .#{$size}\:outline0 {
+      outline: 0;
+    }
+
+    .#{$size}\:cp {
+      cursor: pointer;
+    }
+    .#{$size}\:cm {
+      cursor: move;
+    }
+    .#{$size}\:.wmtbrl {
+      writing-mode: tb-rl;
+    }
+  }
+}
+
+@import 'breakpoint';

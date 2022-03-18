@@ -85,3 +85,153 @@
 .wmtbrl {
   writing-mode: tb-rl;
 }
+
+@media (min-width: 640px) {
+  .sm\:fc {
+    fill: currentColor;
+  }
+  .sm\:sc {
+    stroke: currentColor;
+  }
+  .sm\:tla {
+    table-layout: auto;
+  }
+  .sm\:tlf {
+    table-layout: fixed;
+  }
+  .sm\:an {
+    appearance: none;
+  }
+  .sm\:outline0 {
+    outline: 0;
+  }
+  .sm\:cp {
+    cursor: pointer;
+  }
+  .sm\:cm {
+    cursor: move;
+  }
+  .sm\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:fc {
+    fill: currentColor;
+  }
+  .md\:sc {
+    stroke: currentColor;
+  }
+  .md\:tla {
+    table-layout: auto;
+  }
+  .md\:tlf {
+    table-layout: fixed;
+  }
+  .md\:an {
+    appearance: none;
+  }
+  .md\:outline0 {
+    outline: 0;
+  }
+  .md\:cp {
+    cursor: pointer;
+  }
+  .md\:cm {
+    cursor: move;
+  }
+  .md\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:fc {
+    fill: currentColor;
+  }
+  .lg\:sc {
+    stroke: currentColor;
+  }
+  .lg\:tla {
+    table-layout: auto;
+  }
+  .lg\:tlf {
+    table-layout: fixed;
+  }
+  .lg\:an {
+    appearance: none;
+  }
+  .lg\:outline0 {
+    outline: 0;
+  }
+  .lg\:cp {
+    cursor: pointer;
+  }
+  .lg\:cm {
+    cursor: move;
+  }
+  .lg\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:fc {
+    fill: currentColor;
+  }
+  .xl\:sc {
+    stroke: currentColor;
+  }
+  .xl\:tla {
+    table-layout: auto;
+  }
+  .xl\:tlf {
+    table-layout: fixed;
+  }
+  .xl\:an {
+    appearance: none;
+  }
+  .xl\:outline0 {
+    outline: 0;
+  }
+  .xl\:cp {
+    cursor: pointer;
+  }
+  .xl\:cm {
+    cursor: move;
+  }
+  .xl\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
+}
+
+@media (min-width: 1536px) {
+  .xxl\:fc {
+    fill: currentColor;
+  }
+  .xxl\:sc {
+    stroke: currentColor;
+  }
+  .xxl\:tla {
+    table-layout: auto;
+  }
+  .xxl\:tlf {
+    table-layout: fixed;
+  }
+  .xxl\:an {
+    appearance: none;
+  }
+  .xxl\:outline0 {
+    outline: 0;
+  }
+  .xxl\:cp {
+    cursor: pointer;
+  }
+  .xxl\:cm {
+    cursor: move;
+  }
+  .xxl\:.wmtbrl {
+    writing-mode: tb-rl;
+  }
+}

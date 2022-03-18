@@ -16,3 +16,26 @@
     clear: both;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:fr {
+      float: right;
+    }
+    .#{$size}\:fl {
+      float: left;
+    }
+    .#{$size}\:fn {
+      float: none;
+    }
+    .#{$size}\:clr {
+      &:after {
+        content: '';
+        width: 100%;
+        clear: both;
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

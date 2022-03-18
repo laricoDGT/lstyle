@@ -1,0 +1,39 @@
+@import '../config';
+
+@each $n in $translate {
+  .ttx#{$n} {
+    transform: translateX(#{$n + '%'});
+  }
+  .ttx-#{$n} {
+    transform: translateX(-#{$n + '%'});
+  }
+  .tty#{$n} {
+    transform: translateY(#{$n + '%'});
+  }
+  .tty-#{$n} {
+    transform: translateY(-#{$n + '%'});
+  }
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // transform translate
+
+    @each $n in $translate {
+      .#{$size}\:ttx#{$n} {
+        transform: translateX(#{$n + '%'});
+      }
+      .#{$size}\:ttx-#{$n} {
+        transform: translateX(-#{$n + '%'});
+      }
+      .#{$size}\:tty#{$n} {
+        transform: translateY(#{$n + '%'});
+      }
+      .#{$size}\:tty-#{$n} {
+        transform: translateY(-#{$n + '%'});
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

@@ -27,3 +27,39 @@
 .oprt {
   object-position: right top;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // object-position
+
+    .#{$size}\:opt {
+      object-position: top;
+    }
+    .#{$size}\:opb {
+      object-position: bottom;
+    }
+    .#{$size}\:opl {
+      object-position: left;
+    }
+    .#{$size}\:opr {
+      object-position: right;
+    }
+    .#{$size}\:opc {
+      object-position: center;
+    }
+    .#{$size}\:oplb {
+      object-position: left bottom;
+    }
+    .#{$size}\:oplt {
+      object-position: left top;
+    }
+    .#{$size}\:oprb {
+      object-position: right bottom;
+    }
+    .#{$size}\:oprt {
+      object-position: right top;
+    }
+  }
+}
+
+@import 'breakpoint';

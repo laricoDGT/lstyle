@@ -10,8 +10,6 @@
 @import 'font/font-variant';
 @import 'font/font-weight';
 
-@import 'display/display';
-
 // FLEX
 @import 'flex/flex';
 @import 'flex/flex-direction';
@@ -19,13 +17,55 @@
 @import 'flex/flex-shrink';
 @import 'flex/flex-wrap';
 
-@import 'justify-content';
-
 // ALIGN
 @import 'align/align-content';
 @import 'align/align-items';
 @import 'align/align-self';
 
+// TOP RIGHT BOTTOM LEFT
+@import 'top';
+@import 'right';
+@import 'bottom';
+@import 'left';
+
+// BORDER
+@import 'border/border-collapse';
+@import 'border/border-radius';
+@import 'border/border-collapse';
+@import 'border/border-style';
+
+// TRANSFORM
+@import 'transform/transform-origin';
+@import 'transform/transform-rotate';
+@import 'transform/transform-scale';
+@import 'transform/transform-translate';
+
+@import 'position';
+@import 'letter-spacing';
+@import 'text/text-transform';
+@import 'text/text-decoration';
+@import 'text/text-align';
+@import 'line-height';
+@import 'filter';
+@import 'vertical-align';
+@import 'white-space';
+@import 'word-break';
+@import 'opacity';
+@import 'focus';
+@import 'float';
+@import 'visibility';
+@import 'list-style';
+@import 'object-fit';
+@import 'background';
+@import 'overflow';
+@import 'z-index';
+@import 'object-position';
+@import 'box-shadow';
+@import 'overscroll';
+@import 'transition/transition';
+
+@import 'justify-content';
+@import 'display/display';
 @import 'order';
 @import 'gap';
 @import 'grid/grid';
@@ -43,6 +83,6 @@
 @import 'width/min-width';
 @import 'width/max-width';
 
-@import '_shorts';
+@import 'misc';
 
 @import '_formats';

@@ -1,7 +1,4 @@
-// PADDING
-// PX to REM
-$base-size: 16;
-$fsrem: 8, 16, 24, 32, 40, 48, 56, 64;
+@import '../config';
 
 .p0 {
   padding: 0;

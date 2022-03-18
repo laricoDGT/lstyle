@@ -18,3 +18,30 @@
 .talr {
   text-align-last: right;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // text-align
+
+    .#{$size}\:tal {
+      text-align: left;
+    }
+    .#{$size}\:tac {
+      text-align: center;
+    }
+    .#{$size}\:tar {
+      text-align: right;
+    }
+    .#{$size}\:taj {
+      text-align: justify;
+    }
+    .#{$size}\:talc {
+      text-align-last: center;
+    }
+    .#{$size}\:talr {
+      text-align-last: right;
+    }
+  }
+}
+
+@import '../breakpoint';

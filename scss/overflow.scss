@@ -36,3 +36,48 @@
 .oys {
   overflow-y: scroll;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // overflow
+
+    .#{$size}\:oa {
+      overflow: auto;
+    }
+    .#{$size}\:oh {
+      overflow: hidden;
+    }
+    .#{$size}\:ov {
+      overflow: visible;
+    }
+    .#{$size}\:os {
+      overflow: scroll;
+    }
+    .#{$size}\:oxa {
+      overflow-x: auto;
+    }
+    .#{$size}\:oya {
+      overflow-y: auto;
+    }
+    .#{$size}\:oxh {
+      overflow-x: hidden;
+    }
+    .#{$size}\:oyh {
+      overflow-y: hidden;
+    }
+    .#{$size}\:oxv {
+      overflow-x: visible;
+    }
+    .#{$size}\:oyv {
+      overflow-y: visible;
+    }
+    .#{$size}\:oxs {
+      overflow-x: scroll;
+    }
+    .#{$size}\:oys {
+      overflow-y: scroll;
+    }
+  }
+}
+
+@import 'breakpoint';

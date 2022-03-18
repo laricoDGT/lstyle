@@ -6,3 +6,15 @@ $object: contain, cover, fill, none;
     object-fit: $n;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $object {
+      .#{$size}\:of#{$n} {
+        object-fit: $n;
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

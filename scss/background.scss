@@ -58,3 +58,76 @@
 .bgs-auto {
   background-size: auto;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // background
+
+    .#{$size}\:bgn {
+      background: none;
+    }
+    .#{$size}\:bgct {
+      background-color: transparent;
+    }
+    .#{$size}\:bgaf {
+      background-attachment: fixed;
+    }
+    .#{$size}\:bgal {
+      background-attachment: local;
+    }
+    .#{$size}\:bgas {
+      background-attachment: scroll;
+    }
+
+    .#{$size}\:bgpt {
+      background-position: top;
+    }
+    .#{$size}\:bgpb {
+      background-position: bottom;
+    }
+    .#{$size}\:bgpc {
+      background-position: center;
+    }
+    .#{$size}\:bgpl {
+      background-position: left;
+    }
+    .#{$size}\:bgpr {
+      background-position: right;
+    }
+    .#{$size}\:bgplb {
+      background-position: left bottom;
+    }
+    .#{$size}\:bgplt {
+      background-position: left top;
+    }
+    .#{$size}\:bgprt {
+      background-position: right top;
+    }
+    .#{$size}\:bgprb {
+      background-position: right bottom;
+    }
+    .#{$size}\:bgrr {
+      background-repeat: repeat;
+    }
+    .#{$size}\:bgrnr {
+      background-repeat: no-repeat;
+    }
+    .#{$size}\:bgrrx {
+      background-repeat: repeat-x;
+    }
+    .#{$size}\:bgrry {
+      background-repeat: repeat-y;
+    }
+    .#{$size}\:bgs-cover {
+      background-size: cover;
+    }
+    .#{$size}\:bgs-contain {
+      background-size: contain;
+    }
+    .#{$size}\:bgs-auto {
+      background-size: auto;
+    }
+  }
+}
+
+@import 'breakpoint';

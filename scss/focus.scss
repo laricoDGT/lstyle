@@ -10,3 +10,16 @@
     box-shadow: none;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:focus\:none {
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@import 'breakpoint';

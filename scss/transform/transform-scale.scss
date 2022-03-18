@@ -1,0 +1,43 @@
+@import '../config';
+
+// transform scale
+
+.tsn {
+  transform: scale(1);
+}
+
+@each $n in $scale {
+  .ts#{$n} {
+    transform: scale(#{'1.'}#{$n});
+  }
+}
+
+@each $n in $scale0 {
+  .ts0#{$n} {
+    transform: scale(#{'0.'}#{$n});
+  }
+}
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // transform scale
+
+    .#{$size}\:tsn {
+      transform: scale(1);
+    }
+
+    @each $n in $scale {
+      .#{$size}\:ts#{$n} {
+        transform: scale(#{'1.'}#{$n});
+      }
+    }
+
+    @each $n in $scale0 {
+      .#{$size}\:ts0#{$n} {
+        transform: scale(#{'0.'}#{$n});
+      }
+    }
+  }
+}
+
+@import '../breakpoint';

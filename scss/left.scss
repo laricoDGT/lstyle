@@ -1,5 +1,4 @@
-// Right
-$trbl: 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 100;
+@import 'config';
 
 @each $n in $trbl {
   .l#{$n} {
@@ -13,3 +12,23 @@ $trbl: 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 100;
     left: $smlr;
   }
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $trbl {
+      .#{$size}\:l#{$n} {
+        left: $n + px;
+      }
+    }
+
+    @for $wpect from 12 through 1 {
+      $smlr: percentage($wpect/12);
+
+      .#{$size}\:l\/#{$wpect} {
+        left: $smlr;
+      }
+    }
+  }
+}
+
+@import '_breakpoint';

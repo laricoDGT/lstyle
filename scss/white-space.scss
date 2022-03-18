@@ -15,3 +15,27 @@
 .wspw {
   white-space: pre-wrap;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // white-space
+
+    .#{$size}\:wsn {
+      white-space: normal;
+    }
+    .#{$size}\:wsnw {
+      white-space: nowrap;
+    }
+    .#{$size}\:wsp {
+      white-space: pre;
+    }
+    .#{$size}\:wspl {
+      white-space: pre-line;
+    }
+    .#{$size}\:wspw {
+      white-space: pre-wrap;
+    }
+  }
+}
+
+@import 'breakpoint';

@@ -36,3 +36,38 @@
 .circle {
   border-radius: 100%;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    @each $n in $border-radius {
+      .#{$size}\:rounded#{$n} {
+        border-radius: size($n);
+      }
+      .#{$size}\:roundedt#{$n} {
+        border-top-left-radius: size($n);
+        border-top-right-radius: size($n);
+      }
+      .#{$size}\:roundedr#{$n} {
+        border-top-right-radius: size($n);
+        border-bottom-right-radius: size($n);
+      }
+      .#{$size}\:roundedb#{$n} {
+        border-bottom-right-radius: size($n);
+        border-bottom-left-radius: size($n);
+      }
+      .#{$size}\:roundedl#{$n} {
+        border-top-left-radius: size($n);
+        border-bottom-left-radius: size($n);
+      }
+    }
+
+    .#{$size}\:roundedfull {
+      border-radius: 9999px;
+    }
+    .#{$size}\:circle {
+      border-radius: 100%;
+    }
+  }
+}
+
+@import '../breakpoint';

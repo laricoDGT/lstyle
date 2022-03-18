@@ -18,3 +18,30 @@
 .vatb {
   vertical-align: text-bottom;
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    // vertical-align
+
+    .#{$size}\:vabl {
+      vertical-align: baseline;
+    }
+    .#{$size}\:vat {
+      vertical-align: top;
+    }
+    .#{$size}\:vam {
+      vertical-align: middle;
+    }
+    .#{$size}\:vab {
+      vertical-align: bottom;
+    }
+    .#{$size}\:vatt {
+      vertical-align: text-top;
+    }
+    .#{$size}\:vatb {
+      vertical-align: text-bottom;
+    }
+  }
+}
+
+@import 'breakpoint';

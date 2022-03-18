@@ -4,3 +4,14 @@
   -webkit-filter: invert(1);
   filter: invert(1);
 }
+
+@mixin breakpoint-generator($size, $breakpoint-columns) {
+  @for $i from 1 through $breakpoint-columns {
+    .#{$size}\:fi1 {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+    }
+  }
+}
+
+@import './breakpoint';

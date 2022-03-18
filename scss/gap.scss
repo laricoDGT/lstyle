@@ -1,6 +1,4 @@
-// PX to REM
-$base-size: 16;
-$grem: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48;
+@import 'config';
 
 @function size($target, $context: $base-size) {
   @return ($target / $context) * 1rem;
