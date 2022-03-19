@@ -8,20 +8,29 @@ body {
   }
 
   .markdown-section {
-    max-width: 50%;
-    margin: 0;
+    max-width: 40% !important;
+    margin: 0 !important;
   }
   .iframe_code {
     position: fixed;
     right: 0;
     top: 0;
-    width: 50%;
+    width: 48%;
     min-height: 100vh;
+    background-color: #dedede;
   }
   .iframe_code iframe {
-    margin: 0;
+    margin: 0 !important;
     min-height: 100vh;
     overflow: auto;
+    width: 100% !important;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1660px) {
+  .iframe_code iframe {
+    padding: 100px;
   }
 }
 
