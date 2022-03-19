@@ -1,5 +1,5 @@
-body {
-  background-color: red;
+.markdown-section hr {
+  display: none;
 }
 
 .iframe_code {
@@ -20,6 +20,7 @@ body {
     max-width: 46% !important;
     margin: 0 !important;
   }
+
   .iframe_code {
     position: fixed;
     right: 0;
@@ -46,6 +47,9 @@ body {
 }
 
 @media (min-width: 1660px) {
+  .markdown-section {
+    padding-left: 50px !important;
+  }
   .iframe_code iframe {
     padding: 50px;
   }
