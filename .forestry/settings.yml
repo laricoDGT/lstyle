@@ -5,6 +5,11 @@ admin_path: docs/admin
 webhook_url: 
 sections:
 - type: directory
+  path: posts
+  label: lstyle posts
+  create: all
+  match: "**/*"
+- type: directory
   path: ''
   label: posts
   create: all
