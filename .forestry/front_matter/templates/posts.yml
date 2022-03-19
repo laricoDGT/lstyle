@@ -4,4 +4,5 @@ hide_body: false
 fields: []
 pages:
 - docs/posts/bases.md
+- docs/posts/font-family.md
 - posts/test.md
