@@ -17,6 +17,5 @@ fields:
       format: markdown
   label: Description
 pages:
-- docs/posts/test2.md
-- docs/posts/test3.md
+- docs/posts/veamos.md
 - posts/test.md
