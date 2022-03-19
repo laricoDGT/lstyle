@@ -5,4 +5,5 @@ fields: []
 pages:
 - docs/posts/bases.md
 - docs/posts/font-family.md
+- docs/posts/font-size.md
 - posts/test.md
