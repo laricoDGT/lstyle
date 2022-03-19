@@ -3,6 +3,5 @@ label: Posts
 hide_body: false
 fields: []
 pages:
-- docs/posts/test-page.md
 - docs/posts/veamos.md
 - posts/test.md
