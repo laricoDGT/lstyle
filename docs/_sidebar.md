@@ -20,3 +20,5 @@
 - [Misc](misc.md)
 
 - [Formats](formats.md)
+
+- [Veamos test](posts/veamos.md)
