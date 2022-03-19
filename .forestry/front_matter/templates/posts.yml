@@ -3,4 +3,5 @@ label: Posts
 hide_body: false
 fields: []
 pages:
+- docs/posts/bases.md
 - posts/test.md
