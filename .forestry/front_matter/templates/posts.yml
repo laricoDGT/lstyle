@@ -18,4 +18,5 @@ fields:
   label: Description
 pages:
 - docs/posts/test2.md
+- docs/posts/test3.md
 - posts/test.md
