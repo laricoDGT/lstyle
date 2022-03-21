@@ -9,6 +9,10 @@
 /examples/
 /.forestry
 
+dist/*
+dist/.*
+!dist/lstyle.css
+
 # testing
 /coverage
  
