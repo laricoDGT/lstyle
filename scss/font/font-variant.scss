@@ -1,7 +1,3 @@
-/****************/
-/* font variant */
-/****************/
-
 $fvariant: normal, small-caps;
 @each $n in $fvariant {
   .fv#{$n} {

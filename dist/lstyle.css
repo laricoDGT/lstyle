@@ -80,9 +80,6 @@ noscript {
   width: 100%;
 }
 
-/***************/
-/* font family */
-/***************/
 .ffi {
   font-family: inherit;
 }
@@ -155,9 +152,6 @@ noscript {
   }
 }
 
-/***************/
-/* font size */
-/***************/
 .fs12 {
   font-size: 0.75rem;
 }
@@ -667,9 +661,6 @@ noscript {
   }
 }
 
-/***************/
-/* font style */
-/***************/
 .fsnormal {
   font-style: normal;
 }
@@ -742,9 +733,6 @@ noscript {
   }
 }
 
-/****************/
-/* font variant */
-/****************/
 .fvnormal {
   font-variant: normal;
 }
@@ -798,9 +786,6 @@ noscript {
   }
 }
 
-/***************/
-/* font weight */
-/***************/
 .fw100 {
   font-weight: 100;
 }
