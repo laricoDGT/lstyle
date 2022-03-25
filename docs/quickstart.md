@@ -22,21 +22,19 @@ import "lstyle/dist/lstyle.css"
 
 ### Performance
 
-to removes any unused CSS for best performance use `postcss-purgecss` and `postcss-import`.
+to removes any unused CSS for best performance use `postcss-purgecss`
 
 example of `postcss.config.js` file.
 
 ```js
-const purgecss = [
-  '@fullhuman/postcss-purgecss',
-  {
-    content: ['./components/**/*.js', './pages/**/*.js'],
-    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-  },
-]
+const purgecss = require('@fullhuman/postcss-purgecss')
 
 module.exports = {
-  plugins: ['postcss-import', ...(process.env.NODE_ENV === 'production' ? [purgecss] : [])],
+  plugins: [
+    purgecss({
+      content: ['./**/*.html'],
+    }),
+  ],
 }
 ```
 

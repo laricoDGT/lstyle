@@ -6,9 +6,7 @@
 
 - Customization
 
-  - [Configuration and options](config.md)
-
-- [Bases](bases.md)
+  - [Bases](posts/bases.md)
 
 - Font variants
 
