@@ -23,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--primary-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu;
+  font-family: var(--primary-font), system-ui;
   line-height: var(--line-height, 1.5);
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
