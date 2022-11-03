@@ -63,7 +63,6 @@
     transform-origin: top left;
   }
 }
-
 @media (min-width: 768px) {
   .md\:toc {
     transform-origin: center;
@@ -93,7 +92,6 @@
     transform-origin: top left;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:toc {
     transform-origin: center;
@@ -123,7 +121,6 @@
     transform-origin: top left;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:toc {
     transform-origin: center;
@@ -153,7 +150,6 @@
     transform-origin: top left;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:toc {
     transform-origin: center;

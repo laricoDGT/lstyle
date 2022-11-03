@@ -14,7 +14,6 @@
     flex-grow: 0;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fg1 {
     flex-grow: 1;
@@ -23,7 +22,6 @@
     flex-grow: 0;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fg1 {
     flex-grow: 1;
@@ -32,7 +30,6 @@
     flex-grow: 0;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fg1 {
     flex-grow: 1;
@@ -41,7 +38,6 @@
     flex-grow: 0;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fg1 {
     flex-grow: 1;

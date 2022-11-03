@@ -21,7 +21,6 @@
     max-height: 100vh;
   }
 }
-
 @media (min-width: 768px) {
   .md\:maxh0 {
     max-height: 0px;
@@ -33,7 +32,6 @@
     max-height: 100vh;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:maxh0 {
     max-height: 0px;
@@ -45,7 +43,6 @@
     max-height: 100vh;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:maxh0 {
     max-height: 0px;
@@ -57,7 +54,6 @@
     max-height: 100vh;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:maxh0 {
     max-height: 0px;

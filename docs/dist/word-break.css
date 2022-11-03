@@ -66,10 +66,10 @@
     text-overflow: ellipsis;
   }
   .sm\:ellipsis2,
-  .sm\:ellipsis3,
-  .sm\:ellipsis4,
-  .sm\:ellipsis5,
-  .sm\:ellipsis6 {
+.sm\:ellipsis3,
+.sm\:ellipsis4,
+.sm\:ellipsis5,
+.sm\:ellipsis6 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
@@ -90,7 +90,6 @@
     -webkit-line-clamp: 6;
   }
 }
-
 @media (min-width: 768px) {
   .md\:wbn {
     word-break: normal;
@@ -109,10 +108,10 @@
     text-overflow: ellipsis;
   }
   .md\:ellipsis2,
-  .md\:ellipsis3,
-  .md\:ellipsis4,
-  .md\:ellipsis5,
-  .md\:ellipsis6 {
+.md\:ellipsis3,
+.md\:ellipsis4,
+.md\:ellipsis5,
+.md\:ellipsis6 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
@@ -133,7 +132,6 @@
     -webkit-line-clamp: 6;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:wbn {
     word-break: normal;
@@ -152,10 +150,10 @@
     text-overflow: ellipsis;
   }
   .lg\:ellipsis2,
-  .lg\:ellipsis3,
-  .lg\:ellipsis4,
-  .lg\:ellipsis5,
-  .lg\:ellipsis6 {
+.lg\:ellipsis3,
+.lg\:ellipsis4,
+.lg\:ellipsis5,
+.lg\:ellipsis6 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
@@ -176,7 +174,6 @@
     -webkit-line-clamp: 6;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:wbn {
     word-break: normal;
@@ -195,10 +192,10 @@
     text-overflow: ellipsis;
   }
   .xl\:ellipsis2,
-  .xl\:ellipsis3,
-  .xl\:ellipsis4,
-  .xl\:ellipsis5,
-  .xl\:ellipsis6 {
+.xl\:ellipsis3,
+.xl\:ellipsis4,
+.xl\:ellipsis5,
+.xl\:ellipsis6 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
@@ -219,7 +216,6 @@
     -webkit-line-clamp: 6;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:wbn {
     word-break: normal;
@@ -238,10 +234,10 @@
     text-overflow: ellipsis;
   }
   .xxl\:ellipsis2,
-  .xxl\:ellipsis3,
-  .xxl\:ellipsis4,
-  .xxl\:ellipsis5,
-  .xxl\:ellipsis6 {
+.xxl\:ellipsis3,
+.xxl\:ellipsis4,
+.xxl\:ellipsis5,
+.xxl\:ellipsis6 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;

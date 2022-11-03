@@ -11,7 +11,7 @@
 }
 
 .clr:after {
-  content: '';
+  content: "";
   width: 100%;
   clear: both;
 }
@@ -27,12 +27,11 @@
     float: none;
   }
   .sm\:clr:after {
-    content: '';
+    content: "";
     width: 100%;
     clear: both;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fr {
     float: right;
@@ -44,12 +43,11 @@
     float: none;
   }
   .md\:clr:after {
-    content: '';
+    content: "";
     width: 100%;
     clear: both;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fr {
     float: right;
@@ -61,12 +59,11 @@
     float: none;
   }
   .lg\:clr:after {
-    content: '';
+    content: "";
     width: 100%;
     clear: both;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fr {
     float: right;
@@ -78,12 +75,11 @@
     float: none;
   }
   .xl\:clr:after {
-    content: '';
+    content: "";
     width: 100%;
     clear: both;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fr {
     float: right;
@@ -95,7 +91,7 @@
     float: none;
   }
   .xxl\:clr:after {
-    content: '';
+    content: "";
     width: 100%;
     clear: both;
   }

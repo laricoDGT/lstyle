@@ -84,7 +84,6 @@
     overflow-y: scroll;
   }
 }
-
 @media (min-width: 768px) {
   .md\:oa {
     overflow: auto;
@@ -123,7 +122,6 @@
     overflow-y: scroll;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:oa {
     overflow: auto;
@@ -162,7 +160,6 @@
     overflow-y: scroll;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:oa {
     overflow: auto;
@@ -201,7 +198,6 @@
     overflow-y: scroll;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:oa {
     overflow: auto;

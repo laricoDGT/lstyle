@@ -1,13 +1,16 @@
 .oba {
-  overscroll-behavior: auto;
+  -ms-scroll-chaining: chained;
+      overscroll-behavior: auto;
 }
 
 .obc {
-  overscroll-behavior: contain;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
 }
 
 .obn {
-  overscroll-behavior: none;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
 }
 
 .obya {
@@ -36,13 +39,16 @@
 
 @media (min-width: 640px) {
   .sm\:oba {
-    overscroll-behavior: auto;
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
   }
   .sm\:obc {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
   .sm\:obn {
-    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
   .sm\:obya {
     overscroll-behavior-y: auto;
@@ -63,16 +69,18 @@
     overscroll-behavior-x: none;
   }
 }
-
 @media (min-width: 768px) {
   .md\:oba {
-    overscroll-behavior: auto;
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
   }
   .md\:obc {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
   .md\:obn {
-    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
   .md\:obya {
     overscroll-behavior-y: auto;
@@ -93,16 +101,18 @@
     overscroll-behavior-x: none;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:oba {
-    overscroll-behavior: auto;
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
   }
   .lg\:obc {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
   .lg\:obn {
-    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
   .lg\:obya {
     overscroll-behavior-y: auto;
@@ -123,16 +133,18 @@
     overscroll-behavior-x: none;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:oba {
-    overscroll-behavior: auto;
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
   }
   .xl\:obc {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
   .xl\:obn {
-    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
   .xl\:obya {
     overscroll-behavior-y: auto;
@@ -153,16 +165,18 @@
     overscroll-behavior-x: none;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:oba {
-    overscroll-behavior: auto;
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
   }
   .xxl\:obc {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
   .xxl\:obn {
-    overscroll-behavior: none;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
   }
   .xxl\:obya {
     overscroll-behavior-y: auto;

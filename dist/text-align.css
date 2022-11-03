@@ -15,11 +15,13 @@
 }
 
 .talc {
-  text-align-last: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
 
 .talr {
-  text-align-last: right;
+  -moz-text-align-last: right;
+       text-align-last: right;
 }
 
 @media (min-width: 640px) {
@@ -36,13 +38,14 @@
     text-align: justify;
   }
   .sm\:talc {
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .sm\:talr {
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
   }
 }
-
 @media (min-width: 768px) {
   .md\:tal {
     text-align: left;
@@ -57,13 +60,14 @@
     text-align: justify;
   }
   .md\:talc {
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .md\:talr {
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:tal {
     text-align: left;
@@ -78,13 +82,14 @@
     text-align: justify;
   }
   .lg\:talc {
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .lg\:talr {
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:tal {
     text-align: left;
@@ -99,13 +104,14 @@
     text-align: justify;
   }
   .xl\:talc {
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .xl\:talr {
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:tal {
     text-align: left;
@@ -120,9 +126,11 @@
     text-align: justify;
   }
   .xxl\:talc {
-    text-align-last: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
   }
   .xxl\:talr {
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
   }
 }

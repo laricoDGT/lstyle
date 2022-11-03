@@ -35,7 +35,6 @@
     border-style: double;
   }
 }
-
 @media (min-width: 768px) {
   .md\:bsn {
     border-style: none;
@@ -53,7 +52,6 @@
     border-style: double;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:bsn {
     border-style: none;
@@ -71,7 +69,6 @@
     border-style: double;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:bsn {
     border-style: none;
@@ -89,7 +86,6 @@
     border-style: double;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:bsn {
     border-style: none;

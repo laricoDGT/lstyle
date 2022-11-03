@@ -21,7 +21,6 @@
     flex-wrap: wrap-reverse;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fww {
     flex-wrap: wrap;
@@ -33,7 +32,6 @@
     flex-wrap: wrap-reverse;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fww {
     flex-wrap: wrap;
@@ -45,7 +43,6 @@
     flex-wrap: wrap-reverse;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fww {
     flex-wrap: wrap;
@@ -57,7 +54,6 @@
     flex-wrap: wrap-reverse;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fww {
     flex-wrap: wrap;

@@ -1,4 +1,5 @@
 .sticky {
+  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -24,6 +25,7 @@
 
 @media (min-width: 640px) {
   .sm\:sticky {
+    position: -webkit-sticky;
     position: sticky;
   }
   .sm\:relative {
@@ -42,9 +44,9 @@
     position: -webkit-sticky;
   }
 }
-
 @media (min-width: 768px) {
   .md\:sticky {
+    position: -webkit-sticky;
     position: sticky;
   }
   .md\:relative {
@@ -63,9 +65,9 @@
     position: -webkit-sticky;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:sticky {
+    position: -webkit-sticky;
     position: sticky;
   }
   .lg\:relative {
@@ -84,9 +86,9 @@
     position: -webkit-sticky;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:sticky {
+    position: -webkit-sticky;
     position: sticky;
   }
   .xl\:relative {
@@ -105,9 +107,9 @@
     position: -webkit-sticky;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:sticky {
+    position: -webkit-sticky;
     position: sticky;
   }
   .xxl\:relative {

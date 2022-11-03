@@ -15,7 +15,7 @@ html {
 }
 
 :root {
-  --primary-font: '';
+  --primary-font: "";
 }
 
 body {
@@ -54,7 +54,12 @@ img {
   max-width: 100%;
 }
 
-[tabindex='-1'] {
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+[tabindex="-1"] {
   outline: none !important;
   box-shadow: none !important;
 }

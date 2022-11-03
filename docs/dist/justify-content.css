@@ -42,7 +42,6 @@
     justify-content: space-evenly;
   }
 }
-
 @media (min-width: 768px) {
   .md\:jcfs {
     justify-content: flex-start;
@@ -63,7 +62,6 @@
     justify-content: space-evenly;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:jcfs {
     justify-content: flex-start;
@@ -84,7 +82,6 @@
     justify-content: space-evenly;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:jcfs {
     justify-content: flex-start;
@@ -105,7 +102,6 @@
     justify-content: space-evenly;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:jcfs {
     justify-content: flex-start;

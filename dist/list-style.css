@@ -21,7 +21,6 @@
     list-style-type: decimal;
   }
 }
-
 @media (min-width: 768px) {
   .md\:lsn {
     list-style: none;
@@ -33,7 +32,6 @@
     list-style-type: decimal;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:lsn {
     list-style: none;
@@ -45,7 +43,6 @@
     list-style-type: decimal;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:lsn {
     list-style: none;
@@ -57,7 +54,6 @@
     list-style-type: decimal;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:lsn {
     list-style: none;

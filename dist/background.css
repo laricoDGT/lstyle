@@ -139,7 +139,6 @@
     background-size: auto;
   }
 }
-
 @media (min-width: 768px) {
   .md\:bgn {
     background: none;
@@ -205,7 +204,6 @@
     background-size: auto;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:bgn {
     background: none;
@@ -271,7 +269,6 @@
     background-size: auto;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:bgn {
     background: none;
@@ -337,7 +334,6 @@
     background-size: auto;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:bgn {
     background: none;

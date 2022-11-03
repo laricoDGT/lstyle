@@ -7,10 +7,14 @@
 }
 
 .minwmin {
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
   min-width: min-content;
 }
 
 .minwmax {
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
   min-width: max-content;
 }
 
@@ -22,13 +26,16 @@
     min-width: 100%;
   }
   .sm\:minwmin {
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
   }
   .sm\:minwmax {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }
-
 @media (min-width: 768px) {
   .md\:minw0 {
     min-width: 0px;
@@ -37,13 +44,16 @@
     min-width: 100%;
   }
   .md\:minwmin {
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
   }
   .md\:minwmax {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:minw0 {
     min-width: 0px;
@@ -52,13 +62,16 @@
     min-width: 100%;
   }
   .lg\:minwmin {
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
   }
   .lg\:minwmax {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:minw0 {
     min-width: 0px;
@@ -67,13 +80,16 @@
     min-width: 100%;
   }
   .xl\:minwmin {
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
   }
   .xl\:minwmax {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:minw0 {
     min-width: 0px;
@@ -82,9 +98,13 @@
     min-width: 100%;
   }
   .xxl\:minwmin {
+    min-width: -webkit-min-content;
+    min-width: -moz-min-content;
     min-width: min-content;
   }
   .xxl\:minwmax {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }

@@ -124,7 +124,6 @@
     opacity: 1;
   }
 }
-
 @media (min-width: 768px) {
   .md\:opacity0 {
     opacity: 0;
@@ -163,7 +162,6 @@
     opacity: 1;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:opacity0 {
     opacity: 0;
@@ -202,7 +200,6 @@
     opacity: 1;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:opacity0 {
     opacity: 0;
@@ -241,7 +238,6 @@
     opacity: 1;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:opacity0 {
     opacity: 0;

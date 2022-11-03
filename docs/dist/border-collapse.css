@@ -14,7 +14,6 @@
     border-collapse: separate;
   }
 }
-
 @media (min-width: 768px) {
   .md\:bcc {
     border-collapse: collapse;
@@ -23,7 +22,6 @@
     border-collapse: separate;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:bcc {
     border-collapse: collapse;
@@ -32,7 +30,6 @@
     border-collapse: separate;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:bcc {
     border-collapse: collapse;
@@ -41,7 +38,6 @@
     border-collapse: separate;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:bcc {
     border-collapse: collapse;

@@ -21,7 +21,6 @@
     text-decoration: none;
   }
 }
-
 @media (min-width: 768px) {
   .md\:tdu {
     text-decoration: underline;
@@ -33,7 +32,6 @@
     text-decoration: none;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:tdu {
     text-decoration: underline;
@@ -45,7 +43,6 @@
     text-decoration: none;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:tdu {
     text-decoration: underline;
@@ -57,7 +54,6 @@
     text-decoration: none;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:tdu {
     text-decoration: underline;

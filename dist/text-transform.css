@@ -21,7 +21,6 @@
     text-transform: capitalize;
   }
 }
-
 @media (min-width: 768px) {
   .md\:ttu {
     text-transform: uppercase;
@@ -33,7 +32,6 @@
     text-transform: capitalize;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:ttu {
     text-transform: uppercase;
@@ -45,7 +43,6 @@
     text-transform: capitalize;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:ttu {
     text-transform: uppercase;
@@ -57,7 +54,6 @@
     text-transform: capitalize;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:ttu {
     text-transform: uppercase;

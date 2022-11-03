@@ -682,7 +682,6 @@
     padding: auto;
   }
 }
-
 @media (min-width: 768px) {
   .md\:p0 {
     padding: 0;
@@ -1085,7 +1084,6 @@
     padding: auto;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:p0 {
     padding: 0;
@@ -1488,7 +1486,6 @@
     padding: auto;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:p0 {
     padding: 0;
@@ -1891,7 +1888,6 @@
     padding: auto;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:p0 {
     padding: 0;

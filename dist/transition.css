@@ -91,7 +91,6 @@
     transition-delay: 700ms;
   }
 }
-
 @media (min-width: 768px) {
   .md\:tpa {
     transition-property: all;
@@ -133,7 +132,6 @@
     transition-delay: 700ms;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:tpa {
     transition-property: all;
@@ -175,7 +173,6 @@
     transition-delay: 700ms;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:tpa {
     transition-property: all;
@@ -217,7 +214,6 @@
     transition-delay: 700ms;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:tpa {
     transition-property: all;

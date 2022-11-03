@@ -21,7 +21,6 @@
     font-family: var(--tertiary-font);
   }
 }
-
 @media (min-width: 768px) {
   .md\:ffi {
     font-family: inherit;
@@ -33,7 +32,6 @@
     font-family: var(--tertiary-font);
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:ffi {
     font-family: inherit;
@@ -45,7 +43,6 @@
     font-family: var(--tertiary-font);
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:ffi {
     font-family: inherit;
@@ -57,7 +54,6 @@
     font-family: var(--tertiary-font);
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:ffi {
     font-family: inherit;

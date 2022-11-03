@@ -35,7 +35,6 @@
     align-content: space-around;
   }
 }
-
 @media (min-width: 768px) {
   .md\:acfs {
     align-content: flex-start;
@@ -53,7 +52,6 @@
     align-content: space-around;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:acfs {
     align-content: flex-start;
@@ -71,7 +69,6 @@
     align-content: space-around;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:acfs {
     align-content: flex-start;
@@ -89,7 +86,6 @@
     align-content: space-around;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:acfs {
     align-content: flex-start;

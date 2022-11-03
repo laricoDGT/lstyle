@@ -14,7 +14,6 @@
     flex-shrink: 0;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fs1 {
     flex-shrink: 1;
@@ -23,7 +22,6 @@
     flex-shrink: 0;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fs1 {
     flex-shrink: 1;
@@ -32,7 +30,6 @@
     flex-shrink: 0;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fs1 {
     flex-shrink: 1;
@@ -41,7 +38,6 @@
     flex-shrink: 0;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fs1 {
     flex-shrink: 1;

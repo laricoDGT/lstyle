@@ -84,7 +84,6 @@
     transform: translateY(-100%);
   }
 }
-
 @media (min-width: 768px) {
   .md\:ttx0 {
     transform: translateX(0%);
@@ -123,7 +122,6 @@
     transform: translateY(-100%);
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:ttx0 {
     transform: translateX(0%);
@@ -162,7 +160,6 @@
     transform: translateY(-100%);
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:ttx0 {
     transform: translateX(0%);
@@ -201,7 +198,6 @@
     transform: translateY(-100%);
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:ttx0 {
     transform: translateX(0%);

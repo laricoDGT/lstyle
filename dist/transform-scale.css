@@ -77,7 +77,6 @@
     transform: scale(0.5);
   }
 }
-
 @media (min-width: 768px) {
   .md\:tsn {
     transform: scale(1);
@@ -113,7 +112,6 @@
     transform: scale(0.5);
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:tsn {
     transform: scale(1);
@@ -149,7 +147,6 @@
     transform: scale(0.5);
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:tsn {
     transform: scale(1);
@@ -185,7 +182,6 @@
     transform: scale(0.5);
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:tsn {
     transform: scale(1);

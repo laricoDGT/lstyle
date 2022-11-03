@@ -35,7 +35,6 @@
     white-space: pre-wrap;
   }
 }
-
 @media (min-width: 768px) {
   .md\:wsn {
     white-space: normal;
@@ -53,7 +52,6 @@
     white-space: pre-wrap;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:wsn {
     white-space: normal;
@@ -71,7 +69,6 @@
     white-space: pre-wrap;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:wsn {
     white-space: normal;
@@ -89,7 +86,6 @@
     white-space: pre-wrap;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:wsn {
     white-space: normal;

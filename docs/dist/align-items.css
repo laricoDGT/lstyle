@@ -35,7 +35,6 @@
     align-items: stretch;
   }
 }
-
 @media (min-width: 768px) {
   .md\:aic {
     align-items: center;
@@ -53,7 +52,6 @@
     align-items: stretch;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:aic {
     align-items: center;
@@ -71,7 +69,6 @@
     align-items: stretch;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:aic {
     align-items: center;
@@ -89,7 +86,6 @@
     align-items: stretch;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:aic {
     align-items: center;

@@ -42,7 +42,6 @@
     transform: rotate(-180deg);
   }
 }
-
 @media (min-width: 768px) {
   .md\:tr45 {
     transform: rotate(45deg);
@@ -63,7 +62,6 @@
     transform: rotate(-180deg);
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:tr45 {
     transform: rotate(45deg);
@@ -84,7 +82,6 @@
     transform: rotate(-180deg);
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:tr45 {
     transform: rotate(45deg);
@@ -105,7 +102,6 @@
     transform: rotate(-180deg);
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:tr45 {
     transform: rotate(45deg);

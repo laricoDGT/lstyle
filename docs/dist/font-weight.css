@@ -77,7 +77,6 @@
     font-weight: bold;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fw100 {
     font-weight: 100;
@@ -113,7 +112,6 @@
     font-weight: bold;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fw100 {
     font-weight: 100;
@@ -149,7 +147,6 @@
     font-weight: bold;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fw100 {
     font-weight: 100;
@@ -185,7 +182,6 @@
     font-weight: bold;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fw100 {
     font-weight: 100;

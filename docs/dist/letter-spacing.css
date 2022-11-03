@@ -84,7 +84,6 @@
     letter-spacing: 0.75rem;
   }
 }
-
 @media (min-width: 768px) {
   .md\:ls1 {
     letter-spacing: 0.0625rem;
@@ -123,7 +122,6 @@
     letter-spacing: 0.75rem;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:ls1 {
     letter-spacing: 0.0625rem;
@@ -162,7 +160,6 @@
     letter-spacing: 0.75rem;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:ls1 {
     letter-spacing: 0.0625rem;
@@ -201,7 +198,6 @@
     letter-spacing: 0.75rem;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:ls1 {
     letter-spacing: 0.0625rem;

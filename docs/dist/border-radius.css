@@ -315,7 +315,6 @@
     border-radius: 100%;
   }
 }
-
 @media (min-width: 768px) {
   .md\:rounded0 {
     border-radius: 0rem;
@@ -457,7 +456,6 @@
     border-radius: 100%;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:rounded0 {
     border-radius: 0rem;
@@ -599,7 +597,6 @@
     border-radius: 100%;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:rounded0 {
     border-radius: 0rem;
@@ -741,7 +738,6 @@
     border-radius: 100%;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:rounded0 {
     border-radius: 0rem;

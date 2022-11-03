@@ -28,7 +28,6 @@
     flex-direction: column-reverse;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fdr {
     flex-direction: row;
@@ -43,7 +42,6 @@
     flex-direction: column-reverse;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fdr {
     flex-direction: row;
@@ -58,7 +56,6 @@
     flex-direction: column-reverse;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fdr {
     flex-direction: row;
@@ -73,7 +70,6 @@
     flex-direction: column-reverse;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fdr {
     flex-direction: row;

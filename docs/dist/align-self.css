@@ -35,7 +35,6 @@
     align-self: stretch;
   }
 }
-
 @media (min-width: 768px) {
   .md\:asa {
     align-self: auto;
@@ -53,7 +52,6 @@
     align-self: stretch;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:asa {
     align-self: auto;
@@ -71,7 +69,6 @@
     align-self: stretch;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:asa {
     align-self: auto;
@@ -89,7 +86,6 @@
     align-self: stretch;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:asa {
     align-self: auto;

@@ -51,11 +51,11 @@
 }
 
 .b\/11 {
-  bottom: 91.66667%;
+  bottom: 91.6666666667%;
 }
 
 .b\/10 {
-  bottom: 83.33333%;
+  bottom: 83.3333333333%;
 }
 
 .b\/9 {
@@ -63,11 +63,11 @@
 }
 
 .b\/8 {
-  bottom: 66.66667%;
+  bottom: 66.6666666667%;
 }
 
 .b\/7 {
-  bottom: 58.33333%;
+  bottom: 58.3333333333%;
 }
 
 .b\/6 {
@@ -75,11 +75,11 @@
 }
 
 .b\/5 {
-  bottom: 41.66667%;
+  bottom: 41.6666666667%;
 }
 
 .b\/4 {
-  bottom: 33.33333%;
+  bottom: 33.3333333333%;
 }
 
 .b\/3 {
@@ -87,11 +87,11 @@
 }
 
 .b\/2 {
-  bottom: 16.66667%;
+  bottom: 16.6666666667%;
 }
 
 .b\/1 {
-  bottom: 8.33333%;
+  bottom: 8.3333333333%;
 }
 
 @media (min-width: 640px) {
@@ -135,40 +135,39 @@
     bottom: 100%;
   }
   .sm\:b\/11 {
-    bottom: 91.66667%;
+    bottom: 91.6666666667%;
   }
   .sm\:b\/10 {
-    bottom: 83.33333%;
+    bottom: 83.3333333333%;
   }
   .sm\:b\/9 {
     bottom: 75%;
   }
   .sm\:b\/8 {
-    bottom: 66.66667%;
+    bottom: 66.6666666667%;
   }
   .sm\:b\/7 {
-    bottom: 58.33333%;
+    bottom: 58.3333333333%;
   }
   .sm\:b\/6 {
     bottom: 50%;
   }
   .sm\:b\/5 {
-    bottom: 41.66667%;
+    bottom: 41.6666666667%;
   }
   .sm\:b\/4 {
-    bottom: 33.33333%;
+    bottom: 33.3333333333%;
   }
   .sm\:b\/3 {
     bottom: 25%;
   }
   .sm\:b\/2 {
-    bottom: 16.66667%;
+    bottom: 16.6666666667%;
   }
   .sm\:b\/1 {
-    bottom: 8.33333%;
+    bottom: 8.3333333333%;
   }
 }
-
 @media (min-width: 768px) {
   .md\:b0 {
     bottom: 0px;
@@ -210,40 +209,39 @@
     bottom: 100%;
   }
   .md\:b\/11 {
-    bottom: 91.66667%;
+    bottom: 91.6666666667%;
   }
   .md\:b\/10 {
-    bottom: 83.33333%;
+    bottom: 83.3333333333%;
   }
   .md\:b\/9 {
     bottom: 75%;
   }
   .md\:b\/8 {
-    bottom: 66.66667%;
+    bottom: 66.6666666667%;
   }
   .md\:b\/7 {
-    bottom: 58.33333%;
+    bottom: 58.3333333333%;
   }
   .md\:b\/6 {
     bottom: 50%;
   }
   .md\:b\/5 {
-    bottom: 41.66667%;
+    bottom: 41.6666666667%;
   }
   .md\:b\/4 {
-    bottom: 33.33333%;
+    bottom: 33.3333333333%;
   }
   .md\:b\/3 {
     bottom: 25%;
   }
   .md\:b\/2 {
-    bottom: 16.66667%;
+    bottom: 16.6666666667%;
   }
   .md\:b\/1 {
-    bottom: 8.33333%;
+    bottom: 8.3333333333%;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:b0 {
     bottom: 0px;
@@ -285,40 +283,39 @@
     bottom: 100%;
   }
   .lg\:b\/11 {
-    bottom: 91.66667%;
+    bottom: 91.6666666667%;
   }
   .lg\:b\/10 {
-    bottom: 83.33333%;
+    bottom: 83.3333333333%;
   }
   .lg\:b\/9 {
     bottom: 75%;
   }
   .lg\:b\/8 {
-    bottom: 66.66667%;
+    bottom: 66.6666666667%;
   }
   .lg\:b\/7 {
-    bottom: 58.33333%;
+    bottom: 58.3333333333%;
   }
   .lg\:b\/6 {
     bottom: 50%;
   }
   .lg\:b\/5 {
-    bottom: 41.66667%;
+    bottom: 41.6666666667%;
   }
   .lg\:b\/4 {
-    bottom: 33.33333%;
+    bottom: 33.3333333333%;
   }
   .lg\:b\/3 {
     bottom: 25%;
   }
   .lg\:b\/2 {
-    bottom: 16.66667%;
+    bottom: 16.6666666667%;
   }
   .lg\:b\/1 {
-    bottom: 8.33333%;
+    bottom: 8.3333333333%;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:b0 {
     bottom: 0px;
@@ -360,40 +357,39 @@
     bottom: 100%;
   }
   .xl\:b\/11 {
-    bottom: 91.66667%;
+    bottom: 91.6666666667%;
   }
   .xl\:b\/10 {
-    bottom: 83.33333%;
+    bottom: 83.3333333333%;
   }
   .xl\:b\/9 {
     bottom: 75%;
   }
   .xl\:b\/8 {
-    bottom: 66.66667%;
+    bottom: 66.6666666667%;
   }
   .xl\:b\/7 {
-    bottom: 58.33333%;
+    bottom: 58.3333333333%;
   }
   .xl\:b\/6 {
     bottom: 50%;
   }
   .xl\:b\/5 {
-    bottom: 41.66667%;
+    bottom: 41.6666666667%;
   }
   .xl\:b\/4 {
-    bottom: 33.33333%;
+    bottom: 33.3333333333%;
   }
   .xl\:b\/3 {
     bottom: 25%;
   }
   .xl\:b\/2 {
-    bottom: 16.66667%;
+    bottom: 16.6666666667%;
   }
   .xl\:b\/1 {
-    bottom: 8.33333%;
+    bottom: 8.3333333333%;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:b0 {
     bottom: 0px;
@@ -435,36 +431,36 @@
     bottom: 100%;
   }
   .xxl\:b\/11 {
-    bottom: 91.66667%;
+    bottom: 91.6666666667%;
   }
   .xxl\:b\/10 {
-    bottom: 83.33333%;
+    bottom: 83.3333333333%;
   }
   .xxl\:b\/9 {
     bottom: 75%;
   }
   .xxl\:b\/8 {
-    bottom: 66.66667%;
+    bottom: 66.6666666667%;
   }
   .xxl\:b\/7 {
-    bottom: 58.33333%;
+    bottom: 58.3333333333%;
   }
   .xxl\:b\/6 {
     bottom: 50%;
   }
   .xxl\:b\/5 {
-    bottom: 41.66667%;
+    bottom: 41.6666666667%;
   }
   .xxl\:b\/4 {
-    bottom: 33.33333%;
+    bottom: 33.3333333333%;
   }
   .xxl\:b\/3 {
     bottom: 25%;
   }
   .xxl\:b\/2 {
-    bottom: 16.66667%;
+    bottom: 16.6666666667%;
   }
   .xxl\:b\/1 {
-    bottom: 8.33333%;
+    bottom: 8.3333333333%;
   }
 }

@@ -21,7 +21,6 @@
     font-style: oblique;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fsnormal {
     font-style: normal;
@@ -33,7 +32,6 @@
     font-style: oblique;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fsnormal {
     font-style: normal;
@@ -45,7 +43,6 @@
     font-style: oblique;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fsnormal {
     font-style: normal;
@@ -57,7 +54,6 @@
     font-style: oblique;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fsnormal {
     font-style: normal;

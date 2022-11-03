@@ -182,7 +182,6 @@
     font-size: inherit;
   }
 }
-
 @media (min-width: 768px) {
   .md\:fs12 {
     font-size: 0.75rem;
@@ -263,7 +262,6 @@
     font-size: inherit;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:fs12 {
     font-size: 0.75rem;
@@ -344,7 +342,6 @@
     font-size: inherit;
   }
 }
-
 @media (min-width: 1280px) {
   .xl\:fs12 {
     font-size: 0.75rem;
@@ -425,7 +422,6 @@
     font-size: inherit;
   }
 }
-
 @media (min-width: 1536px) {
   .xxl\:fs12 {
     font-size: 0.75rem;
